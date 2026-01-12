@@ -28,21 +28,3 @@ Core Dependencies:
 - Standard scientific packages: numpy, scipy, matplotlib.
 
 
-## Repository Structure
-
-NN_FHN_Surrogates/
-├── data_generator/           # Dataset creation utilities
-├── Arch_generator/           # Model architecture search and generator scripts
-├── analysis/                 # Analysis routines and performance metrics
-├── Problem_A/                # Problem specification and training scripts 
-├── Problem_B/                # Problem specification and training scripts 
-├── Problem_C/                # Problem specification and training scripts 
-├── Problem_D/                # Problem specification and training scripts (B with ITNN)
-├── Results/                  # Generated results and figures
-└── README.md                 # Project overview and instructions
-
-## License
-
-Include your chosen license in a LICENSE file.
-
-
