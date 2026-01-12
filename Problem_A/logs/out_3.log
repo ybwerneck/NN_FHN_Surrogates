@@ -1,0 +1,847 @@
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/yan/pinn/Problem_A/train_mpi.py", line 32, in <module>
+    import pandas as pd
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/__init__.py", line 49, in <module>
+    from pandas.core.api import (
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 5, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/arrays/arrow/array.py", line 50, in <module>
+    from pandas.core import (
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/ops/__init__.py", line 8, in <module>
+    from pandas.core.ops.array_ops import (
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/ops/array_ops.py", line 56, in <module>
+    from pandas.core.computation import expressions
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/computation/expressions.py", line 21, in <module>
+    from pandas.core.computation.check import NUMEXPR_INSTALLED
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/core/computation/check.py", line 5, in <module>
+    ne = import_optional_dependency("numexpr", errors="warn")
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/pandas/compat/_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home/yan/.conda/envs/fenv/lib/python3.10/site-packages/numexpr/__init__.py", line 24, in <module>
+    from numexpr.interpreter import MAX_THREADS, use_vml, __BLOCK_SIZE1__
+AttributeError: _ARRAY_API not found
+/home/yan/pinn/Problem_A/train_protocol.py:123: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matrices or `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1729647382455/work/aten/src/ATen/native/TensorShape.cpp:3683.)
+  batch_gen=lambda size,de:ensure_at_least_one_column(torch.zeros(size,requires_grad=True).to(de).T)
+/home/yan/pinn/Problem_A/Results_plotter.py:55: MatplotlibDeprecationWarning: Passing label as a length 2 sequence when plotting a single dataset is deprecated in Matplotlib 3.9 and will error in 3.11.  To keep the current behavior, cast the sequence to string before passing.
+  plt.plot(np.linspace(0,2e6,len(err)),err,label=["Mean Error","Max Error"])
+Result dir already exists, using some saved results
+Result directory already exists, using saved results
+[['SiLU', 16], ['SiLU', 16]]
+[['SiLU', 16], ['SiLU', 16]]
+[['SiLU', 16], ['SiLU', 16]]
+[['SiLU', 32], ['SiLU', 32]]
+[['SiLU', 32], ['SiLU', 32]]
+[['SiLU', 32], ['SiLU', 32]]
+[['Tanh', 16], ['Tanh', 16]]
+[['Tanh', 16], ['Tanh', 16]]
+[['Tanh', 16], ['Tanh', 16]]
+[['Tanh', 32], ['Tanh', 32]]
+[['Tanh', 32], ['Tanh', 32]]
+[['Tanh', 32], ['Tanh', 32]]
+Generated 24 models.
+Simulation 0: {'model_params': {'hidden_layers': [['SiLU', 16], ['SiLU', 16]], 'pinn': True, 'bs': 1024, 'npt': 10}}
+Simulation 1: {'model_params': {'hidden_layers': [['SiLU', 16], ['SiLU', 16]], 'pinn': False, 'bs': 1024, 'npt': 10}}
+Simulation 2: {'model_params': {'hidden_layers': [['SiLU', 16], ['SiLU', 16]], 'pinn': True, 'bs': 1024, 'npt': 100}}
+Simulation 3: {'model_params': {'hidden_layers': [['SiLU', 16], ['SiLU', 16]], 'pinn': False, 'bs': 1024, 'npt': 100}}
+Simulation 4: {'model_params': {'hidden_layers': [['SiLU', 16], ['SiLU', 16]], 'pinn': True, 'bs': 1024, 'npt': 1000}}
+Simulation 5: {'model_params': {'hidden_layers': [['SiLU', 16], ['SiLU', 16]], 'pinn': False, 'bs': 1024, 'npt': 1000}}
+Simulation 6: {'model_params': {'hidden_layers': [['SiLU', 32], ['SiLU', 32]], 'pinn': True, 'bs': 1024, 'npt': 10}}
+Simulation 7: {'model_params': {'hidden_layers': [['SiLU', 32], ['SiLU', 32]], 'pinn': False, 'bs': 1024, 'npt': 10}}
+Simulation 8: {'model_params': {'hidden_layers': [['SiLU', 32], ['SiLU', 32]], 'pinn': True, 'bs': 1024, 'npt': 100}}
+Simulation 9: {'model_params': {'hidden_layers': [['SiLU', 32], ['SiLU', 32]], 'pinn': False, 'bs': 1024, 'npt': 100}}
+Simulation 10: {'model_params': {'hidden_layers': [['SiLU', 32], ['SiLU', 32]], 'pinn': True, 'bs': 1024, 'npt': 1000}}
+Simulation 11: {'model_params': {'hidden_layers': [['SiLU', 32], ['SiLU', 32]], 'pinn': False, 'bs': 1024, 'npt': 1000}}
+Simulation 12: {'model_params': {'hidden_layers': [['Tanh', 16], ['Tanh', 16]], 'pinn': True, 'bs': 1024, 'npt': 10}}
+Simulation 13: {'model_params': {'hidden_layers': [['Tanh', 16], ['Tanh', 16]], 'pinn': False, 'bs': 1024, 'npt': 10}}
+Simulation 14: {'model_params': {'hidden_layers': [['Tanh', 16], ['Tanh', 16]], 'pinn': True, 'bs': 1024, 'npt': 100}}
+Simulation 15: {'model_params': {'hidden_layers': [['Tanh', 16], ['Tanh', 16]], 'pinn': False, 'bs': 1024, 'npt': 100}}
+Simulation 16: {'model_params': {'hidden_layers': [['Tanh', 16], ['Tanh', 16]], 'pinn': True, 'bs': 1024, 'npt': 1000}}
+Simulation 17: {'model_params': {'hidden_layers': [['Tanh', 16], ['Tanh', 16]], 'pinn': False, 'bs': 1024, 'npt': 1000}}
+Simulation 18: {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': True, 'bs': 1024, 'npt': 10}}
+Simulation 19: {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': False, 'bs': 1024, 'npt': 10}}
+Simulation 20: {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': True, 'bs': 1024, 'npt': 100}}
+Simulation 21: {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': False, 'bs': 1024, 'npt': 100}}
+Simulation 22: {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': True, 'bs': 1024, 'npt': 1000}}
+Simulation 23: {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': False, 'bs': 1024, 'npt': 1000}}
+skipping  Problem_A_results/simulation0
+skipping  Problem_A_results/simulation1
+skipping  Problem_A_results/simulation2
+skipping  Problem_A_results/simulation3
+skipping  Problem_A_results/simulation4
+skipping  Problem_A_results/simulation5
+cuda:0
+Problem_A_results/simulation6
+Folder already there
+FullyConnectedNetworkMod(
+  (layers): ModuleList(
+    (0): Linear(in_features=1, out_features=32, bias=True)
+    (1): SiLU()
+    (2): Linear(in_features=32, out_features=32, bias=True)
+    (3): SiLU()
+    (4): Linear(in_features=32, out_features=2, bias=True)
+    (5): Tanh()
+  )
+)
+torch.Size([10, 2])
+torch.Size([10, 1])
+tensor([0.0000e+00, 2.4416e-03, 4.8833e-03,  ..., 2.4995e+01, 2.4998e+01,
+        2.5000e+01])
+
+
+ <function FHN_VAL_fromODE.<locals>.<lambda> at 0x7fdc04e80940>
+Iteration 0: total loss 1903.7812, losses: [1806.74853515625, 0.10920395702123642, 96.92341613769531], learning rate: 0.0010000000, time: 0.1597s
+True
+0 0
+tensor(0.4389)
+tensor(1.1286)
+True
+0 0
+tensor(0.4389)
+tensor(1.1286)
+Val loss  -inf
+False
+0 0
+tensor(0.0756)
+tensor(0.9266)
+False
+0 0
+tensor(0.0756)
+tensor(0.9266)
+Val loss  -inf
+False
+0 0
+tensor(0.0807)
+tensor(0.9014)
+False
+0 0
+tensor(0.0807)
+tensor(0.9014)
+Val loss  -inf
+False
+0 0
+tensor(0.0772)
+tensor(0.8999)
+False
+0 0
+tensor(0.0772)
+tensor(0.8999)
+Val loss  -inf
+False
+0 0
+tensor(0.0745)
+tensor(0.8988)
+False
+0 0
+tensor(0.0745)
+tensor(0.8988)
+Val loss  -inf
+False
+0 0
+tensor(0.0750)
+tensor(0.8961)
+False
+0 0
+tensor(0.0750)
+tensor(0.8961)
+Val loss  -inf
+False
+0 0
+tensor(0.0776)
+tensor(0.8882)
+False
+0 0
+tensor(0.0776)
+tensor(0.8882)
+Val loss  -inf
+False
+0 0
+tensor(0.0722)
+tensor(0.8876)
+False
+0 0
+tensor(0.0722)
+tensor(0.8876)
+Val loss  -inf
+False
+0 0
+tensor(0.0743)
+tensor(0.8880)
+False
+0 0
+tensor(0.0743)
+tensor(0.8880)
+Val loss  -inf
+False
+0 0
+tensor(0.0705)
+tensor(0.8843)
+False
+0 0
+tensor(0.0705)
+tensor(0.8843)
+Val loss  -inf
+Iteration 10000: total loss 1.2817, losses: [0.018624329939484596, 1.1316851669107564e-06, 1.2631192207336426], learning rate: 0.0009992003, time: 0.0035s
+True
+0 0
+tensor(0.0718)
+tensor(0.8767)
+True
+0 0
+tensor(0.0718)
+tensor(0.8767)
+Val loss  -inf
+False
+0 0
+tensor(0.0688)
+tensor(0.8796)
+False
+0 0
+tensor(0.0688)
+tensor(0.8796)
+Val loss  -inf
+False
+0 0
+tensor(0.0712)
+tensor(0.8757)
+False
+0 0
+tensor(0.0712)
+tensor(0.8757)
+Val loss  -inf
+False
+0 0
+tensor(0.0707)
+tensor(0.8737)
+False
+0 0
+tensor(0.0707)
+tensor(0.8737)
+Val loss  -inf
+False
+0 0
+tensor(0.0700)
+tensor(0.8700)
+False
+0 0
+tensor(0.0700)
+tensor(0.8700)
+Val loss  -inf
+False
+0 0
+tensor(0.0717)
+tensor(0.8613)
+False
+0 0
+tensor(0.0717)
+tensor(0.8613)
+Val loss  -inf
+False
+0 0
+tensor(0.0679)
+tensor(0.8669)
+False
+0 0
+tensor(0.0679)
+tensor(0.8669)
+Val loss  -inf
+False
+0 0
+tensor(0.0705)
+tensor(0.8623)
+False
+0 0
+tensor(0.0705)
+tensor(0.8623)
+Val loss  -inf
+False
+0 0
+tensor(0.0695)
+tensor(0.8671)
+False
+0 0
+tensor(0.0695)
+tensor(0.8671)
+Val loss  -inf
+False
+0 0
+tensor(0.0676)
+tensor(0.8674)
+False
+0 0
+tensor(0.0676)
+tensor(0.8674)
+Val loss  -inf
+Iteration 20000: total loss 0.7854, losses: [0.0039939191192388535, 1.5773063068991178e-06, 0.7814103960990906], learning rate: 0.0009982015, time: 0.0032s
+True
+0 0
+tensor(0.0666)
+tensor(0.8589)
+True
+0 0
+tensor(0.0666)
+tensor(0.8589)
+Val loss  -inf
+False
+0 0
+tensor(0.0661)
+tensor(0.8555)
+False
+0 0
+tensor(0.0661)
+tensor(0.8555)
+Val loss  -inf
+False
+0 0
+tensor(0.0662)
+tensor(0.8550)
+False
+0 0
+tensor(0.0662)
+tensor(0.8550)
+Val loss  -inf
+False
+0 0
+tensor(0.0652)
+tensor(0.8489)
+False
+0 0
+tensor(0.0652)
+tensor(0.8489)
+Val loss  -inf
+False
+0 0
+tensor(0.0645)
+tensor(0.8431)
+False
+0 0
+tensor(0.0645)
+tensor(0.8431)
+Val loss  -inf
+False
+0 0
+tensor(0.0642)
+tensor(0.8377)
+False
+0 0
+tensor(0.0642)
+tensor(0.8377)
+Val loss  -inf
+False
+0 0
+tensor(0.0645)
+tensor(0.8365)
+False
+0 0
+tensor(0.0645)
+tensor(0.8365)
+Val loss  -inf
+False
+0 0
+tensor(0.0635)
+tensor(0.8316)
+False
+0 0
+tensor(0.0635)
+tensor(0.8316)
+Val loss  -inf
+False
+0 0
+tensor(0.0640)
+tensor(0.8317)
+False
+0 0
+tensor(0.0640)
+tensor(0.8317)
+Val loss  -inf
+False
+0 0
+tensor(0.0635)
+tensor(0.8418)
+False
+0 0
+tensor(0.0635)
+tensor(0.8418)
+Val loss  -inf
+Iteration 30000: total loss 0.2383, losses: [0.010592968203127384, 4.3301014329699683e-07, 0.22766995429992676], learning rate: 0.0009973035, time: 0.0039s
+True
+0 0
+tensor(0.0638)
+tensor(0.8439)
+True
+0 0
+tensor(0.0638)
+tensor(0.8439)
+Val loss  -inf
+False
+0 0
+tensor(0.0628)
+tensor(0.8500)
+False
+0 0
+tensor(0.0628)
+tensor(0.8500)
+Val loss  -inf
+False
+0 0
+tensor(0.0627)
+tensor(0.8452)
+False
+0 0
+tensor(0.0627)
+tensor(0.8452)
+Val loss  -inf
+False
+0 0
+tensor(0.0624)
+tensor(0.8430)
+False
+0 0
+tensor(0.0624)
+tensor(0.8430)
+Val loss  -inf
+False
+0 0
+tensor(0.0619)
+tensor(0.8380)
+False
+0 0
+tensor(0.0619)
+tensor(0.8380)
+Val loss  -inf
+False
+0 0
+tensor(0.0616)
+tensor(0.8345)
+False
+0 0
+tensor(0.0616)
+tensor(0.8345)
+Val loss  -inf
+False
+0 0
+tensor(0.0619)
+tensor(0.8332)
+False
+0 0
+tensor(0.0619)
+tensor(0.8332)
+Val loss  -inf
+False
+0 0
+tensor(0.0619)
+tensor(0.8343)
+False
+0 0
+tensor(0.0619)
+tensor(0.8343)
+Val loss  -inf
+False
+0 0
+tensor(0.0616)
+tensor(0.8338)
+False
+0 0
+tensor(0.0616)
+tensor(0.8338)
+Val loss  -inf
+Traceback (most recent call last):
+  File "/home/yan/pinn/Problem_A/train_mpi.py", line 154, in <module>
+    train(simulations[o]["model_params"],outputfolder=pdir,gpuid=gpus_process)
+  File "/home/yan/pinn/Problem_A/train_protocol.py", line 136, in train
+    trainer.train(int(5e5) + 1000)
+  File "/home/yan/pinn/Problem_A/../PinnTorch/Trainer.py", line 144, in train
+    self.dump_model_stats_and_histograms(it,self.model,self.output_folder+"/grad.txt")
+  File "/home/yan/pinn/Problem_A/../PinnTorch/Trainer.py", line 37, in dump_model_stats_and_histograms
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Problem_A_results/simulation6/grad.txt'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          tensor(0.0446)
+Val loss  -inf
+False
+0 0
+tensor(0.0016)
+tensor(0.0456)
+False
+0 0
+tensor(0.0016)
+tensor(0.0456)
+Val loss  -inf
+False
+0 0
+tensor(0.0012)
+tensor(0.0476)
+False
+0 0
+tensor(0.0012)
+tensor(0.0476)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0325)
+False
+0 0
+tensor(0.0013)
+tensor(0.0325)
+Val loss  -inf
+False
+0 0
+tensor(0.0018)
+tensor(0.0493)
+False
+0 0
+tensor(0.0018)
+tensor(0.0493)
+Val loss  -inf
+False
+0 0
+tensor(0.0015)
+tensor(0.0393)
+False
+0 0
+tensor(0.0015)
+tensor(0.0393)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0307)
+False
+0 0
+tensor(0.0013)
+tensor(0.0307)
+Val loss  -inf
+False
+0 0
+tensor(0.0014)
+tensor(0.0338)
+False
+0 0
+tensor(0.0014)
+tensor(0.0338)
+Val loss  -inf
+False
+0 0
+tensor(0.0015)
+tensor(0.0476)
+False
+0 0
+tensor(0.0015)
+tensor(0.0476)
+Val loss  -inf
+Iteration 120000: total loss 0.5593, losses: [0.2500841021537781, 3.986720912507735e-05, 0.30919212102890015], learning rate: 0.0009890597, time: 0.0038s
+True
+0 0
+tensor(0.0012)
+tensor(0.0286)
+True
+0 0
+tensor(0.0012)
+tensor(0.0286)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0323)
+False
+0 0
+tensor(0.0013)
+tensor(0.0323)
+Val loss  -inf
+False
+0 0
+tensor(0.0015)
+tensor(0.0320)
+False
+0 0
+tensor(0.0015)
+tensor(0.0320)
+Val loss  -inf
+False
+0 0
+tensor(0.0011)
+tensor(0.0282)
+False
+0 0
+tensor(0.0011)
+tensor(0.0282)
+Val loss  -inf
+False
+0 0
+tensor(0.0012)
+tensor(0.0337)
+False
+0 0
+tensor(0.0012)
+tensor(0.0337)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0413)
+False
+0 0
+tensor(0.0013)
+tensor(0.0413)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0310)
+False
+0 0
+tensor(0.0013)
+tensor(0.0310)
+Val loss  -inf
+False
+0 0
+tensor(0.0011)
+tensor(0.0428)
+False
+0 0
+tensor(0.0011)
+tensor(0.0428)
+Val loss  -inf
+False
+0 0
+tensor(0.0012)
+tensor(0.0365)
+False
+0 0
+tensor(0.0012)
+tensor(0.0365)
+Val loss  -inf
+False
+0 0
+tensor(0.0012)
+tensor(0.0285)
+False
+0 0
+tensor(0.0012)
+tensor(0.0285)
+Val loss  -inf
+Iteration 130000: total loss 0.2556, losses: [0.0585755854845047, 3.3708391811160254e-07, 0.1970590054988861], learning rate: 0.0009880711, time: 0.0026s
+True
+0 0
+tensor(0.0014)
+tensor(0.0314)
+True
+0 0
+tensor(0.0014)
+tensor(0.0314)
+Val loss  -inf
+False
+0 0
+tensor(0.0012)
+tensor(0.0283)
+False
+0 0
+tensor(0.0012)
+tensor(0.0283)
+Val loss  -inf
+False
+0 0
+tensor(0.0012)
+tensor(0.0347)
+False
+0 0
+tensor(0.0012)
+tensor(0.0347)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0299)
+False
+0 0
+tensor(0.0013)
+tensor(0.0299)
+Val loss  -inf
+False
+0 0
+tensor(0.0018)
+tensor(0.0451)
+False
+0 0
+tensor(0.0018)
+tensor(0.0451)
+Val loss  -inf
+False
+0 0
+tensor(0.0009)
+tensor(0.0356)
+False
+0 0
+tensor(0.0009)
+tensor(0.0356)
+Val loss  -inf
+False
+0 0
+tensor(0.0010)
+tensor(0.0422)
+False
+0 0
+tensor(0.0010)
+tensor(0.0422)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0252)
+False
+0 0
+tensor(0.0013)
+tensor(0.0252)
+Val loss  -inf
+False
+0 0
+tensor(0.0016)
+tensor(0.0348)
+False
+0 0
+tensor(0.0016)
+tensor(0.0348)
+Val loss  -inf
+False
+0 0
+tensor(0.0013)
+tensor(0.0361)
+False
+0 0
+tensor(0.0013)
+tensor(0.0361)
+Val loss  -inf
+Iteration 140000: total loss 0.2196, losses: [0.10282910615205765, 1.825866274884902e-05, 0.1167832612991333], learning rate: 0.0009870835, time: 0.0037s
+True
+0 0
+tensor(0.0014)
+tensor(0.0335)
+True
+0 0
+tensor(0.0014)
+tensor(0.0335)
+Val loss  -inf
+False
+0 0
+tensor(0.0012)
+tensor(0.0282)
+False
+0 0
+tensor(0.0012)
+tensor(0.0282)
+Val loss  -inf
+False
+0 0
+tensor(0.0015)
+tensor(0.0262)
+False
+0 0
+tensor(0.0015)
+tensor(0.0262)
+Val loss  -inf
+False
+0 0
+tensor(0.0011)
+tensor(0.0400)
+False
+0 0
+tensor(0.0011)
+tensor(0.0400)
+Val loss  -inf
+False
+0 0
+tensor(0.0016)
+tensor(0.0309)
+False
+0 0
+tensor(0.0016)
+tensor(0.0309)
+Val loss  -inf
+False
+0 0
+tensor(0.0014)
+tensor(0.0408)
+False
+0 0
+tensor(0.0014)
+tensor(0.0408)
+Val loss  -inf
+False
+0 0
+tensor(0.0011)
+tensor(0.0378)
+False
+0 0
+tensor(0.0011)
+tensor(0.0378)
+Val loss  -inf
+False
+0 0
+tensor(0.0014)
+tensor(0.0334)
+False
+0 0
+tensor(0.0014)
+tensor(0.0334)
+Val loss  -inf
+False
+0 0
+tensor(0.0015)
+tensor(0.0446)
+False
+0 0
+tensor(0.0015)
+tensor(0.0446)
+Val loss  -inf
+False
+0 0
+tensor(0.0016)
+tensor(0.0323)
+False
+0 0
+tensor(0.0016)
+tensor(0.0323)
+Val loss  -inf
+Iteration 150000: total loss 0.2713, losses: [0.12678594887256622, 3.138345391562325e-06, 0.14455261826515198], learning rate: 0.0009860969, time: 0.0037s
+True
+0 0
+tensor(0.0016)
+tensor(0.0258)
+True
+0 0
+tensor(0.0016)
+tensor(0.0258)
+Val loss  -inf
+False
+0 0
+tensor(0.0011)
+tensor(0.0369)
+False
+0 0
+tensor(0.0011)
+tensor(0.0369)
+Val loss  -inf
+Traceback (most recent call last):
+  File "/home/yan/pinn/Problem_A/train_mpi.py", line 154, in <module>
+    train(simulations[o]["model_params"],outputfolder=pdir,gpuid=gpus_process)
+  File "/home/yan/pinn/Problem_A/train_protocol.py", line 136, in train
+    trainer.train(int(5e5) + 1000)
+  File "/home/yan/pinn/Problem_A/../PinnTorch/Trainer.py", line 144, in train
+    self.dump_model_stats_and_histograms(it,self.model,self.output_folder+"/grad.txt")
+  File "/home/yan/pinn/Problem_A/../PinnTorch/Trainer.py", line 37, in dump_model_stats_and_histograms
+    with open(filename, "a") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Problem_A_results/simulation2/grad.txt'

@@ -1,0 +1,147 @@
+Total GPUs available: 1 
+Process 3 is using GPU 0 
+GPU 0: NVIDIA GeForce RTX 4070trying Problem_C_Results/simulation3skipping Problem_C_Results/simulation3trying Problem_C_Results/simulation7skipping Problem_C_Results/simulation7trying Problem_C_Results/simulation11skipping Problem_C_Results/simulation11trying Problem_C_Results/simulation15
+ RANK3, runnin simu 15 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 32], ['Tanh', 64], ['ReLU', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation15 with gpu 0trying Problem_C_Results/simulation19
+ RANK3, runnin simu 19 params:
+ {'model_params': {'hidden_layers': [['ELU', 32], ['Tanh', 32], ['ReLU', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation19 with gpu 0trying Problem_C_Results/simulation23skipping Problem_C_Results/simulation23trying Problem_C_Results/simulation27skipping Problem_C_Results/simulation27trying Problem_C_Results/simulation31
+ RANK3, runnin simu 31 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 16], ['Tanh', 32], ['ELU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation31 with gpu 0trying Problem_C_Results/simulation35skipping Problem_C_Results/simulation35trying Problem_C_Results/simulation39skipping Problem_C_Results/simulation39trying Problem_C_Results/simulation43
+ RANK3, runnin simu 43 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 16], ['ELU', 32], ['ReLU', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation43 with gpu 0trying Problem_C_Results/simulation47skipping Problem_C_Results/simulation47trying Problem_C_Results/simulation51skipping Problem_C_Results/simulation51trying Problem_C_Results/simulation55
+ RANK3, runnin simu 55 params:
+ {'model_params': {'hidden_layers': [['SiLU', 32], ['LeakyReLU', 32], ['SiLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation55 with gpu 0trying Problem_C_Results/simulation59skipping Problem_C_Results/simulation59trying Problem_C_Results/simulation63skipping Problem_C_Results/simulation63trying Problem_C_Results/simulation67
+ RANK3, runnin simu 67 params:
+ {'model_params': {'hidden_layers': [['ReLU', 32], ['ELU', 64], ['Tanh', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation67 with gpu 0trying Problem_C_Results/simulation71skipping Problem_C_Results/simulation71trying Problem_C_Results/simulation75skipping Problem_C_Results/simulation75trying Problem_C_Results/simulation79skipping Problem_C_Results/simulation79trying Problem_C_Results/simulation83
+ RANK3, runnin simu 83 params:
+ {'model_params': {'hidden_layers': [['Tanh', 16], ['ReLU', 64], ['SiLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation83 with gpu 0trying Problem_C_Results/simulation87skipping Problem_C_Results/simulation87trying Problem_C_Results/simulation91skipping Problem_C_Results/simulation91trying Problem_C_Results/simulation95skipping Problem_C_Results/simulation95trying Problem_C_Results/simulation99skipping Problem_C_Results/simulation99trying Problem_C_Results/simulation103
+ RANK3, runnin simu 103 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 16], ['LeakyReLU', 16], ['ReLU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation103 with gpu 0trying Problem_C_Results/simulation107skipping Problem_C_Results/simulation107trying Problem_C_Results/simulation111skipping Problem_C_Results/simulation111trying Problem_C_Results/simulation115skipping Problem_C_Results/simulation115trying Problem_C_Results/simulation119
+ RANK3, runnin simu 119 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 64], ['LeakyReLU', 64], ['Tanh', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation119 with gpu 0trying Problem_C_Results/simulation123skipping Problem_C_Results/simulation123trying Problem_C_Results/simulation127skipping Problem_C_Results/simulation127trying Problem_C_Results/simulation131skipping Problem_C_Results/simulation131trying Problem_C_Results/simulation135
+ RANK3, runnin simu 135 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 32], ['ELU', 32], ['ELU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation135 with gpu 0trying Problem_C_Results/simulation139skipping Problem_C_Results/simulation139trying Problem_C_Results/simulation143skipping Problem_C_Results/simulation143trying Problem_C_Results/simulation147skipping Problem_C_Results/simulation147trying Problem_C_Results/simulation151skipping Problem_C_Results/simulation151trying Problem_C_Results/simulation155
+ RANK3, runnin simu 155 params:
+ {'model_params': {'hidden_layers': [['SiLU', 64], ['SiLU', 64], ['ReLU', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation155 with gpu 0trying Problem_C_Results/simulation159skipping Problem_C_Results/simulation159trying Problem_C_Results/simulation163skipping Problem_C_Results/simulation163trying Problem_C_Results/simulation167
+ RANK3, runnin simu 167 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 32], ['LeakyReLU', 32], ['SiLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation167 with gpu 0trying Problem_C_Results/simulation171skipping Problem_C_Results/simulation171trying Problem_C_Results/simulation175skipping Problem_C_Results/simulation175trying Problem_C_Results/simulation179skipping Problem_C_Results/simulation179trying Problem_C_Results/simulation183skipping Problem_C_Results/simulation183trying Problem_C_Results/simulation187
+ RANK3, runnin simu 187 params:
+ {'model_params': {'hidden_layers': [['ReLU', 16], ['LeakyReLU', 16], ['ELU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation187 with gpu 0trying Problem_C_Results/simulation191skipping Problem_C_Results/simulation191trying Problem_C_Results/simulation195skipping Problem_C_Results/simulation195trying Problem_C_Results/simulation199skipping Problem_C_Results/simulation199trying Problem_C_Results/simulation203
+ RANK3, runnin simu 203 params:
+ {'model_params': {'hidden_layers': [['Tanh', 64], ['Tanh', 64], ['ReLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation203 with gpu 0trying Problem_C_Results/simulation207skipping Problem_C_Results/simulation207trying Problem_C_Results/simulation211skipping Problem_C_Results/simulation211trying Problem_C_Results/simulation215skipping Problem_C_Results/simulation215trying Problem_C_Results/simulation219skipping Problem_C_Results/simulation219trying Problem_C_Results/simulation223
+ RANK3, runnin simu 223 params:
+ {'model_params': {'hidden_layers': [['SiLU', 128], ['LeakyReLU', 64], ['LeakyReLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation223 with gpu 0trying Problem_C_Results/simulation227skipping Problem_C_Results/simulation227trying Problem_C_Results/simulation231skipping Problem_C_Results/simulation231trying Problem_C_Results/simulation235skipping Problem_C_Results/simulation235trying Problem_C_Results/simulation239
+ RANK3, runnin simu 239 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 32], ['ELU', 32], ['ELU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation239 with gpu 0trying Problem_C_Results/simulation243skipping Problem_C_Results/simulation243trying Problem_C_Results/simulation247skipping Problem_C_Results/simulation247trying Problem_C_Results/simulation251skipping Problem_C_Results/simulation251trying Problem_C_Results/simulation255
+ RANK3, runnin simu 255 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 64], ['SiLU', 32], ['ReLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation255 with gpu 0trying Problem_C_Results/simulation259skipping Problem_C_Results/simulation259trying Problem_C_Results/simulation263skipping Problem_C_Results/simulation263trying Problem_C_Results/simulation267skipping Problem_C_Results/simulation267trying Problem_C_Results/simulation271
+ RANK3, runnin simu 271 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 128], ['LeakyReLU', 16], ['Tanh', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation271 with gpu 0trying Problem_C_Results/simulation275skipping Problem_C_Results/simulation275trying Problem_C_Results/simulation279skipping Problem_C_Results/simulation279trying Problem_C_Results/simulation283skipping Problem_C_Results/simulation283trying Problem_C_Results/simulation287
+ RANK3, runnin simu 287 params:
+ {'model_params': {'hidden_layers': [['SiLU', 128], ['SiLU', 32], ['ReLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation287 with gpu 0trying Problem_C_Results/simulation291skipping Problem_C_Results/simulation291trying Problem_C_Results/simulation295skipping Problem_C_Results/simulation295trying Problem_C_Results/simulation299
+ RANK3, runnin simu 299 params:
+ {'model_params': {'hidden_layers': [['ReLU', 64], ['LeakyReLU', 64], ['Tanh', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation299 with gpu 0trying Problem_C_Results/simulation303skipping Problem_C_Results/simulation303trying Problem_C_Results/simulation307skipping Problem_C_Results/simulation307trying Problem_C_Results/simulation311skipping Problem_C_Results/simulation311trying Problem_C_Results/simulation315
+ RANK3, runnin simu 315 params:
+ {'model_params': {'hidden_layers': [['Tanh', 64], ['SiLU', 16], ['ELU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation315 with gpu 0trying Problem_C_Results/simulation319skipping Problem_C_Results/simulation319trying Problem_C_Results/simulation323skipping Problem_C_Results/simulation323trying Problem_C_Results/simulation327skipping Problem_C_Results/simulation327trying Problem_C_Results/simulation331skipping Problem_C_Results/simulation331trying Problem_C_Results/simulation335
+ RANK3, runnin simu 335 params:
+ {'model_params': {'hidden_layers': [['ELU', 128], ['Tanh', 16], ['Sigmoid', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation335 with gpu 0trying Problem_C_Results/simulation339skipping Problem_C_Results/simulation339trying Problem_C_Results/simulation343skipping Problem_C_Results/simulation343trying Problem_C_Results/simulation347skipping Problem_C_Results/simulation347trying Problem_C_Results/simulation351
+ RANK3, runnin simu 351 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 128], ['SiLU', 32], ['ELU', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation351 with gpu 0trying Problem_C_Results/simulation355skipping Problem_C_Results/simulation355trying Problem_C_Results/simulation359skipping Problem_C_Results/simulation359trying Problem_C_Results/simulation363skipping Problem_C_Results/simulation363trying Problem_C_Results/simulation367skipping Problem_C_Results/simulation367trying Problem_C_Results/simulation371
+ RANK3, runnin simu 371 params:
+ {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 16], ['ReLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation371 with gpu 0trying Problem_C_Results/simulation375skipping Problem_C_Results/simulation375trying Problem_C_Results/simulation379skipping Problem_C_Results/simulation379trying Problem_C_Results/simulation383skipping Problem_C_Results/simulation383trying Problem_C_Results/simulation387
+ RANK3, runnin simu 387 params:
+ {'model_params': {'hidden_layers': [['ELU', 32], ['ReLU', 16], ['LeakyReLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation387 with gpu 0trying Problem_C_Results/simulation391skipping Problem_C_Results/simulation391trying Problem_C_Results/simulation395skipping Problem_C_Results/simulation395trying Problem_C_Results/simulation399skipping Problem_C_Results/simulation399trying Problem_C_Results/simulation403skipping Problem_C_Results/simulation403trying Problem_C_Results/simulation407
+ RANK3, runnin simu 407 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 64], ['Tanh', 128], ['ReLU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation407 with gpu 0trying Problem_C_Results/simulation411skipping Problem_C_Results/simulation411trying Problem_C_Results/simulation415skipping Problem_C_Results/simulation415trying Problem_C_Results/simulation419skipping Problem_C_Results/simulation419trying Problem_C_Results/simulation423
+ RANK3, runnin simu 423 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 16], ['LeakyReLU', 32], ['LeakyReLU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation423 with gpu 0trying Problem_C_Results/simulation427skipping Problem_C_Results/simulation427trying Problem_C_Results/simulation431skipping Problem_C_Results/simulation431trying Problem_C_Results/simulation435skipping Problem_C_Results/simulation435trying Problem_C_Results/simulation439
+ RANK3, runnin simu 439 params:
+ {'model_params': {'hidden_layers': [['Tanh', 64], ['Sigmoid', 128], ['ReLU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation439 with gpu 0trying Problem_C_Results/simulation443skipping Problem_C_Results/simulation443trying Problem_C_Results/simulation447skipping Problem_C_Results/simulation447trying Problem_C_Results/simulation451skipping Problem_C_Results/simulation451trying Problem_C_Results/simulation455
+ RANK3, runnin simu 455 params:
+ {'model_params': {'hidden_layers': [['Tanh', 32], ['SiLU', 64], ['ELU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation455 with gpu 0trying Problem_C_Results/simulation459skipping Problem_C_Results/simulation459trying Problem_C_Results/simulation463skipping Problem_C_Results/simulation463trying Problem_C_Results/simulation467skipping Problem_C_Results/simulation467trying Problem_C_Results/simulation471
+ RANK3, runnin simu 471 params:
+ {'model_params': {'hidden_layers': [['ELU', 64], ['Sigmoid', 128], ['ELU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation471 with gpu 0trying Problem_C_Results/simulation475skipping Problem_C_Results/simulation475trying Problem_C_Results/simulation479skipping Problem_C_Results/simulation479trying Problem_C_Results/simulation483skipping Problem_C_Results/simulation483trying Problem_C_Results/simulation487skipping Problem_C_Results/simulation487trying Problem_C_Results/simulation491
+ RANK3, runnin simu 491 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 16], ['SiLU', 64], ['LeakyReLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation491 with gpu 0trying Problem_C_Results/simulation495skipping Problem_C_Results/simulation495trying Problem_C_Results/simulation499skipping Problem_C_Results/simulation499trying Problem_C_Results/simulation503skipping Problem_C_Results/simulation503trying Problem_C_Results/simulation507
+ RANK3, runnin simu 507 params:
+ {'model_params': {'hidden_layers': [['ELU', 16], ['SiLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation507 with gpu 0trying Problem_C_Results/simulation511skipping Problem_C_Results/simulation511trying Problem_C_Results/simulation515skipping Problem_C_Results/simulation515trying Problem_C_Results/simulation519skipping Problem_C_Results/simulation519trying Problem_C_Results/simulation523
+ RANK3, runnin simu 523 params:
+ {'model_params': {'hidden_layers': [['ReLU', 32], ['ReLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation523 with gpu 0trying Problem_C_Results/simulation527skipping Problem_C_Results/simulation527trying Problem_C_Results/simulation531skipping Problem_C_Results/simulation531trying Problem_C_Results/simulation535skipping Problem_C_Results/simulation535trying Problem_C_Results/simulation539skipping Problem_C_Results/simulation539trying Problem_C_Results/simulation543
+ RANK3, runnin simu 543 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 32], ['ReLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation543 with gpu 0trying Problem_C_Results/simulation547skipping Problem_C_Results/simulation547trying Problem_C_Results/simulation551skipping Problem_C_Results/simulation551trying Problem_C_Results/simulation555skipping Problem_C_Results/simulation555trying Problem_C_Results/simulation559skipping Problem_C_Results/simulation559trying Problem_C_Results/simulation563
+ RANK3, runnin simu 563 params:
+ {'model_params': {'hidden_layers': [['ELU', 16], ['LeakyReLU', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation563 with gpu 0trying Problem_C_Results/simulation567skipping Problem_C_Results/simulation567trying Problem_C_Results/simulation571skipping Problem_C_Results/simulation571trying Problem_C_Results/simulation575
+ RANK3, runnin simu 575 params:
+ {'model_params': {'hidden_layers': [['SiLU', 64], ['ELU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation575 with gpu 0trying Problem_C_Results/simulation579skipping Problem_C_Results/simulation579trying Problem_C_Results/simulation583skipping Problem_C_Results/simulation583trying Problem_C_Results/simulation587skipping Problem_C_Results/simulation587trying Problem_C_Results/simulation591skipping Problem_C_Results/simulation591trying Problem_C_Results/simulation595
+ RANK3, runnin simu 595 params:
+ {'model_params': {'hidden_layers': [['Tanh', 16], ['ReLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation595 with gpu 0trying Problem_C_Results/simulation599skipping Problem_C_Results/simulation599trying Problem_C_Results/simulation603skipping Problem_C_Results/simulation603trying Problem_C_Results/simulation607skipping Problem_C_Results/simulation607trying Problem_C_Results/simulation611
+ RANK3, runnin simu 611 params:
+ {'model_params': {'hidden_layers': [['Tanh', 16], ['Sigmoid', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation611 with gpu 0trying Problem_C_Results/simulation615skipping Problem_C_Results/simulation615trying Problem_C_Results/simulation619
+ RANK3, runnin simu 619 params:
+ {'model_params': {'hidden_layers': [['ReLU', 128], ['ReLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation619 with gpu 0trying Problem_C_Results/simulation623skipping Problem_C_Results/simulation623trying Problem_C_Results/simulation627skipping Problem_C_Results/simulation627trying Problem_C_Results/simulation631skipping Problem_C_Results/simulation631trying Problem_C_Results/simulation635skipping Problem_C_Results/simulation635trying Problem_C_Results/simulation639
+ RANK3, runnin simu 639 params:
+ {'model_params': {'hidden_layers': [['Tanh', 128], ['LeakyReLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation639 with gpu 0trying Problem_C_Results/simulation643skipping Problem_C_Results/simulation643trying Problem_C_Results/simulation647skipping Problem_C_Results/simulation647trying Problem_C_Results/simulation651skipping Problem_C_Results/simulation651trying Problem_C_Results/simulation655skipping Problem_C_Results/simulation655trying Problem_C_Results/simulation659skipping Problem_C_Results/simulation659trying Problem_C_Results/simulation663
+ RANK3, runnin simu 663 params:
+ {'model_params': {'hidden_layers': [['ELU', 128], ['ReLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation663 with gpu 0trying Problem_C_Results/simulation667skipping Problem_C_Results/simulation667trying Problem_C_Results/simulation671skipping Problem_C_Results/simulation671trying Problem_C_Results/simulation675skipping Problem_C_Results/simulation675trying Problem_C_Results/simulation679skipping Problem_C_Results/simulation679trying Problem_C_Results/simulation683
+ RANK3, runnin simu 683 params:
+ {'model_params': {'hidden_layers': [['Tanh', 32], ['SiLU', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation683 with gpu 0trying Problem_C_Results/simulation687skipping Problem_C_Results/simulation687trying Problem_C_Results/simulation691skipping Problem_C_Results/simulation691trying Problem_C_Results/simulation695skipping Problem_C_Results/simulation695trying Problem_C_Results/simulation699skipping Problem_C_Results/simulation699trying Problem_C_Results/simulation703
+ RANK3, runnin simu 703 params:
+ {'model_params': {'hidden_layers': [['ELU', 128], ['Tanh', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation703 with gpu 0trying Problem_C_Results/simulation707skipping Problem_C_Results/simulation707trying Problem_C_Results/simulation711skipping Problem_C_Results/simulation711trying Problem_C_Results/simulation715skipping Problem_C_Results/simulation715trying Problem_C_Results/simulation719
+ RANK3, runnin simu 719 params:
+ {'model_params': {'hidden_layers': [['ReLU', 64], ['LeakyReLU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation719 with gpu 0trying Problem_C_Results/simulation723skipping Problem_C_Results/simulation723trying Problem_C_Results/simulation727skipping Problem_C_Results/simulation727trying Problem_C_Results/simulation731skipping Problem_C_Results/simulation731trying Problem_C_Results/simulation735
+ RANK3, runnin simu 735 params:
+ {'model_params': {'hidden_layers': [['Sigmoid', 128], ['ReLU', 64]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation735 with gpu 0trying Problem_C_Results/simulation739skipping Problem_C_Results/simulation739trying Problem_C_Results/simulation743skipping Problem_C_Results/simulation743trying Problem_C_Results/simulation747skipping Problem_C_Results/simulation747trying Problem_C_Results/simulation751skipping Problem_C_Results/simulation751trying Problem_C_Results/simulation755
+ RANK3, runnin simu 755 params:
+ {'model_params': {'hidden_layers': [['ELU', 128], ['LeakyReLU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation755 with gpu 0trying Problem_C_Results/simulation759skipping Problem_C_Results/simulation759trying Problem_C_Results/simulation763skipping Problem_C_Results/simulation763trying Problem_C_Results/simulation767skipping Problem_C_Results/simulation767trying Problem_C_Results/simulation771
+ RANK3, runnin simu 771 params:
+ {'model_params': {'hidden_layers': [['ReLU', 64], ['Tanh', 32]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation771 with gpu 0trying Problem_C_Results/simulation775skipping Problem_C_Results/simulation775trying Problem_C_Results/simulation779skipping Problem_C_Results/simulation779trying Problem_C_Results/simulation783skipping Problem_C_Results/simulation783trying Problem_C_Results/simulation787
+ RANK3, runnin simu 787 params:
+ {'model_params': {'hidden_layers': [['LeakyReLU', 32], ['LeakyReLU', 16]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_C_Results/simulation787 with gpu 0trying Problem_C_Results/simulation791skipping Problem_C_Results/simulation791trying Problem_C_Results/simulation795skipping Problem_C_Results/simulation795trying Problem_C_Results/simulation799skipping Problem_C_Results/simulation799

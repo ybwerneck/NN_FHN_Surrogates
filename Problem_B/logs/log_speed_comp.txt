@@ -1,0 +1,20 @@
+beggining speed comp[32000000, 64000000]
+ 
+ 
+ 
+ 
+
+Set of size 32000000 
+
+tensort py -
+time tensorrt [np.float64(0.8872153759002686)]
+
+ 
+ 
+ 
+ 
+
+Set of size 64000000 
+
+tensort py -
+time tensorrt [np.float64(1.7687547206878662)]

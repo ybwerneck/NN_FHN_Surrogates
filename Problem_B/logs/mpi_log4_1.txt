@@ -1,0 +1,6 @@
+Total GPUs available: 1 
+Process 4 is using GPU 0 
+GPU 0: NVIDIA GeForce RTX 4070 Ti SUPERtrying Problem_B_Results/simulation4skipping Problem_B_Results/simulation4trying Problem_B_Results/simulation12
+ RANK4, runnin simu 12 params:
+ {'model_params': {'hidden_layers': [['ELU', 32], ['LeakyReLU', 32], ['LeakyReLU', 128]], 'pinn': False, 'bs': 256, 'iccs': False, 'training_set': 'traininig_data/treino_s/'}} 
+ in dir Problem_B_Results/simulation12 with gpu 0

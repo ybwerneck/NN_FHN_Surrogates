@@ -1,0 +1,5 @@
+id,layers,total_neurons,shape
+1,"[['SiLU', 16], ['SiLU', 16]]",112,funnel
+2,"[['SiLU', 32], ['SiLU', 32]]",80,funnel
+3,"[['Tanh', 16], ['Tanh', 16]]",112,funnel
+4,"[['Tanh', 32], ['Tanh', 32]]",80,funnel

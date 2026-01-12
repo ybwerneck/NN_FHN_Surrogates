@@ -1,0 +1,801 @@
+Problem,Folder,Final Error 1,Final Error 2,Hidden Layers,Pinn Info,Batch Size,total_neurons,shape
+Bp,simulation561,0.026426615193486214,0.9281491637229919,"[['ELU', 16], ['ELU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation571,0.05454627797007561,1.0282660722732544,"[['Sigmoid', 16], ['ELU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation252,0.007300891913473606,1.001328945159912,"[['SiLU', 32], ['ReLU', 32], ['Tanh', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation264,0.0048506371676921844,0.9624347686767578,"[['ReLU', 128], ['ReLU', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation586,0.024776842445135117,0.9326452016830444,"[['Sigmoid', 32], ['Sigmoid', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation588,0.012428559362888336,0.971328854560852,"[['LeakyReLU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation79,0.00985342264175415,1.0204577445983887,"[['ReLU', 16], ['ReLU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation430,0.0036375762429088354,0.957952618598938,"[['SiLU', 32], ['Tanh', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation562,0.010966860689222813,0.94976806640625,"[['Tanh', 32], ['ReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation217,0.005569016560912132,0.9162712693214417,"[['ELU', 128], ['ELU', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation760,0.04122678190469742,0.9151754379272461,"[['Sigmoid', 32], ['ReLU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation206,0.004187760874629021,0.9433005452156067,"[['Tanh', 128], ['Tanh', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation719,0.015258724801242352,0.9109278321266174,"[['ReLU', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation104,0.013849371112883091,0.9651700854301453,"[['LeakyReLU', 16], ['Sigmoid', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation71,0.008757846429944038,0.9557702541351318,"[['LeakyReLU', 16], ['Tanh', 32], ['ELU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation583,0.020288582891225815,0.9498662948608398,"[['LeakyReLU', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation646,0.023240750655531883,0.9668034911155701,"[['SiLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation405,0.009205294772982597,0.9511234164237976,"[['Sigmoid', 32], ['SiLU', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation412,0.008400172926485538,1.0880284309387207,"[['ReLU', 32], ['ReLU', 128], ['ReLU', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation211,0.006916118320077658,0.9813973903656006,"[['SiLU', 64], ['Sigmoid', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation610,0.017606981098651886,0.9277328848838806,"[['LeakyReLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation692,0.006991420406848192,0.9428330659866333,"[['Tanh', 128], ['Sigmoid', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation710,0.015624841675162315,0.988571286201477,"[['ReLU', 64], ['ELU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation178,0.010639457032084465,0.9476504325866699,"[['LeakyReLU', 16], ['ELU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation401,0.00557702174410224,0.9859397411346436,"[['SiLU', 32], ['Tanh', 128], ['ReLU', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation696,0.026019947603344917,0.9532161951065063,"[['Sigmoid', 128], ['ELU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation109,0.007732233498245478,0.993491530418396,"[['ReLU', 32], ['ReLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation524,0.03311498463153839,0.9283784627914429,"[['Sigmoid', 32], ['Tanh', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation739,0.04424170404672623,0.9483721852302551,"[['Sigmoid', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation743,0.01588894985616207,0.9797836542129517,"[['Tanh', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation377,0.05108436569571495,0.9603862166404724,"[['Sigmoid', 32], ['Sigmoid', 16], ['ELU', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation408,0.007246409542858601,0.9439111948013306,"[['ELU', 32], ['Sigmoid', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation334,0.005947485566139221,0.9519147276878357,"[['SiLU', 128], ['LeakyReLU', 16], ['Sigmoid', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation552,0.01706361398100853,0.922120213508606,"[['ELU', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation137,0.002815071726217866,0.9368382692337036,"[['SiLU', 64], ['Sigmoid', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation607,0.010432523675262928,0.9441084861755371,"[['Sigmoid', 128], ['Sigmoid', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation159,0.008285189978778362,0.9999067187309265,"[['Tanh', 32], ['ELU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation313,0.00791777390986681,0.9259601831436157,"[['Sigmoid', 32], ['SiLU', 16], ['SiLU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation95,0.007074613124132156,0.9294620156288147,"[['ELU', 16], ['Sigmoid', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation665,0.03400002792477608,1.0343682765960693,"[['ReLU', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation479,0.007666017860174179,0.9437706470489502,"[['Sigmoid', 64], ['LeakyReLU', 128], ['ELU', 64]]",False,traininig_data/treino_s/,256,diamond
+Bp,simulation573,0.011930778622627258,0.9289290308952332,"[['SiLU', 64], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation611,0.017713282257318497,0.9689708352088928,"[['Tanh', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation722,0.011433949694037437,0.9834040403366089,"[['ReLU', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation113,0.0045752981677651405,0.9463745355606079,"[['ELU', 64], ['SiLU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation609,0.010453524067997932,0.9874128103256226,"[['ReLU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation385,0.004618356470018625,0.9607298374176025,"[['ELU', 64], ['Tanh', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation792,0.02807486243546009,0.9620168805122375,"[['Sigmoid', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation404,0.006429850123822689,0.8887696266174316,"[['ReLU', 32], ['Sigmoid', 128], ['ELU', 16]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation502,0.032114360481500626,0.9661871790885925,"[['Tanh', 16], ['ELU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation136,0.0042815799824893475,1.0366477966308594,"[['Sigmoid', 64], ['Tanh', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation144,0.005183069501072168,0.9533151984214783,"[['ELU', 32], ['Tanh', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation783,0.014417209662497044,0.9386388063430786,"[['Tanh', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation625,0.012890714220702648,0.9281186461448669,"[['SiLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation779,0.016095612198114395,0.9710361361503601,"[['Sigmoid', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation9,0.0056779044680297375,0.956956684589386,"[['SiLU', 64], ['Tanh', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation132,0.004685614723712206,0.9965890049934387,"[['ELU', 64], ['Tanh', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation386,0.00878173392266035,0.9048207998275757,"[['Sigmoid', 32], ['Tanh', 16], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation417,0.0048247394151985645,1.0738120079040527,"[['SiLU', 16], ['Tanh', 64], ['Sigmoid', 16]]",False,traininig_data/treino_s/,96,diamond
+Bp,simulation158,0.010800706222653389,0.9344899654388428,"[['Sigmoid', 32], ['SiLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation135,0.012690980918705463,0.9449289441108704,"[['Sigmoid', 32], ['ELU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation518,0.017356878146529198,0.940665602684021,"[['LeakyReLU', 16], ['Tanh', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation526,0.021086759865283966,0.9216765761375427,"[['LeakyReLU', 32], ['ELU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation301,0.009003430604934692,1.0727570056915283,"[['Sigmoid', 64], ['ReLU', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation638,0.019373467192053795,0.9769274592399597,"[['Sigmoid', 128], ['SiLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation420,0.004813005682080984,1.0242265462875366,"[['ReLU', 64], ['ELU', 128], ['SiLU', 32]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation369,0.006530835293233395,1.0025016069412231,"[['LeakyReLU', 64], ['ReLU', 16], ['Sigmoid', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation499,0.0070502739399671555,0.9740502238273621,"[['ReLU', 32], ['SiLU', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation466,0.0070845261216163635,0.9643682241439819,"[['LeakyReLU', 32], ['ELU', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation5,0.00811014138162136,0.9477732181549072,"[['SiLU', 16], ['Tanh', 32], ['ELU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation126,0.008085528388619423,0.9567223787307739,"[['Tanh', 32], ['LeakyReLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation754,0.029553301632404327,0.8890738487243652,"[['ELU', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation182,0.01275235041975975,0.9568769335746765,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation87,0.007066470105201006,0.9612493515014648,"[['Tanh', 16], ['ReLU', 64], ['ELU', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation162,0.006158904638141394,0.9705191850662231,"[['SiLU', 32], ['Tanh', 32], ['ELU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation222,0.004774663597345352,0.9698684215545654,"[['LeakyReLU', 128], ['Tanh', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation789,0.019040806218981743,0.8858388066291809,"[['ReLU', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation42,0.005401046015322208,0.9294954538345337,"[['ELU', 16], ['SiLU', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation667,0.012784467078745365,0.9221095442771912,"[['LeakyReLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation118,0.010860453359782696,0.9751511216163635,"[['ReLU', 16], ['LeakyReLU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation275,0.005062174052000046,0.9431768655776978,"[['SiLU', 64], ['LeakyReLU', 64], ['SiLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation519,0.017573265358805656,0.9455773234367371,"[['ELU', 16], ['Tanh', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation480,0.004595221485942602,1.0391926765441895,"[['LeakyReLU', 64], ['ReLU', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation328,0.005781895015388727,0.9891945719718933,"[['LeakyReLU', 128], ['LeakyReLU', 16], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation615,0.015207911841571331,0.9426553249359131,"[['SiLU', 128], ['ReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation580,0.012006563134491444,0.9470949769020081,"[['LeakyReLU', 32], ['Tanh', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation315,0.007080148905515671,0.955449640750885,"[['Tanh', 64], ['SiLU', 16], ['ELU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation384,0.007435571867972612,0.985167920589447,"[['SiLU', 64], ['LeakyReLU', 16], ['SiLU', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation268,0.007367616984993219,0.9399153590202332,"[['Tanh', 64], ['SiLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation121,0.006083641201257706,1.0333930253982544,"[['ReLU', 64], ['ELU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation690,0.01656293496489525,0.9255108833312988,"[['ELU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation347,0.01441909372806549,0.9460257887840271,"[['ReLU', 64], ['Sigmoid', 16], ['ELU', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation579,0.01594885066151619,0.9308378100395203,"[['Tanh', 16], ['Sigmoid', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation93,0.006956892553716898,1.0683425664901733,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation684,0.022210510447621346,0.9115550518035889,"[['ReLU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation572,0.011647013016045094,0.880717396736145,"[['ELU', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation629,0.015611228533089161,0.9547580480575562,"[['ELU', 128], ['ELU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation300,0.006194429472088814,0.9365309476852417,"[['LeakyReLU', 128], ['ELU', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation589,0.015389700420200825,0.9244097471237183,"[['SiLU', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation402,0.006467260420322418,1.0520068407058716,"[['ELU', 64], ['SiLU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation188,0.008215855807065964,0.9774437546730042,"[['ELU', 16], ['Tanh', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation618,0.006590455304831266,0.940109372138977,"[['LeakyReLU', 128], ['Sigmoid', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation421,0.004678271245211363,0.9938821792602539,"[['ELU', 64], ['LeakyReLU', 128], ['ELU', 32]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation507,0.028895016759634018,0.9200010299682617,"[['ELU', 16], ['SiLU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation120,0.009712480939924717,0.9727319478988647,"[['SiLU', 16], ['Tanh', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation641,0.00957251712679863,0.9492312073707581,"[['LeakyReLU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation549,0.015215817838907242,0.9081242680549622,"[['ELU', 32], ['ReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation414,0.004902299493551254,0.9766374230384827,"[['ReLU', 64], ['LeakyReLU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation745,0.02646598033607006,0.9692979454994202,"[['ELU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation335,0.005674070678651333,0.9769864082336426,"[['ELU', 128], ['Tanh', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation568,0.018973659723997116,0.973688006401062,"[['ELU', 16], ['Sigmoid', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation419,0.008321438916027546,0.9473781585693359,"[['ELU', 16], ['ELU', 128], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation305,0.005304375663399696,0.9574180841445923,"[['LeakyReLU', 64], ['Tanh', 16], ['SiLU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation337,0.006570092868059874,0.9635463953018188,"[['ReLU', 32], ['ReLU', 16], ['SiLU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation97,0.010726061649620533,0.9491425156593323,"[['Sigmoid', 32], ['ReLU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation434,0.004721211735159159,1.059375524520874,"[['LeakyReLU', 32], ['Sigmoid', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation679,0.022023692727088928,0.9689521193504333,"[['ELU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation130,0.009659322910010815,1.0883536338806152,"[['LeakyReLU', 16], ['SiLU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation357,0.008181458339095116,1.0208054780960083,"[['ELU', 32], ['ELU', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation673,0.010709290392696857,0.9129260182380676,"[['LeakyReLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation303,0.005002633668482304,0.9418773651123047,"[['Tanh', 64], ['SiLU', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation542,0.02210048958659172,0.9270008206367493,"[['ReLU', 16], ['SiLU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation395,0.005355350207537413,0.95395827293396,"[['Tanh', 128], ['LeakyReLU', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation327,0.00713185453787446,0.9427486658096313,"[['SiLU', 32], ['Tanh', 16], ['ELU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation718,0.01103154756128788,0.9717058539390564,"[['LeakyReLU', 64], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation540,0.02067999169230461,1.009450078010559,"[['Sigmoid', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation258,0.0057393829338252544,0.90944504737854,"[['ELU', 64], ['LeakyReLU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation288,0.008388866670429707,0.9598170518875122,"[['Tanh', 32], ['SiLU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation748,0.008520074188709259,1.022808313369751,"[['ReLU', 128], ['ReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation397,0.00790257379412651,0.974726676940918,"[['SiLU', 32], ['Sigmoid', 16], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation508,0.008479397743940353,0.941996693611145,"[['ReLU', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation219,0.010653547942638397,0.9869345426559448,"[['ELU', 32], ['LeakyReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation416,0.008877905085682869,0.9768719673156738,"[['Tanh', 32], ['ReLU', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation510,0.05244141072034836,0.930057942867279,"[['Sigmoid', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation734,0.01987770013511181,0.9300707578659058,"[['Tanh', 128], ['ELU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation39,0.013398054987192154,0.9703454375267029,"[['SiLU', 16], ['ReLU', 16], ['Tanh', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation634,0.03795051574707031,0.9943579435348511,"[['Sigmoid', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation506,0.011547751724720001,0.9641247391700745,"[['SiLU', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation594,0.013231232762336731,0.9899489879608154,"[['Tanh', 64], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation551,0.01071713212877512,0.9267152547836304,"[['ReLU', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation693,0.013778544031083584,0.9387710094451904,"[['SiLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation253,0.008356268517673016,0.9907519221305847,"[['ReLU', 128], ['ReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation795,0.017727132886648178,0.9326597452163696,"[['ELU', 128], ['ReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation348,0.009244358167052269,1.1015865802764893,"[['ELU', 32], ['LeakyReLU', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation75,0.003984970971941948,0.9305291175842285,"[['ReLU', 64], ['Sigmoid', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation446,0.0038488113787025213,1.001953125,"[['ReLU', 64], ['Sigmoid', 128], ['Sigmoid', 64]]",False,traininig_data/treino_s/,256,diamond
+Bp,simulation617,0.015881817787885666,0.9723589420318604,"[['ELU', 128], ['Tanh', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation56,0.004716730210930109,0.9544273614883423,"[['ELU', 16], ['ReLU', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation729,0.016401823610067368,0.9550652503967285,"[['Tanh', 64], ['SiLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation4,0.009288079105317593,1.0022943019866943,"[['LeakyReLU', 16], ['Tanh', 16], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,64,funnel
+Bp,simulation449,0.005709912162274122,0.9519742727279663,"[['Tanh', 32], ['LeakyReLU', 128], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation550,0.022296568378806114,0.9375165700912476,"[['ELU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation290,0.006756613962352276,1.0159614086151123,"[['SiLU', 64], ['ReLU', 32], ['ELU', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation107,0.014683467335999012,0.9483705163002014,"[['ELU', 16], ['ReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation329,0.005556053016334772,0.9781652688980103,"[['ELU', 64], ['Sigmoid', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation58,0.004602621775120497,1.0391008853912354,"[['ELU', 32], ['ReLU', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation116,0.004835361149162054,0.923794686794281,"[['LeakyReLU', 32], ['Tanh', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation751,0.042883437126874924,1.0432360172271729,"[['Sigmoid', 32], ['ELU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation208,0.006453307345509529,0.947858989238739,"[['ReLU', 128], ['ReLU', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation163,0.0058535016141831875,0.9449533820152283,"[['LeakyReLU', 32], ['SiLU', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation758,0.052147991955280304,0.9630998969078064,"[['Sigmoid', 32], ['SiLU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation636,0.014110692776739597,0.9554336071014404,"[['SiLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation652,0.011147539131343365,0.9279944896697998,"[['SiLU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation232,0.008906161412596703,0.961510956287384,"[['Sigmoid', 64], ['Tanh', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation251,0.008994024246931076,1.0409711599349976,"[['Sigmoid', 64], ['SiLU', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation336,0.005160389002412558,1.1069464683532715,"[['SiLU', 64], ['SiLU', 32], ['Sigmoid', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation566,0.017902804538607597,0.9072788953781128,"[['ReLU', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation601,0.020185308530926704,0.9510590434074402,"[['Tanh', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation422,0.006116417236626148,0.9841227531433105,"[['ReLU', 32], ['ELU', 64], ['Tanh', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation24,0.007288707885891199,0.9950687289237976,"[['ELU', 16], ['ReLU', 16], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation411,0.0057600559666752815,0.9436705112457275,"[['SiLU', 64], ['ELU', 128], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,256,diamond
+Bp,simulation175,0.005804305896162987,0.9503013491630554,"[['ELU', 32], ['Sigmoid', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation730,0.017069127410650253,0.888242244720459,"[['ELU', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation148,0.012377141043543816,0.8536324501037598,"[['ELU', 16], ['Sigmoid', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation186,0.00754930917173624,0.9520747065544128,"[['Tanh', 32], ['Tanh', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation312,0.0056665134616196156,0.9581810832023621,"[['ELU', 128], ['LeakyReLU', 32], ['Sigmoid', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation655,0.014123352244496346,0.9517327547073364,"[['ELU', 128], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation757,0.008509433828294277,0.9551516771316528,"[['Tanh', 128], ['Tanh', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation584,0.022907979786396027,0.9737240672111511,"[['LeakyReLU', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation406,0.009089208208024502,0.9214887619018555,"[['ELU', 16], ['ELU', 128], ['ReLU', 64]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation770,0.013467086479067802,0.9479520320892334,"[['ReLU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation282,0.004031095653772354,0.9370818138122559,"[['ReLU', 128], ['ELU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,256,bottleneck
+Bp,simulation465,0.006398272700607777,1.074828028678894,"[['LeakyReLU', 32], ['ELU', 64], ['SiLU', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation212,0.007733585312962532,1.0435653924942017,"[['ELU', 128], ['LeakyReLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation30,0.006974273826926947,1.0324774980545044,"[['ReLU', 32], ['SiLU', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation333,0.009849458932876587,0.9979120492935181,"[['Sigmoid', 128], ['ReLU', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation231,0.006812781561166048,0.9785972237586975,"[['ReLU', 64], ['Sigmoid', 32], ['ReLU', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation8,0.0067401789128780365,1.0004591941833496,"[['LeakyReLU', 16], ['Tanh', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation532,0.031822141259908676,0.9498147964477539,"[['Sigmoid', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation437,0.005636307876557112,0.9868241548538208,"[['ReLU', 64], ['LeakyReLU', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation669,0.032188888639211655,0.9636478424072266,"[['Sigmoid', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation161,0.015061656944453716,0.9871730804443359,"[['Sigmoid', 16], ['LeakyReLU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation744,0.02184121683239937,0.9518437385559082,"[['Sigmoid', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation133,0.004765558987855911,0.9536243677139282,"[['ReLU', 64], ['SiLU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation737,0.01267269253730774,0.9572551250457764,"[['ReLU', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation68,0.005701456684619188,0.9212490320205688,"[['SiLU', 16], ['Sigmoid', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation731,0.009898904711008072,0.9774460792541504,"[['ReLU', 128], ['ELU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation198,0.0047531770542263985,1.0440138578414917,"[['SiLU', 64], ['LeakyReLU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation452,0.008478992618620396,0.981508195400238,"[['Sigmoid', 32], ['Tanh', 64], ['ELU', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation715,0.011013840325176716,0.9405924081802368,"[['SiLU', 128], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation187,0.013244003988802433,1.005990743637085,"[['ReLU', 16], ['LeakyReLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation98,0.007217874750494957,0.9507873058319092,"[['LeakyReLU', 16], ['Tanh', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation474,0.005516085308045149,1.0150572061538696,"[['ELU', 16], ['SiLU', 128], ['ELU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation410,0.004980752710253,1.035157322883606,"[['ReLU', 64], ['ReLU', 128], ['Sigmoid', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation31,0.013262166641652584,0.9412024617195129,"[['Sigmoid', 16], ['Tanh', 32], ['ELU', 32]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation472,0.01696709170937538,0.9807701706886292,"[['Sigmoid', 16], ['Tanh', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation627,0.030942149460315704,0.9360382556915283,"[['SiLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation587,0.0225666556507349,0.936090350151062,"[['SiLU', 16], ['ELU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation481,0.007448351942002773,0.9388830661773682,"[['SiLU', 64], ['ELU', 128], ['Tanh', 64]]",False,traininig_data/treino_s/,256,diamond
+Bp,simulation245,0.006336753722280264,0.9359818696975708,"[['ELU', 128], ['ELU', 64], ['ELU', 64]]",False,traininig_data/treino_s/,256,bottleneck
+Bp,simulation513,0.010637742467224598,0.9862933158874512,"[['ELU', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation204,0.005844310391694307,0.9448326230049133,"[['LeakyReLU', 128], ['ELU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation787,0.01961308717727661,0.9799845218658447,"[['LeakyReLU', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation207,0.007035003509372473,1.005449891090393,"[['LeakyReLU', 128], ['ReLU', 64], ['ELU', 32]]",False,traininig_data/treino_s/,224,bottleneck
+Bp,simulation339,0.004734318237751722,0.9408683776855469,"[['LeakyReLU', 128], ['Sigmoid', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation143,0.011394219473004341,0.9245287179946899,"[['SiLU', 16], ['LeakyReLU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation765,0.01108585949987173,0.9481945633888245,"[['SiLU', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation177,0.005300015211105347,0.8970210552215576,"[['Sigmoid', 64], ['ELU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation2,0.004364542197436094,0.9293755292892456,"[['ELU', 16], ['Sigmoid', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation57,0.0056985472328960896,0.946607232093811,"[['ReLU', 16], ['Tanh', 64], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation332,0.010550625622272491,0.999016284942627,"[['Sigmoid', 128], ['ReLU', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation372,0.010695838369429111,1.1275608539581299,"[['ReLU', 32], ['SiLU', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation797,0.018606368452310562,0.9741216897964478,"[['SiLU', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation697,0.017955267801880836,0.9225819706916809,"[['ELU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation559,0.030672680586576462,0.9296398162841797,"[['ReLU', 16], ['ELU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation151,0.006137464195489883,1.0510174036026,"[['ELU', 64], ['ReLU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation469,0.00751135591417551,0.9447864294052124,"[['Sigmoid', 16], ['LeakyReLU', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation376,0.00432572141289711,0.9286535978317261,"[['LeakyReLU', 64], ['Sigmoid', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation473,0.008798317052423954,0.9933955669403076,"[['ReLU', 16], ['Tanh', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,64,diamond
+Bp,simulation497,0.0058251251466572285,0.9395329356193542,"[['SiLU', 32], ['LeakyReLU', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation343,0.006059971172362566,1.0130254030227661,"[['Tanh', 128], ['ReLU', 32], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation468,0.006695863325148821,0.9360105991363525,"[['ReLU', 32], ['LeakyReLU', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation691,0.0388183519244194,0.9239916801452637,"[['Sigmoid', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation680,0.06385263055562973,0.9655618667602539,"[['Sigmoid', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation153,0.011210290715098381,0.9870947003364563,"[['ReLU', 32], ['Sigmoid', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation149,0.00802977941930294,0.9448282122612,"[['LeakyReLU', 32], ['Sigmoid', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation90,0.012329556979238987,0.9315024614334106,"[['ReLU', 16], ['LeakyReLU', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation192,0.0037280721589922905,0.902053952217102,"[['Tanh', 64], ['Sigmoid', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation713,0.019513674080371857,0.9124385714530945,"[['LeakyReLU', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation76,0.009045192040503025,0.939311146736145,"[['Sigmoid', 32], ['SiLU', 64], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation491,0.010911832563579082,0.9959475994110107,"[['Sigmoid', 16], ['SiLU', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation613,0.01273335237056017,0.9585578441619873,"[['ELU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation227,0.0055360193364322186,0.9651041626930237,"[['SiLU', 64], ['SiLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation774,0.015939800068736076,0.9376819133758545,"[['ELU', 128], ['ELU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation521,0.021227143704891205,0.9315289855003357,"[['LeakyReLU', 16], ['ELU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation247,0.019901132211089134,0.9517970085144043,"[['Sigmoid', 64], ['ReLU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation522,0.014669722877442837,0.913093090057373,"[['SiLU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation672,0.01358811929821968,0.9043066501617432,"[['Sigmoid', 128], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation322,0.00564061151817441,0.9713920950889587,"[['LeakyReLU', 64], ['LeakyReLU', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation381,0.008758210577070713,0.9747359752655029,"[['SiLU', 32], ['ELU', 16], ['ReLU', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation614,0.034355416893959045,0.8906054496765137,"[['ELU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation644,0.035201847553253174,0.9078493714332581,"[['ELU', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation291,0.005876111797988415,0.9715916514396667,"[['Sigmoid', 128], ['Tanh', 32], ['ELU', 16]]",False,traininig_data/treino_s/,176,bottleneck
+Bp,simulation286,0.006413543131202459,0.9548479318618774,"[['SiLU', 32], ['Sigmoid', 32], ['SiLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation344,0.0057847145944833755,0.947043240070343,"[['ReLU', 64], ['Tanh', 16], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation750,0.014485501684248447,0.9974198341369629,"[['ELU', 128], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation764,0.011957002803683281,0.9204249382019043,"[['Tanh', 128], ['SiLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation426,0.006750359665602446,0.9591295719146729,"[['ELU', 32], ['SiLU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation19,0.0057031987234950066,0.9629534482955933,"[['ELU', 32], ['Tanh', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation62,0.006172087509185076,1.0675694942474365,"[['LeakyReLU', 16], ['Tanh', 32], ['Sigmoid', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation495,0.010829491540789604,0.9985855221748352,"[['SiLU', 16], ['ReLU', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,64,diamond
+Bp,simulation772,0.008242884650826454,0.9341957569122314,"[['ReLU', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation65,0.007560187950730324,0.9355559349060059,"[['ELU', 16], ['Sigmoid', 32], ['ELU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation272,0.00809691846370697,1.0243970155715942,"[['LeakyReLU', 64], ['ELU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation570,0.026858285069465637,0.9163205623626709,"[['ELU', 16], ['ELU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation362,0.010061253793537617,0.944466233253479,"[['Sigmoid', 64], ['ELU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation429,0.008766214363276958,0.9957056641578674,"[['LeakyReLU', 16], ['Sigmoid', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation37,0.0048882667906582355,0.9307683706283569,"[['SiLU', 32], ['LeakyReLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation418,0.006609409116208553,1.1489782333374023,"[['Tanh', 16], ['ReLU', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation274,0.006966135464608669,0.949050784111023,"[['ReLU', 64], ['Sigmoid', 32], ['ELU', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation563,0.016856437548995018,0.8983297348022461,"[['ELU', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation325,0.00690322695299983,1.0010498762130737,"[['ELU', 64], ['Tanh', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation18,0.005070399958640337,0.9815346598625183,"[['ELU', 32], ['ReLU', 32], ['Sigmoid', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation55,0.004706528037786484,0.975021481513977,"[['SiLU', 32], ['LeakyReLU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation716,0.03269929811358452,0.9581296443939209,"[['Sigmoid', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation304,0.007493447978049517,1.0655444860458374,"[['Tanh', 128], ['ReLU', 16], ['SiLU', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation157,0.005677867215126753,0.9606130123138428,"[['Tanh', 32], ['SiLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation728,0.013121088966727257,0.9641550779342651,"[['SiLU', 128], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation73,0.008095500990748405,0.9557006359100342,"[['ReLU', 16], ['ReLU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation567,0.011449879966676235,0.9600298404693604,"[['ReLU', 64], ['ELU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation112,0.014689628966152668,0.9761465787887573,"[['Tanh', 16], ['LeakyReLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation431,0.008776022121310234,0.9289515614509583,"[['Tanh', 16], ['ELU', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation117,0.009100530296564102,0.9791918992996216,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation448,0.006949119735509157,1.0407811403274536,"[['ReLU', 64], ['Tanh', 128], ['ELU', 64]]",False,traininig_data/treino_s/,256,diamond
+Bp,simulation398,0.00515751214697957,0.9202662110328674,"[['LeakyReLU', 128], ['SiLU', 16], ['Tanh', 64]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation451,0.0059544979594647884,0.9373778104782104,"[['Sigmoid', 16], ['LeakyReLU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation145,0.007406185381114483,0.9580612182617188,"[['Tanh', 32], ['LeakyReLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation593,0.017764052376151085,0.9830020666122437,"[['Sigmoid', 32], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation197,0.006625363603234291,0.9493217468261719,"[['ELU', 64], ['ELU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation69,0.007508252747356892,0.9482684135437012,"[['ReLU', 16], ['Tanh', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation727,0.01592288538813591,0.9113450646400452,"[['Tanh', 32], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation534,0.008808082900941372,0.9533095359802246,"[['LeakyReLU', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation287,0.005640744231641293,1.0042644739151,"[['SiLU', 128], ['SiLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation41,0.003721074666827917,0.9289475083351135,"[['LeakyReLU', 32], ['LeakyReLU', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation326,0.007187429815530777,0.9297598600387573,"[['ReLU', 64], ['LeakyReLU', 32], ['ELU', 128]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation221,0.005356300622224808,0.9779507517814636,"[['LeakyReLU', 64], ['LeakyReLU', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation218,0.016340455040335655,0.9658109545707703,"[['Sigmoid', 32], ['ReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation28,0.007763841655105352,0.9801561832427979,"[['Tanh', 16], ['SiLU', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation184,0.017054490745067596,0.9496098160743713,"[['LeakyReLU', 16], ['Tanh', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation574,0.015070219524204731,0.9629596471786499,"[['ELU', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation47,0.0061418963596224785,0.9542862176895142,"[['Tanh', 32], ['Tanh', 64], ['ELU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation15,0.009206111542880535,0.9282461404800415,"[['Sigmoid', 32], ['Tanh', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation383,0.007343499455600977,0.998857855796814,"[['LeakyReLU', 32], ['LeakyReLU', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation259,0.004152743611484766,0.9483675360679626,"[['LeakyReLU', 128], ['ELU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,256,bottleneck
+Bp,simulation340,0.0093177929520607,0.9754087328910828,"[['Tanh', 64], ['LeakyReLU', 16], ['Tanh', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation640,0.01653764396905899,0.9290491938591003,"[['ReLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation155,0.0059310938231647015,0.9708917737007141,"[['SiLU', 64], ['SiLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation122,0.006223302334547043,0.9702474474906921,"[['SiLU', 32], ['ReLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation545,0.044356849044561386,0.9073055982589722,"[['Sigmoid', 32], ['ELU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation543,0.007170205004513264,0.9354230761528015,"[['LeakyReLU', 32], ['ReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation393,0.005985536612570286,0.9257692694664001,"[['ReLU', 128], ['LeakyReLU', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation678,0.008277211338281631,0.9094426035881042,"[['Tanh', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation622,0.021539032459259033,0.9681505560874939,"[['ReLU', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation492,0.004183712415397167,0.9224007725715637,"[['ELU', 32], ['Sigmoid', 128], ['ELU', 64]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation653,0.04541325196623802,1.0501697063446045,"[['Tanh', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation294,0.006144767627120018,0.8903157711029053,"[['ELU', 128], ['SiLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation767,0.012949246913194656,0.9815428256988525,"[['ReLU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation193,0.00368318404071033,0.9525203704833984,"[['Tanh', 64], ['Tanh', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation267,0.010667678900063038,0.9814844131469727,"[['ELU', 32], ['ReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation293,0.0070485821925103664,1.040189266204834,"[['Tanh', 64], ['ReLU', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation602,0.02370283007621765,0.9762635231018066,"[['LeakyReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation330,0.004853763617575169,0.9392396807670593,"[['Tanh', 64], ['SiLU', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation209,0.004578444641083479,0.9560410380363464,"[['LeakyReLU', 64], ['Tanh', 64], ['Sigmoid', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation266,0.00846102088689804,0.9516380429267883,"[['Sigmoid', 64], ['Tanh', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation591,0.010048487223684788,0.935901403427124,"[['LeakyReLU', 16], ['ReLU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation331,0.008329145610332489,1.065875768661499,"[['ReLU', 32], ['LeakyReLU', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation142,0.014149541035294533,0.9260663986206055,"[['SiLU', 16], ['ELU', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation428,0.00954846478998661,0.9194750785827637,"[['Tanh', 16], ['ELU', 128], ['ELU', 64]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation645,0.013189930468797684,0.9735545516014099,"[['ELU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation654,0.013525753282010555,0.9440688490867615,"[['SiLU', 128], ['ELU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation725,0.01152461301535368,0.9526620507240295,"[['Tanh', 128], ['ReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation310,0.021930916234850883,0.9845460653305054,"[['Sigmoid', 128], ['ReLU', 16], ['SiLU', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation283,0.004484898876398802,0.9487338066101074,"[['ELU', 128], ['Tanh', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,256,bottleneck
+Bp,simulation70,0.006928257178515196,0.9322811365127563,"[['ELU', 32], ['LeakyReLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation84,0.006519853137433529,0.9651995301246643,"[['Sigmoid', 32], ['SiLU', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation373,0.008485181257128716,0.9500088095664978,"[['SiLU', 64], ['ReLU', 16], ['ELU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation683,0.019483620300889015,0.9489301443099976,"[['Tanh', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation12,0.006781714502722025,1.0559916496276855,"[['ELU', 32], ['LeakyReLU', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation320,0.008716735057532787,0.9486950635910034,"[['ELU', 32], ['Sigmoid', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation255,0.005569859407842159,0.9328069686889648,"[['LeakyReLU', 64], ['SiLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation220,0.0056356703862547874,0.9156950116157532,"[['Tanh', 64], ['SiLU', 32], ['Sigmoid', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation302,0.009337839670479298,1.0011626482009888,"[['LeakyReLU', 32], ['Tanh', 16], ['ELU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation160,0.007390376180410385,0.9882528781890869,"[['Tanh', 32], ['LeakyReLU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation124,0.011927179992198944,0.9094167947769165,"[['ELU', 16], ['Sigmoid', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation689,0.01038265135139227,0.9566277265548706,"[['ReLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation703,0.015512912534177303,0.9329720735549927,"[['ELU', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation273,0.005497481673955917,0.9427908658981323,"[['ReLU', 128], ['SiLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation537,0.03624961897730827,0.9927288293838501,"[['SiLU', 16], ['ELU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation720,0.009479902684688568,0.9161201119422913,"[['Tanh', 64], ['Tanh', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation168,0.011078179813921452,0.9201869368553162,"[['Sigmoid', 32], ['ELU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation51,0.014179646968841553,1.0243347883224487,"[['Sigmoid', 16], ['LeakyReLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation515,0.014223639853298664,0.9628716111183167,"[['Tanh', 16], ['Tanh', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation77,0.005681243259459734,0.971199631690979,"[['ReLU', 16], ['ReLU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation698,0.01625448279082775,0.9425312280654907,"[['Tanh', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation106,0.005735302343964577,0.9590374231338501,"[['SiLU', 32], ['ReLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation237,0.006242585834115744,0.9871330261230469,"[['LeakyReLU', 128], ['LeakyReLU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation346,0.004431888461112976,0.9374325275421143,"[['ReLU', 64], ['Tanh', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation660,0.01624380610883236,0.9583681225776672,"[['Tanh', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation150,0.0045714834704995155,1.037655234336853,"[['LeakyReLU', 64], ['SiLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation788,0.021673079580068588,0.9948968887329102,"[['Sigmoid', 128], ['ELU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation173,0.005123591981828213,0.9785109162330627,"[['SiLU', 32], ['ELU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation23,0.004629666451364756,0.9306529760360718,"[['ELU', 32], ['Sigmoid', 64], ['SiLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation170,0.0052584451623260975,0.9869003295898438,"[['ReLU', 64], ['LeakyReLU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation364,0.006246267352253199,0.9641144275665283,"[['SiLU', 64], ['SiLU', 32], ['ReLU', 128]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation582,0.019445955753326416,0.9362704753875732,"[['SiLU', 16], ['Sigmoid', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation682,0.013094461522996426,0.9493275284767151,"[['Tanh', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation308,0.006620386615395546,0.9405943155288696,"[['LeakyReLU', 64], ['Tanh', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation250,0.0051195877604186535,0.953911304473877,"[['ELU', 64], ['Sigmoid', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation623,0.04006080701947212,1.0152148008346558,"[['Tanh', 16], ['ELU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation276,0.006637569051235914,0.9801972508430481,"[['Sigmoid', 64], ['SiLU', 32], ['SiLU', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation345,0.007913220673799515,0.9727680683135986,"[['SiLU', 64], ['SiLU', 16], ['ELU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation663,0.013458301313221455,0.9615709781646729,"[['ELU', 128], ['ReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation578,0.013978341594338417,0.9491409659385681,"[['Sigmoid', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation631,0.0307666826993227,0.8969869017601013,"[['LeakyReLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation263,0.0072662075981497765,0.9513257145881653,"[['Tanh', 64], ['ReLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation102,0.006009816192090511,0.9490290284156799,"[['LeakyReLU', 32], ['Tanh', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation131,0.007834638468921185,0.9281830191612244,"[['Sigmoid', 64], ['Tanh', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation125,0.005117001477628946,0.9582913517951965,"[['Tanh', 64], ['SiLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation338,0.007039996329694986,1.085610032081604,"[['SiLU', 128], ['LeakyReLU', 32], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation778,0.036059435456991196,0.9040532112121582,"[['Sigmoid', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation658,0.031778205186128616,0.9943302273750305,"[['Sigmoid', 64], ['ELU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation299,0.006510056555271149,1.0384666919708252,"[['ReLU', 64], ['LeakyReLU', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation254,0.006596363615244627,1.0181037187576294,"[['Tanh', 64], ['SiLU', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation224,0.0047003705985844135,0.9505660533905029,"[['LeakyReLU', 128], ['LeakyReLU', 64], ['ELU', 32]]",False,traininig_data/treino_s/,224,bottleneck
+Bp,simulation35,0.005683732684701681,0.914888322353363,"[['SiLU', 32], ['Sigmoid', 32], ['ELU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation746,0.016477759927511215,0.9561676979064941,"[['SiLU', 32], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation248,0.007002708502113819,0.9636862277984619,"[['SiLU', 128], ['SiLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation45,0.005687925033271313,0.9388226866722107,"[['ELU', 32], ['Sigmoid', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation36,0.004990406800061464,0.9541788101196289,"[['Tanh', 16], ['Tanh', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation616,0.014766938053071499,0.9123224020004272,"[['ELU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation371,0.007041596341878176,0.9747362732887268,"[['Tanh', 32], ['Tanh', 16], ['ReLU', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation43,0.00830220989882946,1.0253185033798218,"[['LeakyReLU', 16], ['ELU', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation753,0.011731461621820927,0.9558266401290894,"[['LeakyReLU', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation32,0.011153033003211021,0.9857907891273499,"[['Sigmoid', 16], ['LeakyReLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation454,0.006864974275231361,0.9835654497146606,"[['Sigmoid', 16], ['Tanh', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation433,0.010111996904015541,0.9608933925628662,"[['Sigmoid', 16], ['SiLU', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation370,0.0051294974982738495,0.9614004492759705,"[['ELU', 32], ['SiLU', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation478,0.0050489935092628,0.9405346512794495,"[['SiLU', 32], ['Sigmoid', 64], ['ELU', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation662,0.015860969200730324,0.9631178975105286,"[['SiLU', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation733,0.01371254213154316,0.9220443964004517,"[['SiLU', 128], ['SiLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation742,0.014399217441678047,0.9233607053756714,"[['SiLU', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation96,0.005552881862968206,1.0138384103775024,"[['Sigmoid', 16], ['LeakyReLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation650,0.013024698942899704,0.9160747528076172,"[['LeakyReLU', 64], ['ELU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation66,0.005590725224465132,0.9338744878768921,"[['Tanh', 64], ['SiLU', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation216,0.0080162538215518,0.9624470472335815,"[['ReLU', 128], ['ReLU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation511,0.03063000738620758,1.0336956977844238,"[['ReLU', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation461,0.005072548054158688,0.9359766244888306,"[['Sigmoid', 32], ['LeakyReLU', 128], ['SiLU', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation165,0.006014119368046522,0.9276406168937683,"[['SiLU', 32], ['SiLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation242,0.007454146631062031,0.8712289929389954,"[['ELU', 128], ['ELU', 32], ['Tanh', 16]]",False,traininig_data/treino_s/,176,bottleneck
+Bp,simulation700,0.014463069848716259,0.9373934268951416,"[['SiLU', 64], ['Sigmoid', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation147,0.0052789682522416115,0.9713549613952637,"[['SiLU', 64], ['Tanh', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation363,0.006702180486172438,1.0236977338790894,"[['SiLU', 32], ['LeakyReLU', 16], ['SiLU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation403,0.010151446796953678,0.9564281702041626,"[['SiLU', 16], ['ELU', 128], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation651,0.015822235494852066,0.9554015398025513,"[['ReLU', 32], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation463,0.015569067560136318,1.0117003917694092,"[['ReLU', 16], ['Sigmoid', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation202,0.006018245592713356,0.9363185167312622,"[['Tanh', 32], ['SiLU', 32], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation103,0.0143378721550107,1.1262097358703613,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation63,0.005584132391959429,0.9612082242965698,"[['Tanh', 16], ['Sigmoid', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation785,0.015750547870993614,0.955919086933136,"[['Tanh', 128], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation128,0.014616952277719975,0.9613128900527954,"[['ReLU', 16], ['LeakyReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation350,0.007730955723673105,0.985847532749176,"[['ELU', 64], ['LeakyReLU', 16], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation105,0.006204857490956783,0.9989369511604309,"[['Sigmoid', 64], ['ELU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation233,0.005902554374188185,0.9540971517562866,"[['ELU', 128], ['Sigmoid', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation442,0.004811328370124102,1.0007750988006592,"[['ReLU', 64], ['SiLU', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation20,0.015107023529708385,1.013906478881836,"[['Tanh', 16], ['ReLU', 16], ['ELU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation101,0.0060089160688221455,1.1036598682403564,"[['ReLU', 64], ['ReLU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation33,0.009951789863407612,0.896568775177002,"[['ELU', 16], ['SiLU', 32], ['ELU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation110,0.008939001709222794,0.9302380084991455,"[['SiLU', 16], ['Tanh', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation265,0.011144101619720459,0.9498907327651978,"[['ReLU', 32], ['SiLU', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation78,0.0064817629754543304,0.9329512119293213,"[['Tanh', 32], ['Sigmoid', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation749,0.015444383025169373,0.9248948097229004,"[['ELU', 128], ['Sigmoid', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation471,0.004544511903077364,0.9659085273742676,"[['ELU', 64], ['Sigmoid', 128], ['ELU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation342,0.0058653028681874275,0.9551302194595337,"[['Tanh', 64], ['Tanh', 32], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation608,0.023470809683203697,0.945111870765686,"[['SiLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation457,0.033025067299604416,0.9661241769790649,"[['Sigmoid', 16], ['Sigmoid', 64], ['ELU', 16]]",False,traininig_data/treino_s/,96,diamond
+Bp,simulation316,0.005405067000538111,1.0132824182510376,"[['LeakyReLU', 128], ['Sigmoid', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation544,0.020085813477635384,0.921297550201416,"[['SiLU', 32], ['ELU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation687,0.007549327798187733,0.9446163177490234,"[['ReLU', 128], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation72,0.006150493398308754,0.915679395198822,"[['SiLU', 32], ['ELU', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation799,0.01757669635117054,0.9408731460571289,"[['ELU', 32], ['Tanh', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation546,0.05734216421842575,1.0178132057189941,"[['Sigmoid', 16], ['ELU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation243,0.009515289217233658,0.950935423374176,"[['Sigmoid', 32], ['Tanh', 32], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation717,0.04001620411872864,0.8689162731170654,"[['Sigmoid', 64], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation605,0.017443044111132622,0.9503847360610962,"[['ELU', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation675,0.009370396845042706,0.93413245677948,"[['ELU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation156,0.009733963757753372,0.9731077551841736,"[['SiLU', 16], ['SiLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation64,0.011526315473020077,0.9412618279457092,"[['SiLU', 16], ['ELU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation361,0.007581470068544149,0.9066833257675171,"[['Tanh', 64], ['SiLU', 16], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation741,0.01595727913081646,0.8986145853996277,"[['SiLU', 128], ['ELU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation91,0.007817857898771763,0.9475250244140625,"[['LeakyReLU', 16], ['ELU', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation44,0.007704910822212696,0.9493807554244995,"[['LeakyReLU', 16], ['Sigmoid', 32], ['Sigmoid', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation108,0.005190473515540361,0.9605742692947388,"[['ReLU', 64], ['Sigmoid', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation246,0.0066398452036082745,0.9938341379165649,"[['SiLU', 64], ['ELU', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation311,0.014530225656926632,0.9794305562973022,"[['ReLU', 64], ['Sigmoid', 16], ['ELU', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation643,0.008183237165212631,1.0182510614395142,"[['LeakyReLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation271,0.013958794064819813,0.9587461948394775,"[['Sigmoid', 128], ['LeakyReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation723,0.016638461500406265,0.957051694393158,"[['SiLU', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation323,0.00913405790925026,0.946033239364624,"[['ELU', 64], ['LeakyReLU', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation475,0.0059859477914869785,0.9158260822296143,"[['LeakyReLU', 32], ['ELU', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation721,0.018714897334575653,0.9263712167739868,"[['ELU', 128], ['ReLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation89,0.005742126610130072,0.9572550058364868,"[['Tanh', 16], ['Tanh', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation181,0.013650955632328987,1.0117535591125488,"[['ReLU', 16], ['ReLU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation230,0.005261910147964954,0.9549030065536499,"[['LeakyReLU', 128], ['ELU', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation736,0.011480428278446198,0.975900411605835,"[['ReLU', 64], ['SiLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation699,0.010173575952649117,0.9665356278419495,"[['ReLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation600,0.05139724910259247,0.9569456577301025,"[['Sigmoid', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation633,0.010130439884960651,0.9640970230102539,"[['ReLU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation11,0.004732157103717327,0.9859343767166138,"[['LeakyReLU', 32], ['Sigmoid', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation432,0.005616678390651941,0.9479680061340332,"[['Tanh', 32], ['ReLU', 64], ['Tanh', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation707,0.012353315018117428,0.9696679711341858,"[['Tanh', 64], ['Sigmoid', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation782,0.018030550330877304,1.0433334112167358,"[['ReLU', 32], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation791,0.019970953464508057,1.0124754905700684,"[['LeakyReLU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation590,0.015094910748302937,1.066481113433838,"[['LeakyReLU', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation199,0.005894061177968979,0.9627988934516907,"[['SiLU', 32], ['Sigmoid', 32], ['ELU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation94,0.004836655221879482,0.9298604726791382,"[['ReLU', 16], ['LeakyReLU', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation554,0.020087869837880135,0.9682309627532959,"[['Tanh', 32], ['ELU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation354,0.008383606560528278,0.9639517664909363,"[['LeakyReLU', 64], ['Sigmoid', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation685,0.013241381384432316,0.9489130973815918,"[['ELU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation129,0.006784228142350912,0.9439105987548828,"[['Sigmoid', 64], ['SiLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation766,0.01136780809611082,0.9376658201217651,"[['Sigmoid', 128], ['Sigmoid', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation390,0.00551691185683012,0.9526087045669556,"[['ReLU', 128], ['ELU', 16], ['ELU', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation392,0.009293923154473305,0.9721176028251648,"[['Sigmoid', 64], ['ReLU', 16], ['Sigmoid', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation295,0.015860335901379585,0.9764060974121094,"[['Sigmoid', 32], ['LeakyReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation438,0.004821959417313337,0.9544879198074341,"[['SiLU', 32], ['LeakyReLU', 128], ['Tanh', 64]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation557,0.014855721034109592,1.0032764673233032,"[['ELU', 16], ['ReLU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation67,0.006888387259095907,0.9458557963371277,"[['ReLU', 32], ['ELU', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation379,0.011769691482186317,0.9525356292724609,"[['Sigmoid', 32], ['ReLU', 16], ['SiLU', 64]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation353,0.006229221820831299,0.9235985279083252,"[['SiLU', 64], ['SiLU', 32], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation387,0.01018392015248537,0.949597954750061,"[['ELU', 32], ['ReLU', 16], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation256,0.0048085046000778675,1.0654234886169434,"[['Tanh', 128], ['SiLU', 64], ['Sigmoid', 32]]",False,traininig_data/treino_s/,224,bottleneck
+Bp,simulation484,0.008114556781947613,0.954094409942627,"[['SiLU', 16], ['Sigmoid', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation585,0.025085657835006714,0.9413222670555115,"[['ReLU', 16], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation82,0.006753647234290838,0.9649569988250732,"[['Tanh', 32], ['ELU', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation196,0.007031254470348358,0.9268567562103271,"[['Sigmoid', 32], ['SiLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation409,0.008554210886359215,0.9493054151535034,"[['ReLU', 16], ['LeakyReLU', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,96,diamond
+Bp,simulation476,0.006248570512980223,0.9659382104873657,"[['ELU', 16], ['Sigmoid', 128], ['ReLU', 64]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation140,0.006736826151609421,1.0634411573410034,"[['ELU', 32], ['ReLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation538,0.023050177842378616,0.9515348076820374,"[['Sigmoid', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation10,0.005791763309389353,0.8913242816925049,"[['ELU', 32], ['ELU', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation708,0.009052831679582596,0.9480491876602173,"[['LeakyReLU', 128], ['SiLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation498,0.015918878838419914,0.9607807993888855,"[['Sigmoid', 16], ['SiLU', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation141,0.004830511752516031,0.9749701619148254,"[['ReLU', 64], ['SiLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation229,0.00978722795844078,1.0137896537780762,"[['SiLU', 64], ['LeakyReLU', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation292,0.0068555534817278385,0.9333826303482056,"[['Sigmoid', 64], ['ELU', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation648,0.008115442469716072,0.9387316703796387,"[['LeakyReLU', 128], ['ELU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation467,0.009915749542415142,0.9577580690383911,"[['SiLU', 16], ['SiLU', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,64,diamond
+Bp,simulation0,0.006158569827675819,0.9529554843902588,"[['ELU', 32], ['SiLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation1,0.009355617687106133,0.9628910422325134,"[['ReLU', 16], ['Tanh', 32], ['ELU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation154,0.014401867985725403,0.8938131332397461,"[['Tanh', 16], ['LeakyReLU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation435,0.00589093379676342,0.9409881830215454,"[['SiLU', 16], ['ReLU', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation134,0.005984787363559008,0.9614758491516113,"[['LeakyReLU', 32], ['SiLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation152,0.007794506382197142,0.9023130536079407,"[['Sigmoid', 32], ['ELU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation686,0.007810668088495731,1.0252594947814941,"[['LeakyReLU', 128], ['SiLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation319,0.04538526386022568,1.0277074575424194,"[['Sigmoid', 32], ['Sigmoid', 16], ['ELU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation52,0.0054469481110572815,0.9519205689430237,"[['LeakyReLU', 16], ['ReLU', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation724,0.0143174659460783,0.9857807159423828,"[['Tanh', 64], ['SiLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation396,0.006857555825263262,0.9661217331886292,"[['LeakyReLU', 32], ['ReLU', 16], ['Sigmoid', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation262,0.0048435041680932045,0.9826826453208923,"[['Tanh', 64], ['Sigmoid', 32], ['Tanh', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation139,0.010093939490616322,0.9687659740447998,"[['SiLU', 16], ['LeakyReLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation702,0.013203826732933521,0.9411865472793579,"[['Tanh', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation695,0.034401338547468185,0.9298086762428284,"[['Sigmoid', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation427,0.004995244089514017,0.9876185655593872,"[['ReLU', 16], ['SiLU', 128], ['SiLU', 64]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation38,0.004337974824011326,0.9598934054374695,"[['SiLU', 32], ['LeakyReLU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation191,0.01012779213488102,0.9970588088035583,"[['Sigmoid', 32], ['ReLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation486,0.004645159933716059,0.9639222025871277,"[['ReLU', 64], ['Tanh', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation60,0.005770587362349033,1.0587866306304932,"[['ReLU', 16], ['ReLU', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation3,0.0039407857693731785,0.9083219766616821,"[['ReLU', 32], ['ReLU', 64], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation171,0.006862075999379158,0.9736641645431519,"[['ReLU', 32], ['Tanh', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation763,0.02998855896294117,0.9069275856018066,"[['Tanh', 32], ['ELU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation514,0.030243756249547005,0.9736347794532776,"[['ReLU', 16], ['ELU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation676,0.008759035728871822,0.9390382766723633,"[['ReLU', 128], ['Tanh', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation368,0.006357908248901367,1.0028895139694214,"[['SiLU', 64], ['LeakyReLU', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation599,0.015787305310368538,1.008837342262268,"[['ELU', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation612,0.04339905083179474,0.9915884137153625,"[['Sigmoid', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation762,0.0076332902535796165,0.926654040813446,"[['ReLU', 128], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation378,0.009691786020994186,0.962218701839447,"[['LeakyReLU', 32], ['Sigmoid', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation40,0.005364767275750637,0.9508500695228577,"[['Tanh', 32], ['Sigmoid', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation399,0.004833346698433161,0.9413474202156067,"[['LeakyReLU', 128], ['ELU', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation176,0.006170881912112236,1.0000674724578857,"[['SiLU', 32], ['LeakyReLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation793,0.02541171945631504,0.9302076101303101,"[['Sigmoid', 32], ['Tanh', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation771,0.008811772800981998,0.9191179275512695,"[['ReLU', 64], ['Tanh', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation711,0.012474494986236095,0.932470440864563,"[['SiLU', 64], ['Tanh', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation297,0.008076207712292671,0.9444773197174072,"[['ELU', 128], ['ReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation509,0.015873629599809647,0.942522406578064,"[['SiLU', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation415,0.009867030195891857,0.9844034910202026,"[['Sigmoid', 32], ['SiLU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation759,0.009198188781738281,0.973488986492157,"[['LeakyReLU', 128], ['SiLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation341,0.006382964551448822,0.9338585138320923,"[['SiLU', 64], ['Sigmoid', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation235,0.008213070221245289,0.9423307180404663,"[['ReLU', 64], ['Sigmoid', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation776,0.016351399943232536,0.9280887246131897,"[['SiLU', 128], ['ELU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation483,0.011167800985276699,0.9837707877159119,"[['Sigmoid', 16], ['SiLU', 32], ['SiLU', 16]]",False,traininig_data/treino_s/,64,diamond
+Bp,simulation777,0.016912885010242462,1.002468228340149,"[['ReLU', 32], ['Tanh', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation359,0.005509343929588795,0.9683287143707275,"[['SiLU', 64], ['ReLU', 16], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation236,0.007083944045007229,0.9670820832252502,"[['ELU', 32], ['Tanh', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation575,0.014608579687774181,0.9289559721946716,"[['SiLU', 64], ['ELU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation214,0.006773635745048523,0.9547414779663086,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['SiLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation740,0.020886417478322983,0.9181653261184692,"[['LeakyReLU', 32], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation205,0.009725444950163364,0.9730691909790039,"[['Tanh', 32], ['ELU', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation277,0.005814418662339449,0.9447888135910034,"[['SiLU', 64], ['SiLU', 32], ['Tanh', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation619,0.006359756458550692,0.9831313490867615,"[['ReLU', 128], ['ReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation630,0.013915606774389744,0.9271915555000305,"[['ReLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation637,0.0378069207072258,0.9356908202171326,"[['ELU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation436,0.015755057334899902,0.9392609000205994,"[['Sigmoid', 16], ['Sigmoid', 128], ['ELU', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation530,0.012911617755889893,0.9337484240531921,"[['SiLU', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation659,0.01654857024550438,1.0016345977783203,"[['ReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation355,0.0099797323346138,0.9452077746391296,"[['Sigmoid', 64], ['SiLU', 16], ['ELU', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation523,0.010479305870831013,0.9287052750587463,"[['ReLU', 32], ['ReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation314,0.007659492548555136,0.9269289970397949,"[['Sigmoid', 64], ['SiLU', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation529,0.021441295742988586,0.9541538953781128,"[['ReLU', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation278,0.014155536890029907,0.8926161527633667,"[['SiLU', 64], ['ReLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation298,0.007937178947031498,0.9853603839874268,"[['SiLU', 64], ['Tanh', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation111,0.004424678161740303,0.970246434211731,"[['ELU', 64], ['Sigmoid', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation29,0.013539163395762444,0.9919537901878357,"[['ReLU', 32], ['Sigmoid', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,128,funnel
+Bp,simulation366,0.010061300359666348,0.9632354974746704,"[['Tanh', 32], ['ELU', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation705,0.02172100730240345,0.9598959684371948,"[['SiLU', 32], ['SiLU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation639,0.012257464230060577,0.9254118204116821,"[['Tanh', 128], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation447,0.005653803702443838,1.067931056022644,"[['ReLU', 64], ['SiLU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation100,0.01095426082611084,1.066279649734497,"[['Tanh', 16], ['SiLU', 16], ['ReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation664,0.013185755349695683,0.9547945261001587,"[['Tanh', 128], ['ReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation773,0.007826012559235096,0.9614258408546448,"[['LeakyReLU', 128], ['Tanh', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation533,0.014584499411284924,0.9655176401138306,"[['SiLU', 16], ['Tanh', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation732,0.015061701647937298,1.0068165063858032,"[['ReLU', 64], ['SiLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation606,0.01610604114830494,0.9298545718193054,"[['Tanh', 64], ['ELU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation324,0.004512919578701258,0.9463827610015869,"[['ReLU', 128], ['Tanh', 32], ['ELU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation604,0.012673783116042614,1.0021729469299316,"[['ReLU', 64], ['ELU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation539,0.019118627533316612,0.9176613092422485,"[['ELU', 64], ['ELU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation200,0.009374399669468403,0.9667425751686096,"[['Sigmoid', 64], ['ELU', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation501,0.016088837757706642,0.9055505990982056,"[['Sigmoid', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation50,0.008492346853017807,1.0366718769073486,"[['LeakyReLU', 16], ['ReLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation796,0.013389868661761284,0.9429125189781189,"[['SiLU', 128], ['Sigmoid', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation756,0.009123683907091618,0.9434012770652771,"[['Tanh', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation201,0.005890462547540665,1.0105431079864502,"[['ReLU', 64], ['SiLU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation164,0.006334529723972082,0.9564882516860962,"[['SiLU', 64], ['ELU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation443,0.00584974093362689,0.9221179485321045,"[['SiLU', 32], ['Tanh', 128], ['Tanh', 64]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation190,0.01028886903077364,0.9294052720069885,"[['ELU', 16], ['Sigmoid', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation694,0.016705257818102837,0.985578179359436,"[['Sigmoid', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation649,0.03149491548538208,0.9538429975509644,"[['LeakyReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation444,0.005616060923784971,0.9215902090072632,"[['ReLU', 16], ['LeakyReLU', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,160,diamond
+Bp,simulation213,0.008085974492132664,0.9786081314086914,"[['SiLU', 64], ['SiLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation786,0.03844336047768593,0.9136654138565063,"[['Sigmoid', 32], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation656,0.016266515478491783,0.9428004026412964,"[['LeakyReLU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation592,0.018816329538822174,0.9645813703536987,"[['ReLU', 16], ['SiLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation285,0.0076989298686385155,0.9672889113426208,"[['Tanh', 64], ['SiLU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation83,0.005840339232236147,0.9575366973876953,"[['Tanh', 16], ['ReLU', 64], ['SiLU', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation16,0.0182139091193676,0.9111911654472351,"[['Sigmoid', 32], ['Sigmoid', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation195,0.010031299665570259,0.9917005896568298,"[['SiLU', 16], ['ReLU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation114,0.012424352578818798,0.9177147150039673,"[['Tanh', 16], ['Sigmoid', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation6,0.004003619309514761,0.9291898608207703,"[['LeakyReLU', 64], ['Sigmoid', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation553,0.012761066667735577,0.9389510750770569,"[['SiLU', 16], ['Sigmoid', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation541,0.014101042412221432,0.9730545282363892,"[['SiLU', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation53,0.03215144947171211,0.9853916168212891,"[['LeakyReLU', 16], ['Sigmoid', 16], ['ELU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation775,0.01071547344326973,0.9215042591094971,"[['ReLU', 128], ['ELU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation714,0.009248251095414162,0.9480952024459839,"[['LeakyReLU', 128], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation477,0.005214320961385965,1.0288141965866089,"[['ReLU', 32], ['Tanh', 128], ['ELU', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation167,0.005942570511251688,1.0007193088531494,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['SiLU', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation494,0.00631437823176384,0.9788333773612976,"[['LeakyReLU', 16], ['LeakyReLU', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,96,diamond
+Bp,simulation296,0.00908206682652235,0.9551128149032593,"[['Sigmoid', 128], ['ReLU', 64], ['ELU', 64]]",False,traininig_data/treino_s/,256,bottleneck
+Bp,simulation309,0.006796586327254772,0.9857261180877686,"[['ReLU', 64], ['LeakyReLU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation223,0.005007465835660696,0.9973292946815491,"[['SiLU', 128], ['LeakyReLU', 64], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,224,bottleneck
+Bp,simulation670,0.006305273622274399,0.955046534538269,"[['LeakyReLU', 128], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation279,0.005624920595437288,0.9448603391647339,"[['Tanh', 128], ['Tanh', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation548,0.014815318398177624,0.9774539470672607,"[['ReLU', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation528,0.06050390750169754,0.9345557689666748,"[['Sigmoid', 16], ['ELU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation257,0.005716327112168074,1.0130563974380493,"[['Tanh', 128], ['ReLU', 64], ['SiLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation626,0.019024616107344627,0.9451459050178528,"[['Sigmoid', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation517,0.017163340002298355,0.9285372495651245,"[['Sigmoid', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation780,0.01203884556889534,0.9390267133712769,"[['Tanh', 128], ['ELU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation558,0.013031013309955597,0.9259311556816101,"[['ELU', 16], ['Sigmoid', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation688,0.008647209964692593,0.9656561613082886,"[['LeakyReLU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation712,0.02541978470981121,0.8970751762390137,"[['LeakyReLU', 32], ['ELU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation365,0.005316231865435839,0.9493024945259094,"[['ELU', 64], ['Tanh', 16], ['SiLU', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation34,0.01102807279676199,0.9839555621147156,"[['Sigmoid', 32], ['Tanh', 64], ['ELU', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation239,0.012127925641834736,0.9382688999176025,"[['LeakyReLU', 32], ['ELU', 32], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation317,0.009404168464243412,0.9985184669494629,"[['ELU', 64], ['ELU', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation22,0.006375753786414862,0.9493285417556763,"[['SiLU', 16], ['LeakyReLU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation681,0.011700166389346123,0.9776992201805115,"[['LeakyReLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation244,0.006819931324571371,1.0177092552185059,"[['ReLU', 64], ['LeakyReLU', 32], ['Sigmoid', 16]]",False,traininig_data/treino_s/,112,bottleneck
+Bp,simulation755,0.023041853681206703,0.9277296662330627,"[['ELU', 128], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation450,0.006327885203063488,0.9118117094039917,"[['Tanh', 64], ['LeakyReLU', 128], ['Tanh', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation318,0.008606042712926865,0.9572873711585999,"[['Tanh', 64], ['ELU', 16], ['ELU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation798,0.017383242025971413,0.937478244304657,"[['ELU', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation59,0.003672855906188488,0.9149339199066162,"[['ELU', 64], ['Sigmoid', 64], ['SiLU', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation493,0.008011828176677227,0.9555395841598511,"[['Sigmoid', 16], ['Sigmoid', 128], ['SiLU', 64]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation535,0.01563199982047081,0.9209921360015869,"[['ReLU', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation54,0.006464793346822262,0.9651231169700623,"[['Sigmoid', 32], ['ReLU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation261,0.004922746680676937,0.9357070326805115,"[['LeakyReLU', 64], ['ReLU', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation709,0.024758322164416313,0.9291958212852478,"[['ReLU', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation280,0.006398743484169245,1.0019792318344116,"[['Sigmoid', 64], ['LeakyReLU', 64], ['SiLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation440,0.005353463348001242,0.9631390571594238,"[['Sigmoid', 32], ['SiLU', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation504,0.013034888543188572,0.9483205676078796,"[['Sigmoid', 64], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation289,0.011371375061571598,0.9755218029022217,"[['ReLU', 32], ['ReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,64,bottleneck
+Bp,simulation482,0.010773911140859127,1.059178113937378,"[['ReLU', 16], ['Sigmoid', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation768,0.019647818058729172,0.9294713139533997,"[['Sigmoid', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation489,0.005196093115955591,0.928949236869812,"[['Tanh', 32], ['LeakyReLU', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation203,0.006584016140550375,0.9589402079582214,"[['Tanh', 64], ['Tanh', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation635,0.01659357361495495,0.9969883561134338,"[['Sigmoid', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation228,0.008220511488616467,0.952628493309021,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['ELU', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation351,0.006179850548505783,1.0159883499145508,"[['LeakyReLU', 128], ['SiLU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation560,0.04938383027911186,0.9879673719406128,"[['Sigmoid', 16], ['Tanh', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation241,0.006317091174423695,1.0146759748458862,"[['LeakyReLU', 64], ['LeakyReLU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation138,0.0044919769279658794,0.9259034991264343,"[['Tanh', 64], ['ReLU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation74,0.006917189806699753,0.9886151552200317,"[['LeakyReLU', 16], ['Tanh', 64], ['ELU', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation391,0.006252783816307783,0.9576967358589172,"[['LeakyReLU', 128], ['ELU', 16], ['ELU', 64]]",False,traininig_data/treino_s/,208,bowtie
+Bp,simulation14,0.004463657271116972,1.059688687324524,"[['ReLU', 64], ['Tanh', 64], ['Tanh', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation453,0.006596819031983614,0.9736525416374207,"[['SiLU', 16], ['Tanh', 128], ['ReLU', 32]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation706,0.01813880354166031,0.9603042006492615,"[['Tanh', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation185,0.00542428158223629,1.0419151782989502,"[['ReLU', 64], ['Sigmoid', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation516,0.007199815474450588,0.9691798686981201,"[['ReLU', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation752,0.019302619621157646,1.0135940313339233,"[['LeakyReLU', 32], ['SiLU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation556,0.023677567020058632,0.9067689776420593,"[['LeakyReLU', 16], ['Sigmoid', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation485,0.0060556805692613125,0.963984489440918,"[['ELU', 32], ['LeakyReLU', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation215,0.005005966406315565,0.9944228529930115,"[['LeakyReLU', 64], ['LeakyReLU', 64], ['Sigmoid', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation407,0.007980716414749622,0.9506507515907288,"[['Sigmoid', 64], ['Tanh', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation520,0.01766081713140011,0.9274884462356567,"[['Tanh', 16], ['SiLU', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation460,0.0043170275166630745,1.0054593086242676,"[['LeakyReLU', 64], ['ReLU', 128], ['ELU', 32]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation388,0.006618577986955643,0.9945799708366394,"[['Sigmoid', 64], ['SiLU', 16], ['Tanh', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation352,0.007908796891570091,0.9520514011383057,"[['Tanh', 32], ['Sigmoid', 16], ['Sigmoid', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation632,0.012780576944351196,0.9548268914222717,"[['LeakyReLU', 32], ['ReLU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation781,0.027162792161107063,0.9379459023475647,"[['ELU', 32], ['ReLU', 16]]",False,traininig_data/treino_s/,48,bottleneck
+Bp,simulation389,0.007141303736716509,0.9446080327033997,"[['Tanh', 128], ['ReLU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation456,0.005302860401570797,0.968978762626648,"[['LeakyReLU', 64], ['Tanh', 128], ['ELU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation21,0.012385712936520576,0.9483398199081421,"[['Tanh', 16], ['Sigmoid', 16], ['ELU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation88,0.007865404710173607,0.9451959729194641,"[['LeakyReLU', 32], ['ELU', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation496,0.005715625826269388,1.0015230178833008,"[['ELU', 16], ['ReLU', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation61,0.0077340006828308105,0.998107373714447,"[['ELU', 16], ['ELU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,176,funnel
+Bp,simulation127,0.017568081617355347,1.0509470701217651,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation677,0.022915184497833252,0.9491379857063293,"[['ELU', 32], ['ELU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation146,0.005798953585326672,0.983771800994873,"[['Tanh', 64], ['Tanh', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation726,0.0071486011147499084,0.9272181987762451,"[['ReLU', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation597,0.015113631263375282,0.9216084480285645,"[['ReLU', 32], ['ELU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation46,0.007142655085772276,1.017568826675415,"[['SiLU', 16], ['ReLU', 64], ['ELU', 128]]",False,traininig_data/treino_s/,208,funnel
+Bp,simulation307,0.006508447229862213,0.9801850914955139,"[['Tanh', 64], ['Tanh', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,112,bowtie
+Bp,simulation169,0.008202807046473026,0.9577268362045288,"[['SiLU', 16], ['ELU', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation92,0.0029678347054868937,0.9458250999450684,"[['SiLU', 64], ['Sigmoid', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation306,0.009587307460606098,0.933818519115448,"[['ELU', 32], ['LeakyReLU', 16], ['SiLU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation382,0.00773469777777791,0.9471997022628784,"[['ELU', 128], ['LeakyReLU', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation225,0.0046527492813766,0.9144003987312317,"[['Tanh', 64], ['SiLU', 64], ['Sigmoid', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation270,0.00507357669994235,0.9505435228347778,"[['LeakyReLU', 128], ['ReLU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,256,bottleneck
+Bp,simulation671,0.023981118574738503,0.9816364645957947,"[['Tanh', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation455,0.006818677764385939,0.9493095874786377,"[['Tanh', 32], ['SiLU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation321,0.00433477945625782,0.936032235622406,"[['Tanh', 128], ['Tanh', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation531,0.010471105575561523,0.9340500831604004,"[['SiLU', 32], ['Sigmoid', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation642,0.010963263921439648,0.9388968348503113,"[['Sigmoid', 128], ['Tanh', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation621,0.03203683719038963,0.8708637952804565,"[['Sigmoid', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation647,0.007024572230875492,0.9484834671020508,"[['LeakyReLU', 128], ['Tanh', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation565,0.011454693973064423,0.8745107650756836,"[['ELU', 16], ['Tanh', 128]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation81,0.006367696914821863,1.0756187438964844,"[['ReLU', 32], ['ELU', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation86,0.004282387904822826,0.9394756555557251,"[['SiLU', 32], ['ELU', 64], ['Sigmoid', 64]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation564,0.022044042125344276,0.9475183486938477,"[['Sigmoid', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation470,0.008125917054712772,0.9775131344795227,"[['LeakyReLU', 16], ['ReLU', 64], ['SiLU', 16]]",False,traininig_data/treino_s/,96,diamond
+Bp,simulation375,0.012768498621881008,1.030677318572998,"[['Sigmoid', 32], ['ReLU', 16], ['LeakyReLU', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation238,0.004906162619590759,0.9631631374359131,"[['ReLU', 128], ['ReLU', 64], ['SiLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation527,0.009926671162247658,0.9360057711601257,"[['Tanh', 32], ['Sigmoid', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation174,0.004303854424506426,0.9419601559638977,"[['ELU', 32], ['Tanh', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation596,0.02399321459233761,1.0634963512420654,"[['ReLU', 16], ['Tanh', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation462,0.0050413585267961025,0.9108434915542603,"[['SiLU', 16], ['ELU', 128], ['Tanh', 32]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation704,0.011184877716004848,0.986427366733551,"[['LeakyReLU', 128], ['Sigmoid', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation166,0.005268508568406105,1.063376545906067,"[['Tanh', 64], ['LeakyReLU', 64], ['SiLU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation80,0.012589402496814728,0.9235252141952515,"[['Sigmoid', 16], ['Sigmoid', 64], ['ReLU', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation500,0.013884207233786583,0.9245669841766357,"[['ReLU', 32], ['Sigmoid', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation269,0.006426225416362286,0.9671419262886047,"[['LeakyReLU', 128], ['LeakyReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation547,0.015247201547026634,0.9247229099273682,"[['SiLU', 16], ['Tanh', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation505,0.014212772250175476,0.9345270991325378,"[['SiLU', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation210,0.006270490121096373,1.0413583517074585,"[['ReLU', 128], ['ELU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation360,0.008565830998122692,0.9492847919464111,"[['ELU', 64], ['ELU', 16], ['Sigmoid', 64]]",False,traininig_data/treino_s/,144,bowtie
+Bp,simulation464,0.008712881244719028,0.9190271496772766,"[['SiLU', 16], ['SiLU', 32], ['ReLU', 16]]",False,traininig_data/treino_s/,64,diamond
+Bp,simulation400,0.006202330347150564,0.9827045202255249,"[['ELU', 32], ['SiLU', 64], ['ReLU', 32]]",False,traininig_data/treino_s/,128,diamond
+Bp,simulation581,0.012710954993963242,0.9179063439369202,"[['ELU', 16], ['Tanh', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation536,0.012376896105706692,0.9394366145133972,"[['Sigmoid', 64], ['Sigmoid', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation349,0.012003527022898197,0.9661998748779297,"[['ELU', 32], ['ELU', 16], ['ELU', 128]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation598,0.010150524787604809,0.860662579536438,"[['ELU', 32], ['Sigmoid', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation488,0.009447301737964153,0.9651340842247009,"[['SiLU', 32], ['ELU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation194,0.005453867372125387,0.9487916827201843,"[['SiLU', 32], ['ReLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,96,rectangle
+Bp,simulation674,0.0580441839993,0.9414987564086914,"[['Sigmoid', 16], ['ELU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation503,0.010311328805983067,1.025771975517273,"[['ReLU', 64], ['SiLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation26,0.006089719012379646,0.9713977575302124,"[['Tanh', 16], ['Sigmoid', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation7,0.004616324324160814,0.9672824740409851,"[['LeakyReLU', 32], ['LeakyReLU', 64], ['SiLU', 128]]",False,traininig_data/treino_s/,224,funnel
+Bp,simulation367,0.0071455249562859535,1.037622094154358,"[['SiLU', 128], ['Tanh', 32], ['ReLU', 64]]",False,traininig_data/treino_s/,224,bowtie
+Bp,simulation189,0.013041403144598007,0.961729884147644,"[['ELU', 16], ['ELU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation569,0.014495921321213245,0.9484763145446777,"[['Tanh', 16], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation747,0.008076266385614872,0.9411389231681824,"[['LeakyReLU', 128], ['Sigmoid', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation790,0.011339623481035233,0.9669239521026611,"[['LeakyReLU', 64], ['SiLU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation183,0.021397411823272705,0.9578827023506165,"[['Sigmoid', 16], ['ELU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation425,0.0048771388828754425,1.0045400857925415,"[['LeakyReLU', 16], ['Tanh', 128], ['Sigmoid', 64]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation576,0.011368165723979473,1.1297833919525146,"[['ReLU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation487,0.005364677403122187,0.9363746047019958,"[['SiLU', 32], ['ReLU', 128], ['SiLU', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation358,0.0058488487266004086,0.9813269972801208,"[['Tanh', 64], ['ReLU', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation260,0.009939998388290405,1.0190908908843994,"[['ELU', 64], ['LeakyReLU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation769,0.014180676080286503,0.8938113451004028,"[['ELU', 64], ['Tanh', 16]]",False,traininig_data/treino_s/,80,bottleneck
+Bp,simulation555,0.010185458697378635,0.9754466414451599,"[['LeakyReLU', 32], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation413,0.007619333453476429,1.018911600112915,"[['Sigmoid', 32], ['ReLU', 128], ['ReLU', 32]]",False,traininig_data/treino_s/,192,diamond
+Bp,simulation284,0.005874958820641041,0.9510098099708557,"[['Tanh', 64], ['SiLU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation525,0.043090008199214935,0.9495285749435425,"[['Sigmoid', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation249,0.00578782893717289,0.9717735052108765,"[['SiLU', 64], ['ReLU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation48,0.005778778810054064,1.055975079536438,"[['ReLU', 64], ['SiLU', 64], ['ReLU', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation179,0.009309784509241581,1.0086119174957275,"[['ELU', 16], ['Tanh', 16], ['Sigmoid', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation394,0.007694507949054241,0.9929171204566956,"[['Sigmoid', 128], ['Tanh', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation459,0.010547586716711521,0.9581894874572754,"[['Tanh', 16], ['ELU', 64], ['ELU', 16]]",False,traininig_data/treino_s/,96,diamond
+Bp,simulation25,0.021490046754479408,0.9542690515518188,"[['LeakyReLU', 16], ['Sigmoid', 16], ['Tanh', 64]]",False,traininig_data/treino_s/,96,funnel
+Bp,simulation281,0.004740800242871046,0.9650447964668274,"[['LeakyReLU', 128], ['LeakyReLU', 64], ['ReLU', 16]]",False,traininig_data/treino_s/,208,bottleneck
+Bp,simulation603,0.05131176486611366,0.9450238347053528,"[['Sigmoid', 32], ['ELU', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation180,0.012847988866269588,1.0497411489486694,"[['SiLU', 16], ['ReLU', 16], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation512,0.014415176585316658,0.9780184626579285,"[['LeakyReLU', 16], ['ReLU', 64]]",False,traininig_data/treino_s/,80,funnel
+Bp,simulation620,0.016600169241428375,0.9073277115821838,"[['ELU', 32], ['Sigmoid', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation226,0.004394072573632002,0.9618420600891113,"[['LeakyReLU', 64], ['SiLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,128,bottleneck
+Bp,simulation628,0.027234474197030067,0.9731824398040771,"[['ReLU', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,32,rectangle
+Bp,simulation85,0.006072113290429115,0.9092150926589966,"[['ELU', 32], ['ReLU', 32], ['LeakyReLU', 128]]",False,traininig_data/treino_s/,192,funnel
+Bp,simulation668,0.01349045243114233,0.9506310820579529,"[['Tanh', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation356,0.006173670757561922,0.9555448293685913,"[['ReLU', 64], ['Sigmoid', 32], ['SiLU', 64]]",False,traininig_data/treino_s/,160,bowtie
+Bp,simulation49,0.005791862029582262,1.057873010635376,"[['LeakyReLU', 16], ['ReLU', 64], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,144,funnel
+Bp,simulation441,0.003353308653458953,0.9427375197410583,"[['Tanh', 64], ['Sigmoid', 128], ['SiLU', 32]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation424,0.005619765724986792,0.953510046005249,"[['LeakyReLU', 32], ['Tanh', 128], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,224,diamond
+Bp,simulation439,0.005356817971915007,0.9799061417579651,"[['Tanh', 64], ['Sigmoid', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation577,0.01551130972802639,0.923321545124054,"[['ELU', 32], ['SiLU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation27,0.01629379205405712,0.9462800025939941,"[['LeakyReLU', 16], ['ReLU', 16], ['ELU', 128]]",False,traininig_data/treino_s/,160,funnel
+Bp,simulation784,0.017772166058421135,1.0065299272537231,"[['ReLU', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation17,0.004987487569451332,1.049630880355835,"[['LeakyReLU', 64], ['ReLU', 64], ['SiLU', 128]]",False,traininig_data/treino_s/,256,funnel
+Bp,simulation595,0.01984233222901821,0.9575297236442566,"[['Tanh', 16], ['ReLU', 32]]",False,traininig_data/treino_s/,48,funnel
+Bp,simulation240,0.006577434949576855,0.9691733121871948,"[['ELU', 64], ['Sigmoid', 64], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation624,0.009887853637337685,0.9427793025970459,"[['SiLU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,128,rectangle
+Bp,simulation701,0.017772460356354713,0.9274619221687317,"[['SiLU', 64], ['ELU', 32]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation380,0.006902356166392565,0.9389951229095459,"[['SiLU', 32], ['Tanh', 16], ['Sigmoid', 32]]",False,traininig_data/treino_s/,80,bowtie
+Bp,simulation234,0.008375147357583046,0.9273415803909302,"[['ELU', 64], ['ELU', 16], ['ELU', 16]]",False,traininig_data/treino_s/,96,bottleneck
+Bp,simulation445,0.004517761059105396,0.9826005697250366,"[['SiLU', 64], ['ReLU', 128], ['SiLU', 16]]",False,traininig_data/treino_s/,208,diamond
+Bp,simulation735,0.018150532618165016,0.9579980373382568,"[['Sigmoid', 128], ['ReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation172,0.030845599249005318,0.9316203594207764,"[['ReLU', 16], ['Sigmoid', 16], ['SiLU', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation115,0.00867360457777977,0.9421050548553467,"[['ELU', 16], ['ELU', 16], ['Tanh', 16]]",False,traininig_data/treino_s/,48,rectangle
+Bp,simulation661,0.015779534354805946,0.9361336827278137,"[['ReLU', 32], ['Tanh', 32]]",False,traininig_data/treino_s/,64,rectangle
+Bp,simulation657,0.015688931569457054,0.9394800662994385,"[['Tanh', 128], ['ELU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation738,0.02030738815665245,0.9498626589775085,"[['SiLU', 128], ['ELU', 16]]",False,traininig_data/treino_s/,144,bottleneck
+Bp,simulation13,0.010467556305229664,0.9228905439376831,"[['Sigmoid', 16], ['SiLU', 32], ['Tanh', 64]]",False,traininig_data/treino_s/,112,funnel
+Bp,simulation374,0.008419173769652843,0.9978538155555725,"[['Tanh', 128], ['LeakyReLU', 16], ['Tanh', 32]]",False,traininig_data/treino_s/,176,bowtie
+Bp,simulation423,0.010184535756707191,0.9796302318572998,"[['LeakyReLU', 16], ['LeakyReLU', 32], ['LeakyReLU', 16]]",False,traininig_data/treino_s/,64,diamond
+Bp,simulation666,0.008642386645078659,0.9429078698158264,"[['ReLU', 128], ['ELU', 128]]",False,traininig_data/treino_s/,256,rectangle
+Bp,simulation458,0.005739543586969376,1.0015733242034912,"[['ELU', 32], ['Tanh', 128], ['ReLU', 16]]",False,traininig_data/treino_s/,176,diamond
+Bp,simulation123,0.005621300078928471,0.9411493539810181,"[['ReLU', 64], ['ELU', 64], ['ELU', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation794,0.009358268231153488,0.9372200965881348,"[['LeakyReLU', 128], ['Sigmoid', 32]]",False,traininig_data/treino_s/,160,bottleneck
+Bp,simulation761,0.014981595799326897,0.941495418548584,"[['Sigmoid', 128], ['LeakyReLU', 64]]",False,traininig_data/treino_s/,192,bottleneck
+Bp,simulation490,0.006027867551892996,1.0198898315429688,"[['ReLU', 32], ['LeakyReLU', 64], ['Sigmoid', 16]]",False,traininig_data/treino_s/,112,diamond
+Bp,simulation119,0.006418084260076284,0.944663941860199,"[['Sigmoid', 64], ['LeakyReLU', 64], ['Tanh', 64]]",False,traininig_data/treino_s/,192,rectangle
+Bp,simulation99,0.005854134447872639,0.9369914531707764,"[['LeakyReLU', 32], ['SiLU', 32], ['Sigmoid', 128]]",False,traininig_data/treino_s/,192,funnel

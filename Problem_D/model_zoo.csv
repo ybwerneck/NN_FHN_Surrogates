@@ -1,0 +1,801 @@
+id,layers,total_neurons,shape
+0,"[['ELU', 32], ['SiLU', 64], ['ReLU', 64]]",160,funnel
+1,"[['ReLU', 16], ['Tanh', 32], ['ELU', 128]]",176,funnel
+2,"[['ELU', 16], ['Sigmoid', 64], ['Sigmoid', 64]]",144,funnel
+3,"[['ReLU', 32], ['ReLU', 64], ['LeakyReLU', 128]]",224,funnel
+4,"[['LeakyReLU', 16], ['Tanh', 16], ['LeakyReLU', 32]]",64,funnel
+5,"[['SiLU', 16], ['Tanh', 32], ['ELU', 64]]",112,funnel
+6,"[['LeakyReLU', 64], ['Sigmoid', 64], ['Sigmoid', 128]]",256,funnel
+7,"[['LeakyReLU', 32], ['LeakyReLU', 64], ['SiLU', 128]]",224,funnel
+8,"[['LeakyReLU', 16], ['Tanh', 32], ['ReLU', 64]]",112,funnel
+9,"[['SiLU', 64], ['Tanh', 64], ['Tanh', 128]]",256,funnel
+10,"[['ELU', 32], ['ELU', 32], ['Tanh', 64]]",128,funnel
+11,"[['LeakyReLU', 32], ['Sigmoid', 64], ['ReLU', 128]]",224,funnel
+12,"[['ELU', 32], ['LeakyReLU', 32], ['LeakyReLU', 128]]",192,funnel
+13,"[['Sigmoid', 16], ['SiLU', 32], ['Tanh', 64]]",112,funnel
+14,"[['ReLU', 64], ['Tanh', 64], ['Tanh', 128]]",256,funnel
+15,"[['Sigmoid', 32], ['Tanh', 64], ['ReLU', 64]]",160,funnel
+16,"[['Sigmoid', 32], ['Sigmoid', 64], ['Tanh', 64]]",160,funnel
+17,"[['LeakyReLU', 64], ['ReLU', 64], ['SiLU', 128]]",256,funnel
+18,"[['ELU', 32], ['ReLU', 32], ['Sigmoid', 64]]",128,funnel
+19,"[['ELU', 32], ['Tanh', 32], ['ReLU', 64]]",128,funnel
+20,"[['Tanh', 16], ['ReLU', 16], ['ELU', 64]]",96,funnel
+21,"[['Tanh', 16], ['Sigmoid', 16], ['ELU', 64]]",96,funnel
+22,"[['SiLU', 16], ['LeakyReLU', 32], ['SiLU', 128]]",176,funnel
+23,"[['ELU', 32], ['Sigmoid', 64], ['SiLU', 128]]",224,funnel
+24,"[['ELU', 16], ['ReLU', 16], ['LeakyReLU', 128]]",160,funnel
+25,"[['LeakyReLU', 16], ['Sigmoid', 16], ['Tanh', 64]]",96,funnel
+26,"[['Tanh', 16], ['Sigmoid', 32], ['SiLU', 64]]",112,funnel
+27,"[['LeakyReLU', 16], ['ReLU', 16], ['ELU', 128]]",160,funnel
+28,"[['Tanh', 16], ['SiLU', 32], ['ReLU', 64]]",112,funnel
+29,"[['ReLU', 32], ['Sigmoid', 32], ['Tanh', 64]]",128,funnel
+30,"[['ReLU', 32], ['SiLU', 64], ['Tanh', 128]]",224,funnel
+31,"[['Sigmoid', 16], ['Tanh', 32], ['ELU', 32]]",80,funnel
+32,"[['Sigmoid', 16], ['LeakyReLU', 32], ['Sigmoid', 32]]",80,funnel
+33,"[['ELU', 16], ['SiLU', 32], ['ELU', 128]]",176,funnel
+34,"[['Sigmoid', 32], ['Tanh', 64], ['ELU', 64]]",160,funnel
+35,"[['SiLU', 32], ['Sigmoid', 32], ['ELU', 128]]",192,funnel
+36,"[['Tanh', 16], ['Tanh', 64], ['Tanh', 64]]",144,funnel
+37,"[['SiLU', 32], ['LeakyReLU', 64], ['LeakyReLU', 64]]",160,funnel
+38,"[['SiLU', 32], ['LeakyReLU', 64], ['Sigmoid', 64]]",160,funnel
+39,"[['SiLU', 16], ['ReLU', 16], ['Tanh', 128]]",160,funnel
+40,"[['Tanh', 32], ['Sigmoid', 64], ['Tanh', 128]]",224,funnel
+41,"[['LeakyReLU', 32], ['LeakyReLU', 64], ['ReLU', 128]]",224,funnel
+42,"[['ELU', 16], ['SiLU', 64], ['Sigmoid', 128]]",208,funnel
+43,"[['LeakyReLU', 16], ['ELU', 32], ['ReLU', 64]]",112,funnel
+44,"[['LeakyReLU', 16], ['Sigmoid', 32], ['Sigmoid', 64]]",112,funnel
+45,"[['ELU', 32], ['Sigmoid', 32], ['Tanh', 64]]",128,funnel
+46,"[['SiLU', 16], ['ReLU', 64], ['ELU', 128]]",208,funnel
+47,"[['Tanh', 32], ['Tanh', 64], ['ELU', 128]]",224,funnel
+48,"[['ReLU', 64], ['SiLU', 64], ['ReLU', 128]]",256,funnel
+49,"[['LeakyReLU', 16], ['ReLU', 64], ['LeakyReLU', 64]]",144,funnel
+50,"[['LeakyReLU', 16], ['ReLU', 32], ['Sigmoid', 32]]",80,funnel
+51,"[['Sigmoid', 16], ['LeakyReLU', 32], ['Tanh', 32]]",80,funnel
+52,"[['LeakyReLU', 16], ['ReLU', 32], ['LeakyReLU', 128]]",176,funnel
+53,"[['LeakyReLU', 16], ['Sigmoid', 16], ['ELU', 64]]",96,funnel
+54,"[['Sigmoid', 32], ['ReLU', 64], ['ReLU', 64]]",160,funnel
+55,"[['SiLU', 32], ['LeakyReLU', 32], ['SiLU', 128]]",192,funnel
+56,"[['ELU', 16], ['ReLU', 64], ['Sigmoid', 128]]",208,funnel
+57,"[['ReLU', 16], ['Tanh', 64], ['LeakyReLU', 128]]",208,funnel
+58,"[['ELU', 32], ['ReLU', 64], ['ReLU', 128]]",224,funnel
+59,"[['ELU', 64], ['Sigmoid', 64], ['SiLU', 128]]",256,funnel
+60,"[['ReLU', 16], ['ReLU', 64], ['Sigmoid', 128]]",208,funnel
+61,"[['ELU', 16], ['ELU', 32], ['SiLU', 128]]",176,funnel
+62,"[['LeakyReLU', 16], ['Tanh', 32], ['Sigmoid', 64]]",112,funnel
+63,"[['Tanh', 16], ['Sigmoid', 32], ['Sigmoid', 32]]",80,funnel
+64,"[['SiLU', 16], ['ELU', 32], ['ELU', 64]]",112,funnel
+65,"[['ELU', 16], ['Sigmoid', 32], ['ELU', 128]]",176,funnel
+66,"[['Tanh', 64], ['SiLU', 64], ['Tanh', 128]]",256,funnel
+67,"[['ReLU', 32], ['ELU', 64], ['Tanh', 128]]",224,funnel
+68,"[['SiLU', 16], ['Sigmoid', 32], ['SiLU', 128]]",176,funnel
+69,"[['ReLU', 16], ['Tanh', 16], ['Sigmoid', 64]]",96,funnel
+70,"[['ELU', 32], ['LeakyReLU', 64], ['LeakyReLU', 64]]",160,funnel
+71,"[['LeakyReLU', 16], ['Tanh', 32], ['ELU', 64]]",112,funnel
+72,"[['SiLU', 32], ['ELU', 32], ['Tanh', 64]]",128,funnel
+73,"[['ReLU', 16], ['ReLU', 32], ['SiLU', 128]]",176,funnel
+74,"[['LeakyReLU', 16], ['Tanh', 64], ['ELU', 64]]",144,funnel
+75,"[['ReLU', 64], ['Sigmoid', 64], ['Tanh', 128]]",256,funnel
+76,"[['Sigmoid', 32], ['SiLU', 64], ['LeakyReLU', 128]]",224,funnel
+77,"[['ReLU', 16], ['ReLU', 64], ['Tanh', 64]]",144,funnel
+78,"[['Tanh', 32], ['Sigmoid', 32], ['LeakyReLU', 128]]",192,funnel
+79,"[['ReLU', 16], ['ReLU', 32], ['ELU', 64]]",112,funnel
+80,"[['Sigmoid', 16], ['Sigmoid', 64], ['ReLU', 64]]",144,funnel
+81,"[['ReLU', 32], ['ELU', 64], ['ReLU', 128]]",224,funnel
+82,"[['Tanh', 32], ['ELU', 32], ['ReLU', 64]]",128,funnel
+83,"[['Tanh', 16], ['ReLU', 64], ['SiLU', 128]]",208,funnel
+84,"[['Sigmoid', 32], ['SiLU', 64], ['Tanh', 128]]",224,funnel
+85,"[['ELU', 32], ['ReLU', 32], ['LeakyReLU', 128]]",192,funnel
+86,"[['SiLU', 32], ['ELU', 64], ['Sigmoid', 64]]",160,funnel
+87,"[['Tanh', 16], ['ReLU', 64], ['ELU', 128]]",208,funnel
+88,"[['LeakyReLU', 32], ['ELU', 64], ['ReLU', 64]]",160,funnel
+89,"[['Tanh', 16], ['Tanh', 64], ['Sigmoid', 64]]",144,funnel
+90,"[['ReLU', 16], ['LeakyReLU', 16], ['SiLU', 128]]",160,funnel
+91,"[['LeakyReLU', 16], ['ELU', 64], ['ReLU', 128]]",208,funnel
+92,"[['SiLU', 64], ['Sigmoid', 64], ['Sigmoid', 128]]",256,funnel
+93,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['LeakyReLU', 128]]",192,funnel
+94,"[['ReLU', 16], ['LeakyReLU', 64], ['Sigmoid', 128]]",208,funnel
+95,"[['ELU', 16], ['Sigmoid', 32], ['Tanh', 64]]",112,funnel
+96,"[['Sigmoid', 16], ['LeakyReLU', 64], ['LeakyReLU', 64]]",144,funnel
+97,"[['Sigmoid', 32], ['ReLU', 32], ['ELU', 64]]",128,funnel
+98,"[['LeakyReLU', 16], ['Tanh', 32], ['ReLU', 32]]",80,funnel
+99,"[['LeakyReLU', 32], ['SiLU', 32], ['Sigmoid', 128]]",192,funnel
+100,"[['Tanh', 16], ['SiLU', 16], ['ReLU', 16]]",48,rectangle
+101,"[['ReLU', 64], ['ReLU', 64], ['Tanh', 64]]",192,rectangle
+102,"[['LeakyReLU', 32], ['Tanh', 32], ['ReLU', 32]]",96,rectangle
+103,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['ReLU', 16]]",48,rectangle
+104,"[['LeakyReLU', 16], ['Sigmoid', 16], ['Sigmoid', 16]]",48,rectangle
+105,"[['Sigmoid', 64], ['ELU', 64], ['SiLU', 64]]",192,rectangle
+106,"[['SiLU', 32], ['ReLU', 32], ['Sigmoid', 32]]",96,rectangle
+107,"[['ELU', 16], ['ReLU', 16], ['SiLU', 16]]",48,rectangle
+108,"[['ReLU', 64], ['Sigmoid', 64], ['LeakyReLU', 64]]",192,rectangle
+109,"[['ReLU', 32], ['ReLU', 32], ['LeakyReLU', 32]]",96,rectangle
+110,"[['SiLU', 16], ['Tanh', 16], ['Sigmoid', 16]]",48,rectangle
+111,"[['ELU', 64], ['Sigmoid', 64], ['LeakyReLU', 64]]",192,rectangle
+112,"[['Tanh', 16], ['LeakyReLU', 16], ['ELU', 16]]",48,rectangle
+113,"[['ELU', 64], ['SiLU', 64], ['Sigmoid', 64]]",192,rectangle
+114,"[['Tanh', 16], ['Sigmoid', 16], ['ELU', 16]]",48,rectangle
+115,"[['ELU', 16], ['ELU', 16], ['Tanh', 16]]",48,rectangle
+116,"[['LeakyReLU', 32], ['Tanh', 32], ['Tanh', 32]]",96,rectangle
+117,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['SiLU', 16]]",48,rectangle
+118,"[['ReLU', 16], ['LeakyReLU', 16], ['LeakyReLU', 16]]",48,rectangle
+119,"[['Sigmoid', 64], ['LeakyReLU', 64], ['Tanh', 64]]",192,rectangle
+120,"[['SiLU', 16], ['Tanh', 16], ['ReLU', 16]]",48,rectangle
+121,"[['ReLU', 64], ['ELU', 64], ['SiLU', 64]]",192,rectangle
+122,"[['SiLU', 32], ['ReLU', 32], ['LeakyReLU', 32]]",96,rectangle
+123,"[['ReLU', 64], ['ELU', 64], ['ELU', 64]]",192,rectangle
+124,"[['ELU', 16], ['Sigmoid', 16], ['SiLU', 16]]",48,rectangle
+125,"[['Tanh', 64], ['SiLU', 64], ['ReLU', 64]]",192,rectangle
+126,"[['Tanh', 32], ['LeakyReLU', 32], ['ReLU', 32]]",96,rectangle
+127,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['ELU', 16]]",48,rectangle
+128,"[['ReLU', 16], ['LeakyReLU', 16], ['Tanh', 16]]",48,rectangle
+129,"[['Sigmoid', 64], ['SiLU', 64], ['ReLU', 64]]",192,rectangle
+130,"[['LeakyReLU', 16], ['SiLU', 16], ['Sigmoid', 16]]",48,rectangle
+131,"[['Sigmoid', 64], ['Tanh', 64], ['ReLU', 64]]",192,rectangle
+132,"[['ELU', 64], ['Tanh', 64], ['Tanh', 64]]",192,rectangle
+133,"[['ReLU', 64], ['SiLU', 64], ['Tanh', 64]]",192,rectangle
+134,"[['LeakyReLU', 32], ['SiLU', 32], ['ReLU', 32]]",96,rectangle
+135,"[['Sigmoid', 32], ['ELU', 32], ['ELU', 32]]",96,rectangle
+136,"[['Sigmoid', 64], ['Tanh', 64], ['Sigmoid', 64]]",192,rectangle
+137,"[['SiLU', 64], ['Sigmoid', 64], ['Sigmoid', 64]]",192,rectangle
+138,"[['Tanh', 64], ['ReLU', 64], ['Sigmoid', 64]]",192,rectangle
+139,"[['SiLU', 16], ['LeakyReLU', 16], ['ELU', 16]]",48,rectangle
+140,"[['ELU', 32], ['ReLU', 32], ['Tanh', 32]]",96,rectangle
+141,"[['ReLU', 64], ['SiLU', 64], ['LeakyReLU', 64]]",192,rectangle
+142,"[['SiLU', 16], ['ELU', 16], ['ReLU', 16]]",48,rectangle
+143,"[['SiLU', 16], ['LeakyReLU', 16], ['LeakyReLU', 16]]",48,rectangle
+144,"[['ELU', 32], ['Tanh', 32], ['Tanh', 32]]",96,rectangle
+145,"[['Tanh', 32], ['LeakyReLU', 32], ['LeakyReLU', 32]]",96,rectangle
+146,"[['Tanh', 64], ['Tanh', 64], ['ReLU', 64]]",192,rectangle
+147,"[['SiLU', 64], ['Tanh', 64], ['LeakyReLU', 64]]",192,rectangle
+148,"[['ELU', 16], ['Sigmoid', 16], ['ReLU', 16]]",48,rectangle
+149,"[['LeakyReLU', 32], ['Sigmoid', 32], ['ReLU', 32]]",96,rectangle
+150,"[['LeakyReLU', 64], ['SiLU', 64], ['LeakyReLU', 64]]",192,rectangle
+151,"[['ELU', 64], ['ReLU', 64], ['Sigmoid', 64]]",192,rectangle
+152,"[['Sigmoid', 32], ['ELU', 32], ['Sigmoid', 32]]",96,rectangle
+153,"[['ReLU', 32], ['Sigmoid', 32], ['ReLU', 32]]",96,rectangle
+154,"[['Tanh', 16], ['LeakyReLU', 16], ['Sigmoid', 16]]",48,rectangle
+155,"[['SiLU', 64], ['SiLU', 64], ['ReLU', 64]]",192,rectangle
+156,"[['SiLU', 16], ['SiLU', 16], ['ELU', 16]]",48,rectangle
+157,"[['Tanh', 32], ['SiLU', 32], ['Sigmoid', 32]]",96,rectangle
+158,"[['Sigmoid', 32], ['SiLU', 32], ['ReLU', 32]]",96,rectangle
+159,"[['Tanh', 32], ['ELU', 32], ['ELU', 32]]",96,rectangle
+160,"[['Tanh', 32], ['LeakyReLU', 32], ['ELU', 32]]",96,rectangle
+161,"[['Sigmoid', 16], ['LeakyReLU', 16], ['LeakyReLU', 16]]",48,rectangle
+162,"[['SiLU', 32], ['Tanh', 32], ['ELU', 32]]",96,rectangle
+163,"[['LeakyReLU', 32], ['SiLU', 32], ['SiLU', 32]]",96,rectangle
+164,"[['SiLU', 64], ['ELU', 64], ['ReLU', 64]]",192,rectangle
+165,"[['SiLU', 32], ['SiLU', 32], ['Sigmoid', 32]]",96,rectangle
+166,"[['Tanh', 64], ['LeakyReLU', 64], ['SiLU', 64]]",192,rectangle
+167,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['SiLU', 32]]",96,rectangle
+168,"[['Sigmoid', 32], ['ELU', 32], ['ReLU', 32]]",96,rectangle
+169,"[['SiLU', 16], ['ELU', 16], ['Sigmoid', 16]]",48,rectangle
+170,"[['ReLU', 64], ['LeakyReLU', 64], ['SiLU', 64]]",192,rectangle
+171,"[['ReLU', 32], ['Tanh', 32], ['ReLU', 32]]",96,rectangle
+172,"[['ReLU', 16], ['Sigmoid', 16], ['SiLU', 16]]",48,rectangle
+173,"[['SiLU', 32], ['ELU', 32], ['Tanh', 32]]",96,rectangle
+174,"[['ELU', 32], ['Tanh', 32], ['Sigmoid', 32]]",96,rectangle
+175,"[['ELU', 32], ['Sigmoid', 32], ['Sigmoid', 32]]",96,rectangle
+176,"[['SiLU', 32], ['LeakyReLU', 32], ['Tanh', 32]]",96,rectangle
+177,"[['Sigmoid', 64], ['ELU', 64], ['Sigmoid', 64]]",192,rectangle
+178,"[['LeakyReLU', 16], ['ELU', 16], ['Tanh', 16]]",48,rectangle
+179,"[['ELU', 16], ['Tanh', 16], ['Sigmoid', 16]]",48,rectangle
+180,"[['SiLU', 16], ['ReLU', 16], ['LeakyReLU', 16]]",48,rectangle
+181,"[['ReLU', 16], ['ReLU', 16], ['Sigmoid', 16]]",48,rectangle
+182,"[['LeakyReLU', 16], ['LeakyReLU', 16], ['Sigmoid', 16]]",48,rectangle
+183,"[['Sigmoid', 16], ['ELU', 16], ['LeakyReLU', 16]]",48,rectangle
+184,"[['LeakyReLU', 16], ['Tanh', 16], ['ELU', 16]]",48,rectangle
+185,"[['ReLU', 64], ['Sigmoid', 64], ['ReLU', 64]]",192,rectangle
+186,"[['Tanh', 32], ['Tanh', 32], ['LeakyReLU', 32]]",96,rectangle
+187,"[['ReLU', 16], ['LeakyReLU', 16], ['ELU', 16]]",48,rectangle
+188,"[['ELU', 16], ['Tanh', 16], ['LeakyReLU', 16]]",48,rectangle
+189,"[['ELU', 16], ['ELU', 16], ['ELU', 16]]",48,rectangle
+190,"[['ELU', 16], ['Sigmoid', 16], ['Sigmoid', 16]]",48,rectangle
+191,"[['Sigmoid', 32], ['ReLU', 32], ['ReLU', 32]]",96,rectangle
+192,"[['Tanh', 64], ['Sigmoid', 64], ['SiLU', 64]]",192,rectangle
+193,"[['Tanh', 64], ['Tanh', 64], ['SiLU', 64]]",192,rectangle
+194,"[['SiLU', 32], ['ReLU', 32], ['Tanh', 32]]",96,rectangle
+195,"[['SiLU', 16], ['ReLU', 16], ['Sigmoid', 16]]",48,rectangle
+196,"[['Sigmoid', 32], ['SiLU', 32], ['Sigmoid', 32]]",96,rectangle
+197,"[['ELU', 64], ['ELU', 64], ['LeakyReLU', 64]]",192,rectangle
+198,"[['SiLU', 64], ['LeakyReLU', 64], ['Sigmoid', 64]]",192,rectangle
+199,"[['SiLU', 32], ['Sigmoid', 32], ['ELU', 32]]",96,rectangle
+200,"[['Sigmoid', 64], ['ELU', 64], ['ReLU', 16]]",144,bottleneck
+201,"[['ReLU', 64], ['SiLU', 32], ['ELU', 32]]",128,bottleneck
+202,"[['Tanh', 32], ['SiLU', 32], ['ELU', 16]]",80,bottleneck
+203,"[['Tanh', 64], ['Tanh', 64], ['ReLU', 32]]",160,bottleneck
+204,"[['LeakyReLU', 128], ['ELU', 16], ['ELU', 16]]",160,bottleneck
+205,"[['Tanh', 32], ['ELU', 32], ['LeakyReLU', 16]]",80,bottleneck
+206,"[['Tanh', 128], ['Tanh', 32], ['Sigmoid', 32]]",192,bottleneck
+207,"[['LeakyReLU', 128], ['ReLU', 64], ['ELU', 32]]",224,bottleneck
+208,"[['ReLU', 128], ['ReLU', 64], ['ReLU', 16]]",208,bottleneck
+209,"[['LeakyReLU', 64], ['Tanh', 64], ['Sigmoid', 16]]",144,bottleneck
+210,"[['ReLU', 128], ['ELU', 16], ['Tanh', 16]]",160,bottleneck
+211,"[['SiLU', 64], ['Sigmoid', 64], ['LeakyReLU', 16]]",144,bottleneck
+212,"[['ELU', 128], ['LeakyReLU', 32], ['Tanh', 32]]",192,bottleneck
+213,"[['SiLU', 64], ['SiLU', 16], ['SiLU', 16]]",96,bottleneck
+214,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['SiLU', 16]]",80,bottleneck
+215,"[['LeakyReLU', 64], ['LeakyReLU', 64], ['Sigmoid', 16]]",144,bottleneck
+216,"[['ReLU', 128], ['ReLU', 32], ['ELU', 32]]",192,bottleneck
+217,"[['ELU', 128], ['ELU', 32], ['SiLU', 32]]",192,bottleneck
+218,"[['Sigmoid', 32], ['ReLU', 16], ['SiLU', 16]]",64,bottleneck
+219,"[['ELU', 32], ['LeakyReLU', 16], ['Tanh', 16]]",64,bottleneck
+220,"[['Tanh', 64], ['SiLU', 32], ['Sigmoid', 16]]",112,bottleneck
+221,"[['LeakyReLU', 64], ['LeakyReLU', 32], ['LeakyReLU', 16]]",112,bottleneck
+222,"[['LeakyReLU', 128], ['Tanh', 64], ['LeakyReLU', 16]]",208,bottleneck
+223,"[['SiLU', 128], ['LeakyReLU', 64], ['LeakyReLU', 32]]",224,bottleneck
+224,"[['LeakyReLU', 128], ['LeakyReLU', 64], ['ELU', 32]]",224,bottleneck
+225,"[['Tanh', 64], ['SiLU', 64], ['Sigmoid', 32]]",160,bottleneck
+226,"[['LeakyReLU', 64], ['SiLU', 32], ['Tanh', 32]]",128,bottleneck
+227,"[['SiLU', 64], ['SiLU', 32], ['Tanh', 32]]",128,bottleneck
+228,"[['LeakyReLU', 32], ['LeakyReLU', 32], ['ELU', 16]]",80,bottleneck
+229,"[['SiLU', 64], ['LeakyReLU', 16], ['ReLU', 16]]",96,bottleneck
+230,"[['LeakyReLU', 128], ['ELU', 64], ['LeakyReLU', 16]]",208,bottleneck
+231,"[['ReLU', 64], ['Sigmoid', 32], ['ReLU', 16]]",112,bottleneck
+232,"[['Sigmoid', 64], ['Tanh', 64], ['ReLU', 16]]",144,bottleneck
+233,"[['ELU', 128], ['Sigmoid', 32], ['ReLU', 32]]",192,bottleneck
+234,"[['ELU', 64], ['ELU', 16], ['ELU', 16]]",96,bottleneck
+235,"[['ReLU', 64], ['Sigmoid', 16], ['Sigmoid', 16]]",96,bottleneck
+236,"[['ELU', 32], ['Tanh', 16], ['SiLU', 16]]",64,bottleneck
+237,"[['LeakyReLU', 128], ['LeakyReLU', 16], ['Sigmoid', 16]]",160,bottleneck
+238,"[['ReLU', 128], ['ReLU', 64], ['SiLU', 16]]",208,bottleneck
+239,"[['LeakyReLU', 32], ['ELU', 32], ['ELU', 16]]",80,bottleneck
+240,"[['ELU', 64], ['Sigmoid', 64], ['LeakyReLU', 16]]",144,bottleneck
+241,"[['LeakyReLU', 64], ['LeakyReLU', 64], ['ELU', 16]]",144,bottleneck
+242,"[['ELU', 128], ['ELU', 32], ['Tanh', 16]]",176,bottleneck
+243,"[['Sigmoid', 32], ['Tanh', 32], ['ELU', 16]]",80,bottleneck
+244,"[['ReLU', 64], ['LeakyReLU', 32], ['Sigmoid', 16]]",112,bottleneck
+245,"[['ELU', 128], ['ELU', 64], ['ELU', 64]]",256,bottleneck
+246,"[['SiLU', 64], ['ELU', 64], ['ReLU', 32]]",160,bottleneck
+247,"[['Sigmoid', 64], ['ReLU', 16], ['LeakyReLU', 16]]",96,bottleneck
+248,"[['SiLU', 128], ['SiLU', 16], ['SiLU', 16]]",160,bottleneck
+249,"[['SiLU', 64], ['ReLU', 32], ['Sigmoid', 32]]",128,bottleneck
+250,"[['ELU', 64], ['Sigmoid', 32], ['Sigmoid', 32]]",128,bottleneck
+251,"[['Sigmoid', 64], ['SiLU', 64], ['LeakyReLU', 16]]",144,bottleneck
+252,"[['SiLU', 32], ['ReLU', 32], ['Tanh', 16]]",80,bottleneck
+253,"[['ReLU', 128], ['ReLU', 16], ['SiLU', 16]]",160,bottleneck
+254,"[['Tanh', 64], ['SiLU', 64], ['LeakyReLU', 16]]",144,bottleneck
+255,"[['LeakyReLU', 64], ['SiLU', 32], ['ReLU', 32]]",128,bottleneck
+256,"[['Tanh', 128], ['SiLU', 64], ['Sigmoid', 32]]",224,bottleneck
+257,"[['Tanh', 128], ['ReLU', 64], ['SiLU', 16]]",208,bottleneck
+258,"[['ELU', 64], ['LeakyReLU', 32], ['ELU', 32]]",128,bottleneck
+259,"[['LeakyReLU', 128], ['ELU', 64], ['SiLU', 64]]",256,bottleneck
+260,"[['ELU', 64], ['LeakyReLU', 16], ['Tanh', 16]]",96,bottleneck
+261,"[['LeakyReLU', 64], ['ReLU', 64], ['ReLU', 32]]",160,bottleneck
+262,"[['Tanh', 64], ['Sigmoid', 32], ['Tanh', 16]]",112,bottleneck
+263,"[['Tanh', 64], ['ReLU', 32], ['LeakyReLU', 32]]",128,bottleneck
+264,"[['ReLU', 128], ['ReLU', 64], ['LeakyReLU', 16]]",208,bottleneck
+265,"[['ReLU', 32], ['SiLU', 16], ['ReLU', 16]]",64,bottleneck
+266,"[['Sigmoid', 64], ['Tanh', 32], ['ReLU', 32]]",128,bottleneck
+267,"[['ELU', 32], ['ReLU', 16], ['SiLU', 16]]",64,bottleneck
+268,"[['Tanh', 64], ['SiLU', 32], ['LeakyReLU', 32]]",128,bottleneck
+269,"[['LeakyReLU', 128], ['LeakyReLU', 16], ['SiLU', 16]]",160,bottleneck
+270,"[['LeakyReLU', 128], ['ReLU', 64], ['Sigmoid', 64]]",256,bottleneck
+271,"[['Sigmoid', 128], ['LeakyReLU', 16], ['Tanh', 16]]",160,bottleneck
+272,"[['LeakyReLU', 64], ['ELU', 16], ['LeakyReLU', 16]]",96,bottleneck
+273,"[['ReLU', 128], ['SiLU', 32], ['LeakyReLU', 32]]",192,bottleneck
+274,"[['ReLU', 64], ['Sigmoid', 32], ['ELU', 16]]",112,bottleneck
+275,"[['SiLU', 64], ['LeakyReLU', 64], ['SiLU', 16]]",144,bottleneck
+276,"[['Sigmoid', 64], ['SiLU', 32], ['SiLU', 16]]",112,bottleneck
+277,"[['SiLU', 64], ['SiLU', 32], ['Tanh', 16]]",112,bottleneck
+278,"[['SiLU', 64], ['ReLU', 16], ['ELU', 16]]",96,bottleneck
+279,"[['Tanh', 128], ['Tanh', 64], ['LeakyReLU', 16]]",208,bottleneck
+280,"[['Sigmoid', 64], ['LeakyReLU', 64], ['SiLU', 32]]",160,bottleneck
+281,"[['LeakyReLU', 128], ['LeakyReLU', 64], ['ReLU', 16]]",208,bottleneck
+282,"[['ReLU', 128], ['ELU', 64], ['Tanh', 64]]",256,bottleneck
+283,"[['ELU', 128], ['Tanh', 64], ['Tanh', 64]]",256,bottleneck
+284,"[['Tanh', 64], ['SiLU', 64], ['ELU', 16]]",144,bottleneck
+285,"[['Tanh', 64], ['SiLU', 16], ['LeakyReLU', 16]]",96,bottleneck
+286,"[['SiLU', 32], ['Sigmoid', 32], ['SiLU', 16]]",80,bottleneck
+287,"[['SiLU', 128], ['SiLU', 32], ['ReLU', 32]]",192,bottleneck
+288,"[['Tanh', 32], ['SiLU', 16], ['Sigmoid', 16]]",64,bottleneck
+289,"[['ReLU', 32], ['ReLU', 16], ['Tanh', 16]]",64,bottleneck
+290,"[['SiLU', 64], ['ReLU', 32], ['ELU', 16]]",112,bottleneck
+291,"[['Sigmoid', 128], ['Tanh', 32], ['ELU', 16]]",176,bottleneck
+292,"[['Sigmoid', 64], ['ELU', 64], ['Tanh', 16]]",144,bottleneck
+293,"[['Tanh', 64], ['ReLU', 64], ['LeakyReLU', 16]]",144,bottleneck
+294,"[['ELU', 128], ['SiLU', 32], ['LeakyReLU', 32]]",192,bottleneck
+295,"[['Sigmoid', 32], ['LeakyReLU', 16], ['SiLU', 16]]",64,bottleneck
+296,"[['Sigmoid', 128], ['ReLU', 64], ['ELU', 64]]",256,bottleneck
+297,"[['ELU', 128], ['ReLU', 16], ['Tanh', 16]]",160,bottleneck
+298,"[['SiLU', 64], ['Tanh', 16], ['ReLU', 16]]",96,bottleneck
+299,"[['ReLU', 64], ['LeakyReLU', 64], ['Tanh', 16]]",144,bottleneck
+300,"[['LeakyReLU', 128], ['ELU', 16], ['ReLU', 32]]",176,bowtie
+301,"[['Sigmoid', 64], ['ReLU', 16], ['ReLU', 64]]",144,bowtie
+302,"[['LeakyReLU', 32], ['Tanh', 16], ['ELU', 64]]",112,bowtie
+303,"[['Tanh', 64], ['SiLU', 16], ['SiLU', 128]]",208,bowtie
+304,"[['Tanh', 128], ['ReLU', 16], ['SiLU', 32]]",176,bowtie
+305,"[['LeakyReLU', 64], ['Tanh', 16], ['SiLU', 32]]",112,bowtie
+306,"[['ELU', 32], ['LeakyReLU', 16], ['SiLU', 32]]",80,bowtie
+307,"[['Tanh', 64], ['Tanh', 16], ['ReLU', 32]]",112,bowtie
+308,"[['LeakyReLU', 64], ['Tanh', 16], ['ReLU', 64]]",144,bowtie
+309,"[['ReLU', 64], ['LeakyReLU', 32], ['ELU', 64]]",160,bowtie
+310,"[['Sigmoid', 128], ['ReLU', 16], ['SiLU', 32]]",176,bowtie
+311,"[['ReLU', 64], ['Sigmoid', 16], ['ELU', 64]]",144,bowtie
+312,"[['ELU', 128], ['LeakyReLU', 32], ['Sigmoid', 64]]",224,bowtie
+313,"[['Sigmoid', 32], ['SiLU', 16], ['SiLU', 64]]",112,bowtie
+314,"[['Sigmoid', 64], ['SiLU', 32], ['ReLU', 64]]",160,bowtie
+315,"[['Tanh', 64], ['SiLU', 16], ['ELU', 32]]",112,bowtie
+316,"[['LeakyReLU', 128], ['Sigmoid', 32], ['ReLU', 64]]",224,bowtie
+317,"[['ELU', 64], ['ELU', 16], ['ReLU', 32]]",112,bowtie
+318,"[['Tanh', 64], ['ELU', 16], ['ELU', 32]]",112,bowtie
+319,"[['Sigmoid', 32], ['Sigmoid', 16], ['ELU', 32]]",80,bowtie
+320,"[['ELU', 32], ['Sigmoid', 16], ['ReLU', 32]]",80,bowtie
+321,"[['Tanh', 128], ['Tanh', 32], ['SiLU', 64]]",224,bowtie
+322,"[['LeakyReLU', 64], ['LeakyReLU', 32], ['SiLU', 64]]",160,bowtie
+323,"[['ELU', 64], ['LeakyReLU', 16], ['ReLU', 64]]",144,bowtie
+324,"[['ReLU', 128], ['Tanh', 32], ['ELU', 64]]",224,bowtie
+325,"[['ELU', 64], ['Tanh', 16], ['ReLU', 32]]",112,bowtie
+326,"[['ReLU', 64], ['LeakyReLU', 32], ['ELU', 128]]",224,bowtie
+327,"[['SiLU', 32], ['Tanh', 16], ['ELU', 32]]",80,bowtie
+328,"[['LeakyReLU', 128], ['LeakyReLU', 16], ['LeakyReLU', 32]]",176,bowtie
+329,"[['ELU', 64], ['Sigmoid', 32], ['SiLU', 128]]",224,bowtie
+330,"[['Tanh', 64], ['SiLU', 32], ['SiLU', 64]]",160,bowtie
+331,"[['ReLU', 32], ['LeakyReLU', 16], ['ReLU', 64]]",112,bowtie
+332,"[['Sigmoid', 128], ['ReLU', 16], ['LeakyReLU', 64]]",208,bowtie
+333,"[['Sigmoid', 128], ['ReLU', 32], ['SiLU', 64]]",224,bowtie
+334,"[['SiLU', 128], ['LeakyReLU', 16], ['Sigmoid', 32]]",176,bowtie
+335,"[['ELU', 128], ['Tanh', 16], ['Sigmoid', 64]]",208,bowtie
+336,"[['SiLU', 64], ['SiLU', 32], ['Sigmoid', 64]]",160,bowtie
+337,"[['ReLU', 32], ['ReLU', 16], ['SiLU', 64]]",112,bowtie
+338,"[['SiLU', 128], ['LeakyReLU', 32], ['LeakyReLU', 64]]",224,bowtie
+339,"[['LeakyReLU', 128], ['Sigmoid', 32], ['Tanh', 64]]",224,bowtie
+340,"[['Tanh', 64], ['LeakyReLU', 16], ['Tanh', 64]]",144,bowtie
+341,"[['SiLU', 64], ['Sigmoid', 16], ['Sigmoid', 64]]",144,bowtie
+342,"[['Tanh', 64], ['Tanh', 32], ['LeakyReLU', 64]]",160,bowtie
+343,"[['Tanh', 128], ['ReLU', 32], ['LeakyReLU', 64]]",224,bowtie
+344,"[['ReLU', 64], ['Tanh', 16], ['LeakyReLU', 128]]",208,bowtie
+345,"[['SiLU', 64], ['SiLU', 16], ['ELU', 32]]",112,bowtie
+346,"[['ReLU', 64], ['Tanh', 32], ['SiLU', 64]]",160,bowtie
+347,"[['ReLU', 64], ['Sigmoid', 16], ['ELU', 128]]",208,bowtie
+348,"[['ELU', 32], ['LeakyReLU', 16], ['LeakyReLU', 64]]",112,bowtie
+349,"[['ELU', 32], ['ELU', 16], ['ELU', 128]]",176,bowtie
+350,"[['ELU', 64], ['LeakyReLU', 16], ['LeakyReLU', 128]]",208,bowtie
+351,"[['LeakyReLU', 128], ['SiLU', 32], ['ELU', 64]]",224,bowtie
+352,"[['Tanh', 32], ['Sigmoid', 16], ['Sigmoid', 128]]",176,bowtie
+353,"[['SiLU', 64], ['SiLU', 32], ['LeakyReLU', 64]]",160,bowtie
+354,"[['LeakyReLU', 64], ['Sigmoid', 16], ['ReLU', 32]]",112,bowtie
+355,"[['Sigmoid', 64], ['SiLU', 16], ['ELU', 64]]",144,bowtie
+356,"[['ReLU', 64], ['Sigmoid', 32], ['SiLU', 64]]",160,bowtie
+357,"[['ELU', 32], ['ELU', 16], ['LeakyReLU', 64]]",112,bowtie
+358,"[['Tanh', 64], ['ReLU', 32], ['SiLU', 64]]",160,bowtie
+359,"[['SiLU', 64], ['ReLU', 16], ['LeakyReLU', 128]]",208,bowtie
+360,"[['ELU', 64], ['ELU', 16], ['Sigmoid', 64]]",144,bowtie
+361,"[['Tanh', 64], ['SiLU', 16], ['LeakyReLU', 32]]",112,bowtie
+362,"[['Sigmoid', 64], ['ELU', 32], ['ELU', 64]]",160,bowtie
+363,"[['SiLU', 32], ['LeakyReLU', 16], ['SiLU', 64]]",112,bowtie
+364,"[['SiLU', 64], ['SiLU', 32], ['ReLU', 128]]",224,bowtie
+365,"[['ELU', 64], ['Tanh', 16], ['SiLU', 64]]",144,bowtie
+366,"[['Tanh', 32], ['ELU', 16], ['ReLU', 32]]",80,bowtie
+367,"[['SiLU', 128], ['Tanh', 32], ['ReLU', 64]]",224,bowtie
+368,"[['SiLU', 64], ['LeakyReLU', 16], ['SiLU', 128]]",208,bowtie
+369,"[['LeakyReLU', 64], ['ReLU', 16], ['Sigmoid', 128]]",208,bowtie
+370,"[['ELU', 32], ['SiLU', 16], ['Sigmoid', 64]]",112,bowtie
+371,"[['Tanh', 32], ['Tanh', 16], ['ReLU', 128]]",176,bowtie
+372,"[['ReLU', 32], ['SiLU', 16], ['ReLU', 32]]",80,bowtie
+373,"[['SiLU', 64], ['ReLU', 16], ['ELU', 32]]",112,bowtie
+374,"[['Tanh', 128], ['LeakyReLU', 16], ['Tanh', 32]]",176,bowtie
+375,"[['Sigmoid', 32], ['ReLU', 16], ['LeakyReLU', 32]]",80,bowtie
+376,"[['LeakyReLU', 64], ['Sigmoid', 32], ['LeakyReLU', 128]]",224,bowtie
+377,"[['Sigmoid', 32], ['Sigmoid', 16], ['ELU', 128]]",176,bowtie
+378,"[['LeakyReLU', 32], ['Sigmoid', 16], ['SiLU', 128]]",176,bowtie
+379,"[['Sigmoid', 32], ['ReLU', 16], ['SiLU', 64]]",112,bowtie
+380,"[['SiLU', 32], ['Tanh', 16], ['Sigmoid', 32]]",80,bowtie
+381,"[['SiLU', 32], ['ELU', 16], ['ReLU', 128]]",176,bowtie
+382,"[['ELU', 128], ['LeakyReLU', 32], ['Tanh', 64]]",224,bowtie
+383,"[['LeakyReLU', 32], ['LeakyReLU', 16], ['SiLU', 128]]",176,bowtie
+384,"[['SiLU', 64], ['LeakyReLU', 16], ['SiLU', 64]]",144,bowtie
+385,"[['ELU', 64], ['Tanh', 32], ['SiLU', 64]]",160,bowtie
+386,"[['Sigmoid', 32], ['Tanh', 16], ['LeakyReLU', 128]]",176,bowtie
+387,"[['ELU', 32], ['ReLU', 16], ['LeakyReLU', 32]]",80,bowtie
+388,"[['Sigmoid', 64], ['SiLU', 16], ['Tanh', 64]]",144,bowtie
+389,"[['Tanh', 128], ['ReLU', 32], ['ELU', 64]]",224,bowtie
+390,"[['ReLU', 128], ['ELU', 16], ['ELU', 32]]",176,bowtie
+391,"[['LeakyReLU', 128], ['ELU', 16], ['ELU', 64]]",208,bowtie
+392,"[['Sigmoid', 64], ['ReLU', 16], ['Sigmoid', 128]]",208,bowtie
+393,"[['ReLU', 128], ['LeakyReLU', 16], ['Sigmoid', 64]]",208,bowtie
+394,"[['Sigmoid', 128], ['Tanh', 16], ['ReLU', 32]]",176,bowtie
+395,"[['Tanh', 128], ['LeakyReLU', 32], ['SiLU', 64]]",224,bowtie
+396,"[['LeakyReLU', 32], ['ReLU', 16], ['Sigmoid', 32]]",80,bowtie
+397,"[['SiLU', 32], ['Sigmoid', 16], ['LeakyReLU', 32]]",80,bowtie
+398,"[['LeakyReLU', 128], ['SiLU', 16], ['Tanh', 64]]",208,bowtie
+399,"[['LeakyReLU', 128], ['ELU', 16], ['Sigmoid', 64]]",208,bowtie
+400,"[['ELU', 32], ['SiLU', 64], ['ReLU', 32]]",128,diamond
+401,"[['SiLU', 32], ['Tanh', 128], ['ReLU', 32]]",192,diamond
+402,"[['ELU', 64], ['SiLU', 128], ['LeakyReLU', 16]]",208,diamond
+403,"[['SiLU', 16], ['ELU', 128], ['LeakyReLU', 32]]",176,diamond
+404,"[['ReLU', 32], ['Sigmoid', 128], ['ELU', 16]]",176,diamond
+405,"[['Sigmoid', 32], ['SiLU', 64], ['LeakyReLU', 32]]",128,diamond
+406,"[['ELU', 16], ['ELU', 128], ['ReLU', 64]]",208,diamond
+407,"[['Sigmoid', 64], ['Tanh', 128], ['ReLU', 16]]",208,diamond
+408,"[['ELU', 32], ['Sigmoid', 64], ['ReLU', 32]]",128,diamond
+409,"[['ReLU', 16], ['LeakyReLU', 64], ['LeakyReLU', 16]]",96,diamond
+410,"[['ReLU', 64], ['ReLU', 128], ['Sigmoid', 16]]",208,diamond
+411,"[['SiLU', 64], ['ELU', 128], ['LeakyReLU', 64]]",256,diamond
+412,"[['ReLU', 32], ['ReLU', 128], ['ReLU', 32]]",192,diamond
+413,"[['Sigmoid', 32], ['ReLU', 128], ['ReLU', 32]]",192,diamond
+414,"[['ReLU', 64], ['LeakyReLU', 128], ['LeakyReLU', 16]]",208,diamond
+415,"[['Sigmoid', 32], ['SiLU', 128], ['LeakyReLU', 16]]",176,diamond
+416,"[['Tanh', 32], ['ReLU', 64], ['ReLU', 16]]",112,diamond
+417,"[['SiLU', 16], ['Tanh', 64], ['Sigmoid', 16]]",96,diamond
+418,"[['Tanh', 16], ['ReLU', 128], ['Tanh', 16]]",160,diamond
+419,"[['ELU', 16], ['ELU', 128], ['LeakyReLU', 32]]",176,diamond
+420,"[['ReLU', 64], ['ELU', 128], ['SiLU', 32]]",224,diamond
+421,"[['ELU', 64], ['LeakyReLU', 128], ['ELU', 32]]",224,diamond
+422,"[['ReLU', 32], ['ELU', 64], ['Tanh', 32]]",128,diamond
+423,"[['LeakyReLU', 16], ['LeakyReLU', 32], ['LeakyReLU', 16]]",64,diamond
+424,"[['LeakyReLU', 32], ['Tanh', 128], ['LeakyReLU', 64]]",224,diamond
+425,"[['LeakyReLU', 16], ['Tanh', 128], ['Sigmoid', 64]]",208,diamond
+426,"[['ELU', 32], ['SiLU', 128], ['LeakyReLU', 16]]",176,diamond
+427,"[['ReLU', 16], ['SiLU', 128], ['SiLU', 64]]",208,diamond
+428,"[['Tanh', 16], ['ELU', 128], ['ELU', 64]]",208,diamond
+429,"[['LeakyReLU', 16], ['Sigmoid', 128], ['LeakyReLU', 16]]",160,diamond
+430,"[['SiLU', 32], ['Tanh', 64], ['Tanh', 16]]",112,diamond
+431,"[['Tanh', 16], ['ELU', 64], ['ReLU', 32]]",112,diamond
+432,"[['Tanh', 32], ['ReLU', 64], ['Tanh', 32]]",128,diamond
+433,"[['Sigmoid', 16], ['SiLU', 128], ['SiLU', 16]]",160,diamond
+434,"[['LeakyReLU', 32], ['Sigmoid', 128], ['Tanh', 32]]",192,diamond
+435,"[['SiLU', 16], ['ReLU', 64], ['LeakyReLU', 32]]",112,diamond
+436,"[['Sigmoid', 16], ['Sigmoid', 128], ['ELU', 16]]",160,diamond
+437,"[['ReLU', 64], ['LeakyReLU', 128], ['ReLU', 16]]",208,diamond
+438,"[['SiLU', 32], ['LeakyReLU', 128], ['Tanh', 64]]",224,diamond
+439,"[['Tanh', 64], ['Sigmoid', 128], ['ReLU', 16]]",208,diamond
+440,"[['Sigmoid', 32], ['SiLU', 128], ['Tanh', 32]]",192,diamond
+441,"[['Tanh', 64], ['Sigmoid', 128], ['SiLU', 32]]",224,diamond
+442,"[['ReLU', 64], ['SiLU', 128], ['Tanh', 16]]",208,diamond
+443,"[['SiLU', 32], ['Tanh', 128], ['Tanh', 64]]",224,diamond
+444,"[['ReLU', 16], ['LeakyReLU', 128], ['Tanh', 16]]",160,diamond
+445,"[['SiLU', 64], ['ReLU', 128], ['SiLU', 16]]",208,diamond
+446,"[['ReLU', 64], ['Sigmoid', 128], ['Sigmoid', 64]]",256,diamond
+447,"[['ReLU', 64], ['SiLU', 128], ['LeakyReLU', 16]]",208,diamond
+448,"[['ReLU', 64], ['Tanh', 128], ['ELU', 64]]",256,diamond
+449,"[['Tanh', 32], ['LeakyReLU', 128], ['LeakyReLU', 32]]",192,diamond
+450,"[['Tanh', 64], ['LeakyReLU', 128], ['Tanh', 16]]",208,diamond
+451,"[['Sigmoid', 16], ['LeakyReLU', 128], ['LeakyReLU', 16]]",160,diamond
+452,"[['Sigmoid', 32], ['Tanh', 64], ['ELU', 16]]",112,diamond
+453,"[['SiLU', 16], ['Tanh', 128], ['ReLU', 32]]",176,diamond
+454,"[['Sigmoid', 16], ['Tanh', 128], ['Tanh', 32]]",176,diamond
+455,"[['Tanh', 32], ['SiLU', 64], ['ELU', 16]]",112,diamond
+456,"[['LeakyReLU', 64], ['Tanh', 128], ['ELU', 16]]",208,diamond
+457,"[['Sigmoid', 16], ['Sigmoid', 64], ['ELU', 16]]",96,diamond
+458,"[['ELU', 32], ['Tanh', 128], ['ReLU', 16]]",176,diamond
+459,"[['Tanh', 16], ['ELU', 64], ['ELU', 16]]",96,diamond
+460,"[['LeakyReLU', 64], ['ReLU', 128], ['ELU', 32]]",224,diamond
+461,"[['Sigmoid', 32], ['LeakyReLU', 128], ['SiLU', 32]]",192,diamond
+462,"[['SiLU', 16], ['ELU', 128], ['Tanh', 32]]",176,diamond
+463,"[['ReLU', 16], ['Sigmoid', 128], ['ReLU', 16]]",160,diamond
+464,"[['SiLU', 16], ['SiLU', 32], ['ReLU', 16]]",64,diamond
+465,"[['LeakyReLU', 32], ['ELU', 64], ['SiLU', 16]]",112,diamond
+466,"[['LeakyReLU', 32], ['ELU', 128], ['Tanh', 16]]",176,diamond
+467,"[['SiLU', 16], ['SiLU', 32], ['LeakyReLU', 16]]",64,diamond
+468,"[['ReLU', 32], ['LeakyReLU', 64], ['ReLU', 16]]",112,diamond
+469,"[['Sigmoid', 16], ['LeakyReLU', 64], ['ReLU', 32]]",112,diamond
+470,"[['LeakyReLU', 16], ['ReLU', 64], ['SiLU', 16]]",96,diamond
+471,"[['ELU', 64], ['Sigmoid', 128], ['ELU', 16]]",208,diamond
+472,"[['Sigmoid', 16], ['Tanh', 128], ['LeakyReLU', 16]]",160,diamond
+473,"[['ReLU', 16], ['Tanh', 32], ['LeakyReLU', 16]]",64,diamond
+474,"[['ELU', 16], ['SiLU', 128], ['ELU', 16]]",160,diamond
+475,"[['LeakyReLU', 32], ['ELU', 128], ['Tanh', 32]]",192,diamond
+476,"[['ELU', 16], ['Sigmoid', 128], ['ReLU', 64]]",208,diamond
+477,"[['ReLU', 32], ['Tanh', 128], ['ELU', 32]]",192,diamond
+478,"[['SiLU', 32], ['Sigmoid', 64], ['ELU', 32]]",128,diamond
+479,"[['Sigmoid', 64], ['LeakyReLU', 128], ['ELU', 64]]",256,diamond
+480,"[['LeakyReLU', 64], ['ReLU', 128], ['SiLU', 16]]",208,diamond
+481,"[['SiLU', 64], ['ELU', 128], ['Tanh', 64]]",256,diamond
+482,"[['ReLU', 16], ['Sigmoid', 64], ['ReLU', 32]]",112,diamond
+483,"[['Sigmoid', 16], ['SiLU', 32], ['SiLU', 16]]",64,diamond
+484,"[['SiLU', 16], ['Sigmoid', 64], ['LeakyReLU', 32]]",112,diamond
+485,"[['ELU', 32], ['LeakyReLU', 64], ['Tanh', 16]]",112,diamond
+486,"[['ReLU', 64], ['Tanh', 128], ['Tanh', 16]]",208,diamond
+487,"[['SiLU', 32], ['ReLU', 128], ['SiLU', 32]]",192,diamond
+488,"[['SiLU', 32], ['ELU', 64], ['ELU', 16]]",112,diamond
+489,"[['Tanh', 32], ['LeakyReLU', 128], ['SiLU', 16]]",176,diamond
+490,"[['ReLU', 32], ['LeakyReLU', 64], ['Sigmoid', 16]]",112,diamond
+491,"[['Sigmoid', 16], ['SiLU', 64], ['LeakyReLU', 32]]",112,diamond
+492,"[['ELU', 32], ['Sigmoid', 128], ['ELU', 64]]",224,diamond
+493,"[['Sigmoid', 16], ['Sigmoid', 128], ['SiLU', 64]]",208,diamond
+494,"[['LeakyReLU', 16], ['LeakyReLU', 64], ['Tanh', 16]]",96,diamond
+495,"[['SiLU', 16], ['ReLU', 32], ['LeakyReLU', 16]]",64,diamond
+496,"[['ELU', 16], ['ReLU', 128], ['Tanh', 32]]",176,diamond
+497,"[['SiLU', 32], ['LeakyReLU', 64], ['LeakyReLU', 32]]",128,diamond
+498,"[['Sigmoid', 16], ['SiLU', 128], ['ReLU', 16]]",160,diamond
+499,"[['ReLU', 32], ['SiLU', 64], ['ReLU', 32]]",128,diamond
+500,"[['ReLU', 32], ['Sigmoid', 64]]",96,funnel
+501,"[['Sigmoid', 64], ['ReLU', 128]]",192,funnel
+502,"[['Tanh', 16], ['ELU', 128]]",144,funnel
+503,"[['ReLU', 64], ['SiLU', 128]]",192,funnel
+504,"[['Sigmoid', 64], ['LeakyReLU', 128]]",192,funnel
+505,"[['SiLU', 32], ['ReLU', 64]]",96,funnel
+506,"[['SiLU', 64], ['ReLU', 128]]",192,funnel
+507,"[['ELU', 16], ['SiLU', 32]]",48,funnel
+508,"[['ReLU', 64], ['Tanh', 128]]",192,funnel
+509,"[['SiLU', 16], ['SiLU', 128]]",144,funnel
+510,"[['Sigmoid', 16], ['Sigmoid', 64]]",80,funnel
+511,"[['ReLU', 16], ['ReLU', 32]]",48,funnel
+512,"[['LeakyReLU', 16], ['ReLU', 64]]",80,funnel
+513,"[['ELU', 64], ['Tanh', 128]]",192,funnel
+514,"[['ReLU', 16], ['ELU', 128]]",144,funnel
+515,"[['Tanh', 16], ['Tanh', 128]]",144,funnel
+516,"[['ReLU', 32], ['LeakyReLU', 128]]",160,funnel
+517,"[['Sigmoid', 32], ['LeakyReLU', 128]]",160,funnel
+518,"[['LeakyReLU', 16], ['Tanh', 32]]",48,funnel
+519,"[['ELU', 16], ['Tanh', 32]]",48,funnel
+520,"[['Tanh', 16], ['SiLU', 128]]",144,funnel
+521,"[['LeakyReLU', 16], ['ELU', 64]]",80,funnel
+522,"[['SiLU', 32], ['SiLU', 128]]",160,funnel
+523,"[['ReLU', 32], ['ReLU', 128]]",160,funnel
+524,"[['Sigmoid', 32], ['Tanh', 128]]",160,funnel
+525,"[['Sigmoid', 32], ['SiLU', 64]]",96,funnel
+526,"[['LeakyReLU', 32], ['ELU', 128]]",160,funnel
+527,"[['Tanh', 32], ['Sigmoid', 128]]",160,funnel
+528,"[['Sigmoid', 16], ['ELU', 32]]",48,funnel
+529,"[['ReLU', 16], ['ReLU', 64]]",80,funnel
+530,"[['SiLU', 64], ['Tanh', 128]]",192,funnel
+531,"[['SiLU', 32], ['Sigmoid', 128]]",160,funnel
+532,"[['Sigmoid', 32], ['SiLU', 128]]",160,funnel
+533,"[['SiLU', 16], ['Tanh', 32]]",48,funnel
+534,"[['LeakyReLU', 64], ['ReLU', 128]]",192,funnel
+535,"[['ReLU', 16], ['Sigmoid', 64]]",80,funnel
+536,"[['Sigmoid', 64], ['Sigmoid', 128]]",192,funnel
+537,"[['SiLU', 16], ['ELU', 32]]",48,funnel
+538,"[['Sigmoid', 32], ['Tanh', 64]]",96,funnel
+539,"[['ELU', 64], ['ELU', 128]]",192,funnel
+540,"[['Sigmoid', 16], ['LeakyReLU', 64]]",80,funnel
+541,"[['SiLU', 32], ['LeakyReLU', 128]]",160,funnel
+542,"[['ReLU', 16], ['SiLU', 32]]",48,funnel
+543,"[['LeakyReLU', 32], ['ReLU', 128]]",160,funnel
+544,"[['SiLU', 32], ['ELU', 128]]",160,funnel
+545,"[['Sigmoid', 32], ['ELU', 128]]",160,funnel
+546,"[['Sigmoid', 16], ['ELU', 64]]",80,funnel
+547,"[['SiLU', 16], ['Tanh', 64]]",80,funnel
+548,"[['ReLU', 16], ['LeakyReLU', 64]]",80,funnel
+549,"[['ELU', 32], ['ReLU', 128]]",160,funnel
+550,"[['ELU', 32], ['ELU', 64]]",96,funnel
+551,"[['ReLU', 64], ['Sigmoid', 128]]",192,funnel
+552,"[['ELU', 32], ['LeakyReLU', 128]]",160,funnel
+553,"[['SiLU', 16], ['Sigmoid', 128]]",144,funnel
+554,"[['Tanh', 32], ['ELU', 128]]",160,funnel
+555,"[['LeakyReLU', 32], ['LeakyReLU', 64]]",96,funnel
+556,"[['LeakyReLU', 16], ['Sigmoid', 32]]",48,funnel
+557,"[['ELU', 16], ['ReLU', 128]]",144,funnel
+558,"[['ELU', 16], ['Sigmoid', 128]]",144,funnel
+559,"[['ReLU', 16], ['ELU', 64]]",80,funnel
+560,"[['Sigmoid', 16], ['Tanh', 32]]",48,funnel
+561,"[['ELU', 16], ['ELU', 32]]",48,funnel
+562,"[['Tanh', 32], ['ReLU', 128]]",160,funnel
+563,"[['ELU', 16], ['LeakyReLU', 64]]",80,funnel
+564,"[['Sigmoid', 16], ['ReLU', 64]]",80,funnel
+565,"[['ELU', 16], ['Tanh', 128]]",144,funnel
+566,"[['ReLU', 16], ['SiLU', 128]]",144,funnel
+567,"[['ReLU', 64], ['ELU', 128]]",192,funnel
+568,"[['ELU', 16], ['Sigmoid', 32]]",48,funnel
+569,"[['Tanh', 16], ['LeakyReLU', 64]]",80,funnel
+570,"[['ELU', 16], ['ELU', 128]]",144,funnel
+571,"[['Sigmoid', 16], ['ELU', 128]]",144,funnel
+572,"[['ELU', 32], ['Tanh', 64]]",96,funnel
+573,"[['SiLU', 64], ['LeakyReLU', 128]]",192,funnel
+574,"[['ELU', 32], ['ReLU', 64]]",96,funnel
+575,"[['SiLU', 64], ['ELU', 128]]",192,funnel
+576,"[['ReLU', 32], ['SiLU', 128]]",160,funnel
+577,"[['ELU', 32], ['SiLU', 128]]",160,funnel
+578,"[['Sigmoid', 64], ['Tanh', 128]]",192,funnel
+579,"[['Tanh', 16], ['Sigmoid', 128]]",144,funnel
+580,"[['LeakyReLU', 32], ['Tanh', 128]]",160,funnel
+581,"[['ELU', 16], ['Tanh', 64]]",80,funnel
+582,"[['SiLU', 16], ['Sigmoid', 32]]",48,funnel
+583,"[['LeakyReLU', 16], ['Sigmoid', 64]]",80,funnel
+584,"[['LeakyReLU', 16], ['ReLU', 32]]",48,funnel
+585,"[['ReLU', 16], ['LeakyReLU', 32]]",48,funnel
+586,"[['Sigmoid', 32], ['Sigmoid', 128]]",160,funnel
+587,"[['SiLU', 16], ['ELU', 128]]",144,funnel
+588,"[['LeakyReLU', 32], ['SiLU', 128]]",160,funnel
+589,"[['SiLU', 32], ['SiLU', 64]]",96,funnel
+590,"[['LeakyReLU', 16], ['LeakyReLU', 64]]",80,funnel
+591,"[['LeakyReLU', 16], ['ReLU', 128]]",144,funnel
+592,"[['ReLU', 16], ['SiLU', 64]]",80,funnel
+593,"[['Sigmoid', 32], ['LeakyReLU', 64]]",96,funnel
+594,"[['Tanh', 64], ['LeakyReLU', 128]]",192,funnel
+595,"[['Tanh', 16], ['ReLU', 32]]",48,funnel
+596,"[['ReLU', 16], ['Tanh', 32]]",48,funnel
+597,"[['ReLU', 32], ['ELU', 64]]",96,funnel
+598,"[['ELU', 32], ['Sigmoid', 128]]",160,funnel
+599,"[['ELU', 16], ['ReLU', 64]]",80,funnel
+600,"[['Sigmoid', 16], ['ReLU', 16]]",32,rectangle
+601,"[['Tanh', 32], ['LeakyReLU', 32]]",64,rectangle
+602,"[['LeakyReLU', 16], ['Tanh', 16]]",32,rectangle
+603,"[['Sigmoid', 32], ['ELU', 32]]",64,rectangle
+604,"[['ReLU', 64], ['ELU', 64]]",128,rectangle
+605,"[['ELU', 32], ['SiLU', 32]]",64,rectangle
+606,"[['Tanh', 64], ['ELU', 64]]",128,rectangle
+607,"[['Sigmoid', 128], ['Sigmoid', 128]]",256,rectangle
+608,"[['SiLU', 16], ['Tanh', 16]]",32,rectangle
+609,"[['ReLU', 64], ['Tanh', 64]]",128,rectangle
+610,"[['LeakyReLU', 32], ['LeakyReLU', 32]]",64,rectangle
+611,"[['Tanh', 16], ['Sigmoid', 16]]",32,rectangle
+612,"[['Sigmoid', 32], ['SiLU', 32]]",64,rectangle
+613,"[['ELU', 64], ['Tanh', 64]]",128,rectangle
+614,"[['ELU', 16], ['LeakyReLU', 16]]",32,rectangle
+615,"[['SiLU', 128], ['ReLU', 128]]",256,rectangle
+616,"[['ELU', 64], ['LeakyReLU', 64]]",128,rectangle
+617,"[['ELU', 128], ['Tanh', 128]]",256,rectangle
+618,"[['LeakyReLU', 128], ['Sigmoid', 128]]",256,rectangle
+619,"[['ReLU', 128], ['ReLU', 128]]",256,rectangle
+620,"[['ELU', 32], ['Sigmoid', 32]]",64,rectangle
+621,"[['Sigmoid', 16], ['Sigmoid', 16]]",32,rectangle
+622,"[['ReLU', 32], ['SiLU', 32]]",64,rectangle
+623,"[['Tanh', 16], ['ELU', 16]]",32,rectangle
+624,"[['SiLU', 64], ['Tanh', 64]]",128,rectangle
+625,"[['SiLU', 64], ['ReLU', 64]]",128,rectangle
+626,"[['Sigmoid', 64], ['ReLU', 64]]",128,rectangle
+627,"[['SiLU', 16], ['ELU', 16]]",32,rectangle
+628,"[['ReLU', 16], ['SiLU', 16]]",32,rectangle
+629,"[['ELU', 128], ['ELU', 128]]",256,rectangle
+630,"[['ReLU', 32], ['Sigmoid', 32]]",64,rectangle
+631,"[['LeakyReLU', 16], ['ELU', 16]]",32,rectangle
+632,"[['LeakyReLU', 32], ['ReLU', 32]]",64,rectangle
+633,"[['ReLU', 64], ['SiLU', 64]]",128,rectangle
+634,"[['Sigmoid', 16], ['Tanh', 16]]",32,rectangle
+635,"[['Sigmoid', 64], ['LeakyReLU', 64]]",128,rectangle
+636,"[['SiLU', 32], ['Tanh', 32]]",64,rectangle
+637,"[['ELU', 16], ['SiLU', 16]]",32,rectangle
+638,"[['Sigmoid', 128], ['SiLU', 128]]",256,rectangle
+639,"[['Tanh', 128], ['LeakyReLU', 128]]",256,rectangle
+640,"[['ReLU', 32], ['ReLU', 32]]",64,rectangle
+641,"[['LeakyReLU', 64], ['Sigmoid', 64]]",128,rectangle
+642,"[['Sigmoid', 128], ['Tanh', 128]]",256,rectangle
+643,"[['LeakyReLU', 64], ['ReLU', 64]]",128,rectangle
+644,"[['ELU', 16], ['ReLU', 16]]",32,rectangle
+645,"[['ELU', 64], ['ReLU', 64]]",128,rectangle
+646,"[['SiLU', 32], ['ReLU', 32]]",64,rectangle
+647,"[['LeakyReLU', 128], ['Tanh', 128]]",256,rectangle
+648,"[['LeakyReLU', 128], ['ELU', 128]]",256,rectangle
+649,"[['LeakyReLU', 16], ['SiLU', 16]]",32,rectangle
+650,"[['LeakyReLU', 64], ['ELU', 64]]",128,rectangle
+651,"[['ReLU', 32], ['LeakyReLU', 32]]",64,rectangle
+652,"[['SiLU', 64], ['SiLU', 64]]",128,rectangle
+653,"[['Tanh', 16], ['ReLU', 16]]",32,rectangle
+654,"[['SiLU', 128], ['ELU', 128]]",256,rectangle
+655,"[['ELU', 128], ['LeakyReLU', 128]]",256,rectangle
+656,"[['LeakyReLU', 32], ['ELU', 32]]",64,rectangle
+657,"[['Tanh', 128], ['ELU', 128]]",256,rectangle
+658,"[['Sigmoid', 64], ['ELU', 64]]",128,rectangle
+659,"[['ReLU', 16], ['Tanh', 16]]",32,rectangle
+660,"[['Tanh', 64], ['LeakyReLU', 64]]",128,rectangle
+661,"[['ReLU', 32], ['Tanh', 32]]",64,rectangle
+662,"[['SiLU', 32], ['SiLU', 32]]",64,rectangle
+663,"[['ELU', 128], ['ReLU', 128]]",256,rectangle
+664,"[['Tanh', 128], ['ReLU', 128]]",256,rectangle
+665,"[['ReLU', 16], ['ReLU', 16]]",32,rectangle
+666,"[['ReLU', 128], ['ELU', 128]]",256,rectangle
+667,"[['LeakyReLU', 32], ['Sigmoid', 32]]",64,rectangle
+668,"[['Tanh', 32], ['Tanh', 32]]",64,rectangle
+669,"[['Sigmoid', 32], ['LeakyReLU', 32]]",64,rectangle
+670,"[['LeakyReLU', 128], ['LeakyReLU', 128]]",256,rectangle
+671,"[['Tanh', 16], ['LeakyReLU', 16]]",32,rectangle
+672,"[['Sigmoid', 128], ['LeakyReLU', 128]]",256,rectangle
+673,"[['LeakyReLU', 32], ['Tanh', 32]]",64,rectangle
+674,"[['Sigmoid', 16], ['ELU', 16]]",32,rectangle
+675,"[['ELU', 64], ['Sigmoid', 64]]",128,rectangle
+676,"[['ReLU', 128], ['Tanh', 128]]",256,rectangle
+677,"[['ELU', 32], ['ELU', 32]]",64,rectangle
+678,"[['Tanh', 64], ['Tanh', 64]]",128,rectangle
+679,"[['ELU', 16], ['Sigmoid', 16]]",32,rectangle
+680,"[['Sigmoid', 16], ['SiLU', 16]]",32,rectangle
+681,"[['LeakyReLU', 64], ['LeakyReLU', 64]]",128,rectangle
+682,"[['Tanh', 64], ['SiLU', 64]]",128,rectangle
+683,"[['Tanh', 32], ['SiLU', 32]]",64,rectangle
+684,"[['ReLU', 32], ['ELU', 32]]",64,rectangle
+685,"[['ELU', 32], ['Tanh', 32]]",64,rectangle
+686,"[['LeakyReLU', 128], ['SiLU', 128]]",256,rectangle
+687,"[['ReLU', 128], ['LeakyReLU', 128]]",256,rectangle
+688,"[['LeakyReLU', 64], ['Tanh', 64]]",128,rectangle
+689,"[['ReLU', 64], ['ReLU', 64]]",128,rectangle
+690,"[['ELU', 64], ['SiLU', 64]]",128,rectangle
+691,"[['Sigmoid', 16], ['LeakyReLU', 16]]",32,rectangle
+692,"[['Tanh', 128], ['Sigmoid', 128]]",256,rectangle
+693,"[['SiLU', 32], ['Sigmoid', 32]]",64,rectangle
+694,"[['Sigmoid', 64], ['Tanh', 64]]",128,rectangle
+695,"[['Sigmoid', 32], ['ReLU', 32]]",64,rectangle
+696,"[['Sigmoid', 128], ['ELU', 128]]",256,rectangle
+697,"[['ELU', 32], ['LeakyReLU', 32]]",64,rectangle
+698,"[['Tanh', 64], ['ReLU', 64]]",128,rectangle
+699,"[['ReLU', 64], ['LeakyReLU', 64]]",128,rectangle
+700,"[['SiLU', 64], ['Sigmoid', 16]]",80,bottleneck
+701,"[['SiLU', 64], ['ELU', 32]]",96,bottleneck
+702,"[['Tanh', 64], ['Tanh', 16]]",80,bottleneck
+703,"[['ELU', 128], ['Tanh', 16]]",144,bottleneck
+704,"[['LeakyReLU', 128], ['Sigmoid', 16]]",144,bottleneck
+705,"[['SiLU', 32], ['SiLU', 16]]",48,bottleneck
+706,"[['Tanh', 64], ['ReLU', 32]]",96,bottleneck
+707,"[['Tanh', 64], ['Sigmoid', 16]]",80,bottleneck
+708,"[['LeakyReLU', 128], ['SiLU', 64]]",192,bottleneck
+709,"[['ReLU', 64], ['ReLU', 16]]",80,bottleneck
+710,"[['ReLU', 64], ['ELU', 32]]",96,bottleneck
+711,"[['SiLU', 64], ['Tanh', 32]]",96,bottleneck
+712,"[['LeakyReLU', 32], ['ELU', 16]]",48,bottleneck
+713,"[['LeakyReLU', 128], ['ReLU', 16]]",144,bottleneck
+714,"[['LeakyReLU', 128], ['LeakyReLU', 32]]",160,bottleneck
+715,"[['SiLU', 128], ['LeakyReLU', 64]]",192,bottleneck
+716,"[['Sigmoid', 128], ['LeakyReLU', 16]]",144,bottleneck
+717,"[['Sigmoid', 64], ['ELU', 16]]",80,bottleneck
+718,"[['LeakyReLU', 64], ['Sigmoid', 32]]",96,bottleneck
+719,"[['ReLU', 64], ['LeakyReLU', 16]]",80,bottleneck
+720,"[['Tanh', 64], ['Tanh', 32]]",96,bottleneck
+721,"[['ELU', 128], ['ReLU', 32]]",160,bottleneck
+722,"[['ReLU', 128], ['SiLU', 16]]",144,bottleneck
+723,"[['SiLU', 128], ['SiLU', 16]]",144,bottleneck
+724,"[['Tanh', 64], ['SiLU', 16]]",80,bottleneck
+725,"[['Tanh', 128], ['ReLU', 64]]",192,bottleneck
+726,"[['ReLU', 128], ['Tanh', 32]]",160,bottleneck
+727,"[['Tanh', 32], ['Sigmoid', 16]]",48,bottleneck
+728,"[['SiLU', 128], ['LeakyReLU', 32]]",160,bottleneck
+729,"[['Tanh', 64], ['SiLU', 32]]",96,bottleneck
+730,"[['ELU', 64], ['LeakyReLU', 32]]",96,bottleneck
+731,"[['ReLU', 128], ['ELU', 32]]",160,bottleneck
+732,"[['ReLU', 64], ['SiLU', 16]]",80,bottleneck
+733,"[['SiLU', 128], ['SiLU', 64]]",192,bottleneck
+734,"[['Tanh', 128], ['ELU', 16]]",144,bottleneck
+735,"[['Sigmoid', 128], ['ReLU', 64]]",192,bottleneck
+736,"[['ReLU', 64], ['SiLU', 32]]",96,bottleneck
+737,"[['ReLU', 64], ['Tanh', 16]]",80,bottleneck
+738,"[['SiLU', 128], ['ELU', 16]]",144,bottleneck
+739,"[['Sigmoid', 64], ['ReLU', 16]]",80,bottleneck
+740,"[['LeakyReLU', 32], ['Sigmoid', 16]]",48,bottleneck
+741,"[['SiLU', 128], ['ELU', 32]]",160,bottleneck
+742,"[['SiLU', 64], ['ReLU', 32]]",96,bottleneck
+743,"[['Tanh', 128], ['SiLU', 16]]",144,bottleneck
+744,"[['Sigmoid', 64], ['LeakyReLU', 32]]",96,bottleneck
+745,"[['ELU', 64], ['ELU', 16]]",80,bottleneck
+746,"[['SiLU', 32], ['Sigmoid', 16]]",48,bottleneck
+747,"[['LeakyReLU', 128], ['Sigmoid', 64]]",192,bottleneck
+748,"[['ReLU', 128], ['ReLU', 64]]",192,bottleneck
+749,"[['ELU', 128], ['Sigmoid', 16]]",144,bottleneck
+750,"[['ELU', 128], ['LeakyReLU', 64]]",192,bottleneck
+751,"[['Sigmoid', 32], ['ELU', 16]]",48,bottleneck
+752,"[['LeakyReLU', 32], ['SiLU', 16]]",48,bottleneck
+753,"[['LeakyReLU', 64], ['Tanh', 16]]",80,bottleneck
+754,"[['ELU', 64], ['ReLU', 16]]",80,bottleneck
+755,"[['ELU', 128], ['LeakyReLU', 16]]",144,bottleneck
+756,"[['Tanh', 128], ['Tanh', 32]]",160,bottleneck
+757,"[['Tanh', 128], ['Tanh', 64]]",192,bottleneck
+758,"[['Sigmoid', 32], ['SiLU', 16]]",48,bottleneck
+759,"[['LeakyReLU', 128], ['SiLU', 32]]",160,bottleneck
+760,"[['Sigmoid', 32], ['ReLU', 16]]",48,bottleneck
+761,"[['Sigmoid', 128], ['LeakyReLU', 64]]",192,bottleneck
+762,"[['ReLU', 128], ['LeakyReLU', 64]]",192,bottleneck
+763,"[['Tanh', 32], ['ELU', 16]]",48,bottleneck
+764,"[['Tanh', 128], ['SiLU', 64]]",192,bottleneck
+765,"[['SiLU', 128], ['Tanh', 32]]",160,bottleneck
+766,"[['Sigmoid', 128], ['Sigmoid', 32]]",160,bottleneck
+767,"[['ReLU', 128], ['LeakyReLU', 16]]",144,bottleneck
+768,"[['Sigmoid', 128], ['SiLU', 16]]",144,bottleneck
+769,"[['ELU', 64], ['Tanh', 16]]",80,bottleneck
+770,"[['ReLU', 64], ['ELU', 16]]",80,bottleneck
+771,"[['ReLU', 64], ['Tanh', 32]]",96,bottleneck
+772,"[['ReLU', 128], ['Tanh', 16]]",144,bottleneck
+773,"[['LeakyReLU', 128], ['Tanh', 64]]",192,bottleneck
+774,"[['ELU', 128], ['ELU', 32]]",160,bottleneck
+775,"[['ReLU', 128], ['ELU', 64]]",192,bottleneck
+776,"[['SiLU', 128], ['ELU', 64]]",192,bottleneck
+777,"[['ReLU', 32], ['Tanh', 16]]",48,bottleneck
+778,"[['Sigmoid', 64], ['ReLU', 32]]",96,bottleneck
+779,"[['Sigmoid', 128], ['Tanh', 16]]",144,bottleneck
+780,"[['Tanh', 128], ['ELU', 64]]",192,bottleneck
+781,"[['ELU', 32], ['ReLU', 16]]",48,bottleneck
+782,"[['ReLU', 32], ['Sigmoid', 16]]",48,bottleneck
+783,"[['Tanh', 64], ['LeakyReLU', 32]]",96,bottleneck
+784,"[['ReLU', 128], ['ReLU', 16]]",144,bottleneck
+785,"[['Tanh', 128], ['LeakyReLU', 64]]",192,bottleneck
+786,"[['Sigmoid', 32], ['Sigmoid', 16]]",48,bottleneck
+787,"[['LeakyReLU', 32], ['LeakyReLU', 16]]",48,bottleneck
+788,"[['Sigmoid', 128], ['ELU', 64]]",192,bottleneck
+789,"[['ReLU', 32], ['LeakyReLU', 16]]",48,bottleneck
+790,"[['LeakyReLU', 64], ['SiLU', 32]]",96,bottleneck
+791,"[['LeakyReLU', 64], ['ELU', 16]]",80,bottleneck
+792,"[['Sigmoid', 128], ['ReLU', 16]]",144,bottleneck
+793,"[['Sigmoid', 32], ['Tanh', 16]]",48,bottleneck
+794,"[['LeakyReLU', 128], ['Sigmoid', 32]]",160,bottleneck
+795,"[['ELU', 128], ['ReLU', 64]]",192,bottleneck
+796,"[['SiLU', 128], ['Sigmoid', 16]]",144,bottleneck
+797,"[['SiLU', 128], ['ReLU', 16]]",144,bottleneck
+798,"[['ELU', 128], ['SiLU', 16]]",144,bottleneck
+799,"[['ELU', 32], ['Tanh', 16]]",48,bottleneck

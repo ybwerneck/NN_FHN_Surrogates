@@ -1,0 +1,9 @@
+Total GPUs available: 1 
+Process 2 is using GPU 0 
+GPU 0: NVIDIA GeForce RTX 4070 Ti SUPER
+ RANK2, runnin simu 18 params:
+ {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': True, 'bs': 1024, 'npt': 10}} 
+ in dir Problem_A_results/simulation18
+ RANK2, runnin simu 22 params:
+ {'model_params': {'hidden_layers': [['Tanh', 32], ['Tanh', 32]], 'pinn': True, 'bs': 1024, 'npt': 1000}} 
+ in dir Problem_A_results/simulation22

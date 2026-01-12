@@ -1,0 +1,3 @@
+Total GPUs available: 0 
+Process 0 is using GPU 0 
+No GPU available. Only CPU is available.

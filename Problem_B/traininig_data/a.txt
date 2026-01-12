@@ -1,0 +1,3 @@
+s sets -> single stimulus
+
+5,25->5 and 25 percent of full set, full set ->5000

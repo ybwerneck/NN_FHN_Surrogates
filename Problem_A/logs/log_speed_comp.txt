@@ -1,0 +1,60 @@
+beggining speed comp[2000000, 4000000, 8000000, 16000000, 32000000, 64000000]
+ 
+ 
+ 
+ 
+
+Set of size 2000000 
+
+tensort py -
+time tensorrt [0.03044414520263672]
+
+ 
+ 
+ 
+ 
+
+Set of size 4000000 
+
+tensort py -
+time tensorrt [0.054585933685302734]
+
+ 
+ 
+ 
+ 
+
+Set of size 8000000 
+
+tensort py -
+time tensorrt [0.11182117462158203]
+
+ 
+ 
+ 
+ 
+
+Set of size 16000000 
+
+tensort py -
+time tensorrt [0.2271099090576172]
+
+ 
+ 
+ 
+ 
+
+Set of size 32000000 
+
+tensort py -
+time tensorrt [0.46065783500671387]
+
+ 
+ 
+ 
+ 
+
+Set of size 64000000 
+
+tensort py -
+time tensorrt [0.9377622604370117]
