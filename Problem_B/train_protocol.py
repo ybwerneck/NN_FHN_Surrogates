@@ -53,7 +53,7 @@ def train(model_params,outputfolder,gpuid):
             u_i=x[0]
             v_i=x[1]
             k=0
-            dxdt = [10*((1)*(u_i*(u_i-0.4)*(1-u_i))-v_i + k*0.04  ),
+            dxdt = [10*((1)*(u_i*(u_i-0.4)*(1-u_i))-v_i + k*0.04 +0.08 ),
                     
                     ((u_i*0.04-0.16*v_i))
                     

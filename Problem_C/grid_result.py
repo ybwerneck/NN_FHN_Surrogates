@@ -147,7 +147,7 @@ plt.savefig(base_dir+"/b_s_s_t.pdf")
 df_anova = pd.DataFrame(anova_data, columns=['iccs', 'neuron', 'mean_err','max_err'])
 
 # Fit the ANOVA model: mean_err as the dependent variable, iccs and neuron as independent variables
-model = ols('max_err ~ C(iccs)*neuron + C(iccs) + neuron', data=df_anova).fit()
+model = ols('max_err ~ C(iccs) + neuron', data=df_anova).fit()
 
 # Perform ANOVA
 anova_table = sm.stats.anova_lm(model, typ=2)
@@ -156,7 +156,7 @@ anova_table = sm.stats.anova_lm(model, typ=2)
 print("max err")
 print(anova_table)
 
-model = ols('mean_err ~ C(iccs)*neuron + C(iccs) + neuron', data=df_anova).fit()
+model = ols('mean_err ~ C(iccs)*neuron', data=df_anova).fit()
 
 # Perform ANOVA
 anova_table = sm.stats.anova_lm(model, typ=2)
